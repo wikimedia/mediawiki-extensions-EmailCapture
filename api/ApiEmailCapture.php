@@ -104,6 +104,6 @@ class ApiEmailCapture extends ApiBase {
 	}
 
 	public function getVersion() {
-		return __CLASS__ . ': $Id: ApiEmailCapture.php 85276 2011-04-03 20:32:25Z reedy $';
+		return __CLASS__ . ': $Id$';
 	}
 }
