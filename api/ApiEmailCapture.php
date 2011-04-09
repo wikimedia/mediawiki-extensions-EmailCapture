@@ -1,4 +1,5 @@
 <?php
+
 class ApiEmailCapture extends ApiBase {
 	public function __construct( $query, $moduleName ) {
 		parent::__construct( $query, $moduleName, '' );
@@ -10,7 +11,7 @@ class ApiEmailCapture extends ApiBase {
 		// Validation
 		if ( !isset( $params['email'] ) ) {
 			$this->dieUsageMsg( array( 'missingparam', 'email' ) );
-		} else if ( !User:isValidEmailAddr( $params['email'] ) ) {
+		} elseif ( !User:isValidEmailAddr( $params['email'] ) ) {
 			$this->dieUsage( 'The email address does not appear to be valid', 'invalidemail' );
 		}
 

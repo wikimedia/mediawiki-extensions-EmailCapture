@@ -1,8 +1,6 @@
 <?php
 /**
  * Hooks for EmailCapture extension
- * 
- * @author tparscal
  */
 class EmailCaptureHooks {
 	/**
@@ -18,7 +16,7 @@ class EmailCaptureHooks {
 		} else {
 			$dir = dirname( __FILE__ );
 			$db = $updater->getDB();
-			if ( !$db->tableExists( 'article_feedback' ) ) {
+			if ( !$db->tableExists( 'email_capture' ) ) {
 				// Initial install tables
 				$updater->addExtensionUpdate( array(
 					'addTable',

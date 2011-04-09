@@ -1,17 +1,20 @@
 <?php
 /**
  * EmailCapture extension
- * 
+ *
  * @file
  * @ingroup Extensions
- * 
+ * @version 0.3.0
  * @author Trevor Parscal <trevor@wikimedia.org>
  * @license GPL v2 or later
- * @version 0.3.0
+ * @link http://www.mediawiki.org/wiki/Extension:EmailCapture Documentation
  */
 
-/* Configuration */
+if ( !defined( 'MEDIAWIKI' ) ) {
+	die( "This is not a valid entry point to MediaWiki.\n" );
+}
 
+/* Configuration */
 $wgEmailCaptureSendAutoResponse = true;
 $wgEmailCaptureAutoResponse = array(
 	'from' => $wgPasswordSender,
@@ -21,16 +24,17 @@ $wgEmailCaptureAutoResponse = array(
 	'content-type' => null,
 );
 
-/* Setup */
-
+// Extension credits that will show up on Special:Version
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'EmailCapture',
-	'author' => array( 'Trevor Parscal' ),
+	'author' => 'Trevor Parscal',
 	'version' => '0.3.0',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:EmailCapture',
 	'descriptionmsg' => 'emailcapture-desc',
 );
+
+/* Setup */
 $dir = dirname( __FILE__ ) . '/';
 $wgExtensionMessagesFiles['EmailCapture'] = $dir . 'EmailCapture.i18n.php';
 // API
@@ -40,6 +44,6 @@ $wgAPIModules['emailcapture'] = 'ApiEmailCapture';
 $wgAutoloadClasses['EmailCaptureHooks'] = $dir . 'EmailCaptureHooks.php';
 $wgHooks['LoadExtensionSchemaUpdates'][] = 'EmailCaptureHooks::loadExtensionSchemaUpdates';
 $wgHooks['ParserTestTables'][] = 'EmailCaptureHooks::parserTestTables';
-// SpecialPage
-$wgAutoloadClasses['SpecialEmailCapture'] = $dir . "SpecialEmailCapture.php";
+// Special page
+$wgAutoloadClasses['SpecialEmailCapture'] = $dir . 'SpecialEmailCapture.php';
 $wgSpecialPages['EmailCapture'] = 'SpecialEmailCapture';

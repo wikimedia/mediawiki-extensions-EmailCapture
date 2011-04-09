@@ -1,23 +1,30 @@
 <?php
+
 class SpecialEmailCapture extends SpecialPage {
 
-	function __construct() {
+	public function __construct() {
 		parent::__construct( 'EmailCapture', 'emailcapture' );
 	}
 
-	function execute( $par ) {
+	public function execute( $par ) {
 		global $wgOut, $wgRequest;
 
 		$this->setHeaders();
 
 		$code = $wgRequest->getVal( 'verify' );
 		if ( $verify !== null ) {
-			// $affectedRows = ( UPDATE email_capture SET (ec_veified = 1) WHERE ec_code = $code )
-			// if ( $affectedRows ) {
-			//     show success
-			// } else {
-			//     show failure
-			// }
+			$dbw = wfGetDB( DB_MASTER );
+			$affectedRows = $dbw->update(
+				'email_capture',
+				array( 'ec_verified' => 1 ),
+				array( 'ec_code' => $code ),
+				__METHOD__
+			);
+			if ( $affectedRows ) {
+				$wgOut->addWikiMsg( 'emailcapture-success' );
+			} else {
+				$wgOut->addWikiMsg( 'emailcapture-failure' );
+			}
 			// exit
 		}
 		// Show simple form for submitting verification code
