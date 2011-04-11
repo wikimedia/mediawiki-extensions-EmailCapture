@@ -1,9 +1,9 @@
 -- Captured email addresses
 CREATE TABLE IF NOT EXISTS /*_*/email_capture (
   -- Email address
-  ec_email tinytext NOT NULL,
+  ec_email varbinary(255) NOT NULL DEFAULT '',
   -- Additional information
-  ec_info blob NOT NULL,
+  ec_info blob NOT NULL DEFAULT '',
   -- Verification code
   ec_code varbinary(32) NOT NULL DEFAULT '',
   -- Verified
