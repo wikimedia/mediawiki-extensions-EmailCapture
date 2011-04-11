@@ -18,6 +18,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgEmailCaptureSendAutoResponse = true;
 $wgEmailCaptureAutoResponse = array(
 	'from' => $wgPasswordSender,
+	'from-name' => $wgSitename,
 	'subject-msg' => 'emailcapture-response-subject',
 	'body-msg' => 'emailcapture-response-body',
 	'reply-to' => null,

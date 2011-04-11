@@ -9,46 +9,49 @@ class ApiEmailCapture extends ApiBase {
 		$params = $this->extractRequestParams();
 
 		// Validation
-		if ( !User:isValidEmailAddr( $params['email'] ) ) {
+		if ( !User::isValidEmailAddr( $params['email'] ) ) {
 			$this->dieUsage( 'The email address does not appear to be valid', 'invalidemail' );
 		}
 
 		// Verification code
-		$code = md5( 'EmailCapture' . time() . $params['email'] . $params['info'] )
+		$code = md5( 'EmailCapture' . time() . $params['email'] . $params['info'] );
 
 		// Insert
 		$dbw = wfGetDB( DB_MASTER );
-		$affectedRows = $dbw->insert(
+		$dbw->insert(
 			'email_capture',
 			array(
 				'ec_email' => $params['email'],
-				'ec_info' => isset( $params['info'] ) ? $params['email'] : null,
+				'ec_info' => isset( $params['info'] ) ? $params['info'] : null,
 				'ec_code' => $code,
-			)
+			),
+			__METHOD__,
+			 array( 'IGNORE' )
 		);
 
-		// Send auto-response
-		global $wgUser, $wgEmailCaptureSendAutoResponse, $wgEmailCaptureAutoResponse;
-		$link = $wgUser->getSkin()->link( 'Special:EmailCapture' );
-		$fullLink = $wgUser->getSkin()->link(
-			'Special:EmailCapture', null, array(), array( 'verify' => $code )
-		);
-		if ( $wgEmailCaptureSendAutoResponse ) {
-			UserMailer::send(
-				$params['email'],
-				$wgEmailCaptureAutoResponse['from'],
-				wfMsg( $wgEmailCaptureAutoResponse['subject-msg'] ),
-				wfMsg( $wgEmailCaptureAutoResponse['body-msg'], $link, $code, $fullLink ),
-				$wgEmailCaptureAutoResponse['reply-to'],
-				$wgEmailCaptureAutoResponse['content-type'],
+		if ( $dbw->affectedRows() ) {
+			// Send auto-response
+			global $wgUser, $wgEmailCaptureSendAutoResponse, $wgEmailCaptureAutoResponse;
+			$link = $wgUser->getSkin()->link( 'Special:EmailCapture' );
+			$fullLink = $wgUser->getSkin()->link(
+				'Special:EmailCapture', null, array(), array( 'verify' => $code )
 			);
-		}
-
-		// Result
-		if ( $affectedRows === 0 ) {
-			$r = array( 'result' => 'Failure', 'message' => 'Duplicate email address' );
-		} else {
+			if ( $wgEmailCaptureSendAutoResponse ) {
+				UserMailer::send(
+					new MailAddress( $params['email'] ),
+					new MailAddress(
+						$wgEmailCaptureAutoResponse['from'],
+						$wgEmailCaptureAutoResponse['from-name']
+					),
+					wfMsg( $wgEmailCaptureAutoResponse['subject-msg'] ),
+					wfMsg( $wgEmailCaptureAutoResponse['body-msg'], $link, $code, $fullLink ),
+					$wgEmailCaptureAutoResponse['reply-to'],
+					$wgEmailCaptureAutoResponse['content-type']
+				);
+			}
 			$r = array( 'result' => 'Success' );
+		} else {
+			$r = array( 'result' => 'Failure', 'message' => 'Duplicate email address' );
 		}
 		$this->getResult()->addValue( null, $this->getModuleName(), $r );
 	}
