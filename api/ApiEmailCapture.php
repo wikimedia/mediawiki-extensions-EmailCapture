@@ -9,9 +9,7 @@ class ApiEmailCapture extends ApiBase {
 		$params = $this->extractRequestParams();
 
 		// Validation
-		if ( !isset( $params['email'] ) ) {
-			$this->dieUsageMsg( array( 'missingparam', 'email' ) );
-		} elseif ( !User:isValidEmailAddr( $params['email'] ) ) {
+		if ( !User:isValidEmailAddr( $params['email'] ) ) {
 			$this->dieUsage( 'The email address does not appear to be valid', 'invalidemail' );
 		}
 
@@ -90,7 +88,6 @@ class ApiEmailCapture extends ApiBase {
 
 	public function getPossibleErrors() {
 		return array_merge( parent::getPossibleErrors(), array(
-			array( 'missingparam', 'email' ),
 			array(
 				'code' => 'invalidemail',
 				'info' => 'The email address does not appear to be valid'
