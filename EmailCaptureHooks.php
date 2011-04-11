@@ -6,16 +6,16 @@ class EmailCaptureHooks {
 	/**
 	 * LoadExtensionSchemaUpdates hook
 	 */
-	public static function loadExtensionSchemaUpdates( $updater = null ) {
-		$dir = dirname( __FILE__ );
+	public static function loadExtensionSchemaUpdates( $updater ) {
 		$db = $updater->getDB();
 		if ( !$db->tableExists( 'email_capture' ) ) {
 			// Initial install tables
 			$updater->addExtensionUpdate( array(
 				'addTable',
 				'email_capture',
-				dirname( __FILE__ ) . '/sql/CreateEmailCaptureTable.sql'
-			);
+				dirname( __FILE__ ) . '/sql/CreateEmailCaptureTable.sql',
+				true
+			) );
 		}
 		return true;
 	}

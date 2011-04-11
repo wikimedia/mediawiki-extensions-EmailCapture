@@ -7,26 +7,40 @@ class SpecialEmailCapture extends SpecialPage {
 	}
 
 	public function execute( $par ) {
-		global $wgOut, $wgRequest;
+		global $wgOut, $wgUser, $wgRequest;
 
 		$this->setHeaders();
 
 		$code = $wgRequest->getVal( 'verify' );
-		if ( $verify !== null ) {
+		if ( $code !== null ) {
 			$dbw = wfGetDB( DB_MASTER );
-			$affectedRows = $dbw->update(
+			$dbw->update(
 				'email_capture',
 				array( 'ec_verified' => 1 ),
 				array( 'ec_code' => $code ),
 				__METHOD__
 			);
-			if ( $affectedRows ) {
+			if ( $dbw->affectedRows() ) {
 				$wgOut->addWikiMsg( 'emailcapture-success' );
 			} else {
 				$wgOut->addWikiMsg( 'emailcapture-failure' );
 			}
-			// exit
+		} else {
+			// Show simple form for submitting verification code
+			$o = Html::openElement( 'form', array(
+				'action' => $this->getTitle()->getFullUrl(),
+				'method' => 'post'
+			) );
+			$o .= Html::element( 'p', array(), wfMsg( 'emailcapture-instructions' ) );
+			$o .= Html::openElement( 'blockquote' );
+			$o .= Html::element( 'label', array( 'for' => 'emailcapture-verify' ),
+				wfMsg( 'emailcapture-verify' ) );
+			$o .= Html::input( 'verify', '', 'text',
+				array( 'id' => 'emailcapture-verify', 'size' => 32 ) );
+			$o .= Html::input( 'submit', wfMsg( 'emailcapture-submit' ), 'submit' );
+			$o .= Html::closeElement( 'blockquote' );
+			$o .= Html::closeElement( 'form' );
+			$wgOut->addHtml( $o );
 		}
-		// Show simple form for submitting verification code
 	}
 }

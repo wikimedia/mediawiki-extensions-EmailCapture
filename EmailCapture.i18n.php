@@ -26,4 +26,7 @@ and enter the following verification code:
 
 Thank you for verifying your email address.',
 	'emailcapture-success' => 'Your email was successfully verified.',
+	'emailcapture-instructions' => 'To verify your email address, enter the code that was emailed to you and click verify.',
+	'emailcapture-verify' => 'Verification code:',
+	'emailcapture-submit' => 'Verify email address',
 );
