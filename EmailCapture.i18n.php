@@ -12,11 +12,11 @@ $messages = array();
  * @author Trevor Parscal
  */
 $messages['en'] = array(
-	'emailcapture' => 'Email Capture',
-	'emailcapture-desc' => 'Capture email addresses, and allow users to verify them through email',
-	'emailcapture-failure' => "Your email was '''not''' verified.",
-	'emailcapture-response-subject' => '{{SITENAME}} Email Verification',
-	'emailcapture-response-body' => 'To verify your email address, following this link:
+	'emailcapture' => 'E-mail Capture',
+	'emailcapture-desc' => 'Capture e-mail addresses, and allow users to verify them through e-mail',
+	'emailcapture-failure' => "Your e-mail was '''not''' verified.",
+	'emailcapture-response-subject' => '{{SITENAME}} E-mail Verification',
+	'emailcapture-response-body' => 'To verify your e-mail address, following this link:
 	$1
 
 You can also visit:
@@ -24,9 +24,10 @@ You can also visit:
 and enter the following verification code:
 	$3
 
-Thank you for verifying your email address.',
-	'emailcapture-success' => 'Your email was successfully verified.',
-	'emailcapture-instructions' => 'To verify your email address, enter the code that was emailed to you and click verify.',
+Thank you for verifying your e-mail address.',
+	'emailcapture-success' => 'Your e-mail was successfully verified.',
+	'emailcapture-instructions' => 'To verify your e-mail address, enter the code that was emailed to you and click verify.',
 	'emailcapture-verify' => 'Verification code:',
-	'emailcapture-submit' => 'Verify email address',
+	'emailcapture-submit' => 'Verify e-mail address',
 );
+
