@@ -31,3 +31,33 @@ Thank you for verifying your e-mail address.',
 	'emailcapture-submit' => 'Verify e-mail address',
 );
 
+/** Message documentation (Message documentation)
+ * @author Kghbln
+ */
+$messages['qqq'] = array(
+	'emailcapture-instructions' => '"verify" should be identical to {{msg-mw|MediaWiki:Emailcapture-submit/de}} [[MediaWiki:Emailcapture-submit|Emailcapture-submit]]',
+);
+
+/** German (Deutsch)
+ * @author Kghbln
+ */
+$messages['de'] = array(
+	'emailcapture' => 'E-Mail-Bestätigung',
+	'emailcapture-desc' => 'Ermöglicht das automatische Aufgreifen von E-Mail-Adressen und deren Bestätigung durch deren Benutzer per E-Mail',
+	'emailcapture-failure' => "Deine E-Mail-Adresse wurde '''nicht''' bestätigt.",
+	'emailcapture-response-subject' => '{{SITENAME}} E-Mail-Bestätigung',
+	'emailcapture-response-body' => 'Um deine E-Mail-Adresse zu bestätigen, klicke bitte auf den folgenden Link:
+$1
+
+Du kannst ebenso
+$2
+besuchen und den folgenden Bestätigungscode angeben:
+$3
+
+Vielen Dank für das Bestätigen deiner E-Mail-Adresse.',
+	'emailcapture-success' => 'Deine E-Mail-Adresse wurde erfolgreich bestätigt.',
+	'emailcapture-instructions' => 'Um deine E-Mail-Adresse zu bestätigen, gib bitte den Code ein, der dir per E-Mail zuschickt wurde und klicke anschließend auf „E-Mail-Adresse bestätigen“.',
+	'emailcapture-verify' => 'Bestätigungscode:',
+	'emailcapture-submit' => 'E-Mail-Adresse bestätigen',
+);
+
