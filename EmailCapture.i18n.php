@@ -16,7 +16,7 @@ $messages['en'] = array(
 	'emailcapture-desc' => 'Capture e-mail addresses, and allow users to verify them through e-mail',
 	'emailcapture-failure' => "Your e-mail was '''not''' verified.",
 	'emailcapture-response-subject' => '{{SITENAME}} e-mail address verification',
-	'emailcapture-response-body' => 'To verify your e-mail address, follow the following link:
+	'emailcapture-response-body' => 'Verify your e-mail address by following this link:
 $1
 
 You can also visit:
