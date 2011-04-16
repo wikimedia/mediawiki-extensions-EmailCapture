@@ -16,7 +16,7 @@ $messages['en'] = array(
 	'emailcapture-desc' => 'Capture e-mail addresses, and allow users to verify them through e-mail',
 	'emailcapture-failure' => "Your e-mail was '''not''' verified.",
 	'emailcapture-response-subject' => '{{SITENAME}} e-mail address verification',
-	'emailcapture-response-body' => 'To verify your e-mail address, following this link:
+	'emailcapture-response-body' => 'To verify your e-mail address, follow the following link:
 $1
 
 You can also visit:
@@ -27,7 +27,7 @@ $3
 
 Thank you for verifying your e-mail address.',
 	'emailcapture-success' => 'Your e-mail address was successfully verified.',
-	'emailcapture-instructions' => 'To verify your e-mail address, enter the code that was emailed to you and click verify.',
+	'emailcapture-instructions' => 'To verify your e-mail address, enter the code that was emailed to you and click "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Verification code:',
 	'emailcapture-submit' => 'Verify e-mail address',
 );
