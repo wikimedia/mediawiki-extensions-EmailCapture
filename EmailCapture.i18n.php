@@ -34,32 +34,41 @@ Thank you for verifying your e-mail address.',
 
 /** Message documentation (Message documentation)
  * @author Kghbln
+ * @author Purodha
  */
 $messages['qqq'] = array(
-	'emailcapture-instructions' => '"verify" should be identical to {{msg-mw|MediaWiki:Emailcapture-submit/de}} [[MediaWiki:Emailcapture-submit|Emailcapture-submit]]',
+	'emailcapture-desc' => '{{desc}}',
+	'emailcapture-instructions' => 'Used on [[Special:EmailCapture]], see image.
+[[Image:TestWiki-Special-EmailCapture-L4H0.png|Screenshot of Special:EmailCapture|right|thumb]]',
+	'emailcapture-verify' => 'Used on [[Special:EmailCapture]], see image.
+[[Image:TestWiki-Special-EmailCapture-L4H0.png|Screenshot of Special:EmailCapture|right|thumb]]',
+	'emailcapture-submit' => 'Used on [[Special:EmailCapture]], see image.
+[[Image:TestWiki-Special-EmailCapture-L4H0.png|Screenshot of Special:EmailCapture|right|thumb]]',
 );
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author EugeneZelenko
  * @author Jim-by
  */
 $messages['be-tarask'] = array(
-	'emailcapture' => 'Увод адрасу электроннай пошты',
-	'emailcapture-desc' => 'Увядзіце адрас электроннай пошты, і перайдзіце да ўдзельніка каб вэрыфікаваць яго праз электронную пошту',
-	'emailcapture-failure' => "Ваш адрас электроннай пошты '''ня''' быў вэрыфікаваны.",
-	'emailcapture-response-subject' => '{{SITENAME}} Вэрыфікацыя праз электронную пошту',
-	'emailcapture-response-body' => 'Каб вырэфікаваць Ваш адрас электроннай пошты, перайдзіце па спасылцы:
-	$1
+	'emailcapture' => 'Перахоп адрасу электроннай пошты',
+	'emailcapture-desc' => 'Перахоплівае адрасы электроннай пошты, і дазваляе ўдзельнікам правяраць іх',
+	'emailcapture-failure' => "Ваш адрас электроннай пошты '''ня''' быў правераны.",
+	'emailcapture-response-subject' => 'Праверка адрасу электронную пошты для {{GRAMMAR:родны|{{SITENAME}}}}',
+	'emailcapture-response-body' => 'Каб праверыць Ваш адрас электроннай пошты, перайдзіце па спасылцы:
+$1
 
 Так сама, Вы можаце наведаць:
-	$2
-і увесьці наступны код вэрыфікацыі:
-	$3
+$2
 
-Дзякуй за вэрыфікацыю адрасу Вашай электроннай пошты.',
-	'emailcapture-success' => 'Ваш адрас электроннай пошты быў вэрыфікаваны.',
-	'emailcapture-instructions' => 'Каб вэрыфікаваць адрас Вашай электроннай пошты, увядзіце код, які быў Вам дасланы па электроннай пошце і націсьніце кнопку «Вэрыфікаваць».',
-	'emailcapture-verify' => 'Код вэрыфікацыі:',
-	'emailcapture-submit' => 'Вэрыфікаваць адрас электроннай пошты',
+і увесьці наступны код праверкі:
+$3
+
+Дзякуй за праверку Вашага адрасу электроннай пошты.',
+	'emailcapture-success' => 'Ваш адрас электроннай пошты быў правераны пасьпяхова.',
+	'emailcapture-instructions' => 'Каб праверыць Ваш адрас электроннай пошты, увядзіце код, які быў Вам дасланы па электроннай пошце і націсьніце кнопку «Праверыць».',
+	'emailcapture-verify' => 'Код праверкі:',
+	'emailcapture-submit' => 'Праверыць адрас электроннай пошты',
 );
 
 /** Breton (Brezhoneg)
@@ -67,7 +76,19 @@ $messages['be-tarask'] = array(
  */
 $messages['br'] = array(
 	'emailcapture-failure' => "'''N'eo ket bet''' gwiriekaet ho chomlec'h postel.",
+	'emailcapture-response-subject' => "Gwiriadenn chomlec'h postel evit {{SITENAME}}",
+	'emailcapture-response-body' => "Gwiriit ho chomlec'h postel en ur heuliañ al liamm-mañ :
+$1
+
+Gallout a rit ivez mont da welet :
+$2
+
+ha merkañ ar c'hod gwiriekaat-mañ :
+$3
+
+Trugarez da lakaat gwiriekaat ho chomlec'h postel.",
 	'emailcapture-success' => "Gwiriet eo bet ho chomlec'h postel ervat.",
+	'emailcapture-instructions' => "Da wiriañ ho chomlec'h postel, merkit ar c'hod zo bet kaset deoc'h ha klikit war \"{{int:emailcapture-submit}}\".",
 	'emailcapture-verify' => 'Kod gwiriekaat :',
 	'emailcapture-submit' => "Gwiriekaat ar chomlec'h postel",
 );
@@ -90,7 +111,7 @@ $3
 
 Vielen Dank für das Bestätigen deiner E-Mail-Adresse.',
 	'emailcapture-success' => 'Deine E-Mail-Adresse wurde erfolgreich bestätigt.',
-	'emailcapture-instructions' => 'Um deine E-Mail-Adresse zu bestätigen, gib bitte den Code ein, der dir per E-Mail zuschickt wurde und klicke anschließend auf „E-Mail-Adresse bestätigen“.',
+	'emailcapture-instructions' => 'Um deine E-Mail-Adresse zu bestätigen, gib bitte den Code ein, der dir per E-Mail zuschickt wurde und klicke anschließend auf „{{int:emailcapture-submit}}“.',
 	'emailcapture-verify' => 'Bestätigungscode:',
 	'emailcapture-submit' => 'E-Mail-Adresse bestätigen',
 );
@@ -114,9 +135,33 @@ $3
 
 Gratias pro verificar tu adresse de e-mail.',
 	'emailcapture-success' => 'Tu adresse de e-mail ha essite verificate con successo.',
-	'emailcapture-instructions' => 'Pro verificar tu adresse de e-mail, entra le codice que te esseva inviate in e-mail, e clicca super "Verificar".',
+	'emailcapture-instructions' => 'Pro verificar tu adresse de e-mail, entra le codice que te esseva inviate in e-mail, e clicca super "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Codice de verification:',
 	'emailcapture-submit' => 'Verificar adresse de e-mail',
+);
+
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'emailcapture' => 'Adräß för de <i lang="en">e-mail</i> schnappe',
+	'emailcapture-desc' => 'Schnabb en Adräß för de <i lang="en">e-mail</i> un lohß de Metmaacher se övver en <i lang="en">e-mail</i> beschtäätejje.',
+	'emailcapture-failure' => "Ding <i lang=\"en\">e-mail</i> wood '''nit''' beschtätesch",
+	'emailcapture-response-subject' => '{{ucfirst:{{GRAMMAR:Genitiv ier feminine|{{SITENAME}}}}}} Beschtätejung för Adräße vun de <i lang="en">e-mail</i>',
+	'emailcapture-response-body' => 'Öm Ding e-mail Adräß ze beschtääteje donn däm Lingk heh follje:
+$1
+
+Do kanns och op heh di Sigg jonn:
+$2
+
+un dann dä Kood heh enjävve:
+$3
+
+Mer bedangke uns för et Beschtäätejje.',
+	'emailcapture-success' => 'Ding Adräß för de <i lang="en">e-mail</i> wood beschtäätesch.',
+	'emailcapture-instructions' => 'Öm Ding Adräß för de <i lang="en">e-mail</i> ze bschtäätejje, donn onge dä Kood enjävve, dän De jescheck krääje häß, un donn dann op „{{int:emailcapture-submit}}“ klecke.',
+	'emailcapture-verify' => 'Dä Kood för et Beschtäätejje:',
+	'emailcapture-submit' => 'Lohß jonn!',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -145,9 +190,34 @@ $messages['mk'] = array(
 
 Ви благодариме што ја потврдивте вашата адреса.',
 	'emailcapture-success' => 'Вашата е-пошта е успешно потврдена.',
-	'emailcapture-instructions' => 'За да ја потврдите вашата е-пошта, внесете го кодот што ви го испративме и стиснете на „Потврди“.',
+	'emailcapture-instructions' => 'За да ја потврдите вашата е-пошта, внесете го кодот што ви го испративме и стиснете на „{{int:emailcapture-submit}}“.',
 	'emailcapture-verify' => 'Потврден код:',
 	'emailcapture-submit' => 'Потврди е-пошта',
+);
+
+/** Dutch (Nederlands)
+ * @author McDutchie
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'emailcapture' => 'E-mailadres bevestigen',
+	'emailcapture-desc' => 'E-mailadressen bevestigen en stelt gebruikers in staat dit te doen via e-mail',
+	'emailcapture-failure' => "Uw e-mailadres is '''niet''' bevestigd.",
+	'emailcapture-response-subject' => 'E-mailadrescontrole van {{SITENAME}}',
+	'emailcapture-response-body' => 'Volg deze verwijzing om uw e-mailadres te bevestigen:
+$1
+
+U kunt ook deze verwijzing volgen:
+$2
+
+en daar de volgende bevestigingscode invoeren:
+$3
+
+Dank u wel voor het bevestigen van uw e-mailadres.',
+	'emailcapture-success' => 'Uw e-mailadres is bevestigd.',
+	'emailcapture-instructions' => 'Voer de code uit uw e-mail in om uw e-mailadres te bevestigen en klik daarna op "{{int:emailcapture-submit}}".',
+	'emailcapture-verify' => 'Bevestigingscode:',
+	'emailcapture-submit' => 'E-mailadres bevestigen',
 );
 
 /** Telugu (తెలుగు)
@@ -177,7 +247,7 @@ $3
 
 Salamat sa pagpapatotoo ng tirahan mo ng e-liham.',
 	'emailcapture-success' => 'Matagumpay na napatunayan ang e-liham mo.',
-	'emailcapture-instructions' => 'Upang patunayang ang tirahan mo ng e-liham, ipasok ang kodigong ipinadala sa iyo sa e-liham at pindutin ang patunayan.',
+	'emailcapture-instructions' => 'Upang mapatunayan ang tirahan mo ng e-liham, ipasok ang kodigong ipinadala sa iyo sa pamamagitan ng e-liham at pindutin ang "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Kodigo ng pagpapatotoo:',
 	'emailcapture-submit' => 'Patunayan ang tirahan ng e-liham',
 );
