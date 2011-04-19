@@ -32,10 +32,9 @@ class ApiEmailCapture extends ApiBase {
 		if ( $dbw->affectedRows() ) {
 			// Send auto-response
 			global $wgUser, $wgEmailCaptureSendAutoResponse, $wgEmailCaptureAutoResponse;
-			$link = $wgUser->getSkin()->link( 'Special:EmailCapture' );
-			$fullLink = $wgUser->getSkin()->link(
-				'Special:EmailCapture', null, array(), array( 'verify' => $code )
-			);
+			$title = SpecialPage::getTitleFor( 'EmailCapture' );
+			$link = $title->getFullURL();
+			$fullLink = $title->getFullURL( array( 'verify' => $code ) );
 			if ( $wgEmailCaptureSendAutoResponse ) {
 				UserMailer::send(
 					new MailAddress( $params['email'] ),
@@ -44,7 +43,7 @@ class ApiEmailCapture extends ApiBase {
 						$wgEmailCaptureAutoResponse['from-name']
 					),
 					wfMsg( $wgEmailCaptureAutoResponse['subject-msg'] ),
-					wfMsg( $wgEmailCaptureAutoResponse['body-msg'], $link, $code, $fullLink ),
+					wfMsg( $wgEmailCaptureAutoResponse['body-msg'], $fullLink, $link, $code ),
 					$wgEmailCaptureAutoResponse['reply-to'],
 					$wgEmailCaptureAutoResponse['content-type']
 				);
