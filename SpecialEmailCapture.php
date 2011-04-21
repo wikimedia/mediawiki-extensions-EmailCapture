@@ -34,9 +34,9 @@ class SpecialEmailCapture extends SpecialPage {
 			$o .= Html::element( 'p', array(), wfMsg( 'emailcapture-instructions' ) );
 			$o .= Html::openElement( 'blockquote' );
 			$o .= Html::element( 'label', array( 'for' => 'emailcapture-verify' ),
-				wfMsg( 'emailcapture-verify' ) );
+				wfMsg( 'emailcapture-verify' ) ) . ' ';
 			$o .= Html::input( 'verify', '', 'text',
-				array( 'id' => 'emailcapture-verify', 'size' => 32 ) );
+				array( 'id' => 'emailcapture-verify', 'size' => 32 ) ) . ' ';
 			$o .= Html::input( 'submit', wfMsg( 'emailcapture-submit' ), 'submit' );
 			$o .= Html::closeElement( 'blockquote' );
 			$o .= Html::closeElement( 'form' );
