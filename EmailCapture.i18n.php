@@ -195,6 +195,14 @@ $messages['mk'] = array(
 	'emailcapture-submit' => 'Потврди е-пошта',
 );
 
+/** Malayalam (മലയാളം)
+ * @author Praveenp
+ */
+$messages['ml'] = array(
+	'emailcapture-failure' => "താങ്കളുടെ ഇമെയിൽ വിലാസം '''പരിശോധിച്ചിട്ടില്ല'''.",
+	'emailcapture-verify' => 'പരിശോധനയ്ക്കുള്ള കോഡ്:',
+);
+
 /** Dutch (Nederlands)
  * @author McDutchie
  * @author Siebrand
@@ -218,6 +226,20 @@ Dank u wel voor het bevestigen van uw e-mailadres.',
 	'emailcapture-instructions' => 'Voer de code uit uw e-mail in om uw e-mailadres te bevestigen en klik daarna op "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Bevestigingscode:',
 	'emailcapture-submit' => 'E-mailadres bevestigen',
+);
+
+/** Polish (Polski)
+ * @author Sp5uhe
+ */
+$messages['pl'] = array(
+	'emailcapture' => 'Przechowywanie adresów e‐mailowych',
+	'emailcapture-desc' => 'Przechowywanie adresów e‐mailowych i umożliwianie użytkownikom sprawdzenie ich poprzez e‐mail',
+	'emailcapture-failure' => "Twój adres e‐mailowy '''nie''' został zweryfikowany.",
+	'emailcapture-response-subject' => '{{SITENAME}} – weryfikacja adresu e‐mail',
+	'emailcapture-success' => 'Twój adres e‐mailowy został zweryfikowany.',
+	'emailcapture-instructions' => 'Jeśli chcesz potwierdzić swój adres poczty elektronicznej, wprowadź poniżej kod, który otrzymałeś e‐mailem i kliknij „{{int:emailcapture-submit}}”.',
+	'emailcapture-verify' => 'Kod weryfikacji',
+	'emailcapture-submit' => 'Potwierdź adres e‐mailowy',
 );
 
 /** Telugu (తెలుగు)
@@ -250,5 +272,16 @@ Salamat sa pagpapatotoo ng tirahan mo ng e-liham.',
 	'emailcapture-instructions' => 'Upang mapatunayan ang tirahan mo ng e-liham, ipasok ang kodigong ipinadala sa iyo sa pamamagitan ng e-liham at pindutin ang "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Kodigo ng pagpapatotoo:',
 	'emailcapture-submit' => 'Patunayan ang tirahan ng e-liham',
+);
+
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Hydra
+ */
+$messages['zh-hans'] = array(
+	'emailcapture' => '电子邮件地址的捕获',
+	'emailcapture-desc' => '捕获电子邮件地址，并允许用户通过电子邮件确认他们',
+	'emailcapture-failure' => "您的电子邮件'''不'''是已验证。",
+	'emailcapture-verify' => '验证码：',
+	'emailcapture-submit' => '验证电子邮件地址',
 );
 
