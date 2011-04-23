@@ -46,6 +46,13 @@ $messages['qqq'] = array(
 [[Image:TestWiki-Special-EmailCapture-L4H0.png|Screenshot of Special:EmailCapture|right|thumb]]',
 );
 
+/** Arabic (العربية)
+ * @author OsamaK
+ */
+$messages['ar'] = array(
+	'emailcapture-verify' => 'رمز التحقق:',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
@@ -114,6 +121,30 @@ Vielen Dank für das Bestätigen deiner E-Mail-Adresse.',
 	'emailcapture-instructions' => 'Um deine E-Mail-Adresse zu bestätigen, gib bitte den Code ein, der dir per E-Mail zuschickt wurde und klicke anschließend auf „{{int:emailcapture-submit}}“.',
 	'emailcapture-verify' => 'Bestätigungscode:',
 	'emailcapture-submit' => 'E-Mail-Adresse bestätigen',
+);
+
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'emailcapture' => 'לכידת כתובת דואר אלקטרוני',
+	'emailcapture-desc' => 'לכידה של כתובת דואר אלקטרוני ואפשרות לאמת את הכתובת דרך דואר אלקטרוני',
+	'emailcapture-failure' => "הדואר האלקטרוני שלך היה '''לא''' אומתה.",
+	'emailcapture-response-subject' => 'אימות כתובת דואר אלקטרוני באתר {{SITENAME}}',
+	'emailcapture-response-body' => 'אמתו את כתובת הדוא האלקטרוני שלכם באמצעות לחיצה על הקישור הבא:
+$1
+
+אפשר גם לבקר כאן:
+$1
+
+ולהכניס את קוד האימות הבא:
+$3
+
+תודה על אימות כתובת הדואר האלקטרוני שלכם.',
+	'emailcapture-success' => 'כתובת הדוא״ל שלכם אומתה בהצלחה.',
+	'emailcapture-instructions' => 'כדי לאמת את כתובת הדוא״ל שלכם, הכניסו את הקוד שנשלח אליכם ולחצו על "{{int:emailcapture-submit}}".',
+	'emailcapture-verify' => 'קוד אימות:',
+	'emailcapture-submit' => 'לאמת כתובת דוא״ל',
 );
 
 /** Interlingua (Interlingua)
@@ -236,6 +267,16 @@ $messages['pl'] = array(
 	'emailcapture-desc' => 'Przechowywanie adresów e‐mailowych i umożliwianie użytkownikom sprawdzenie ich poprzez e‐mail',
 	'emailcapture-failure' => "Twój adres e‐mailowy '''nie''' został zweryfikowany.",
 	'emailcapture-response-subject' => '{{SITENAME}} – weryfikacja adresu e‐mail',
+	'emailcapture-response-body' => 'Potwierdź swój adres e‐mailowy klikając na link
+$1
+
+Możesz również odwiedzić
+$2
+
+i wprowadzić kod weryfikacji
+$3
+
+Dziękujemy za potwierdzenie adresu e‐mailowego.',
 	'emailcapture-success' => 'Twój adres e‐mailowy został zweryfikowany.',
 	'emailcapture-instructions' => 'Jeśli chcesz potwierdzić swój adres poczty elektronicznej, wprowadź poniżej kod, który otrzymałeś e‐mailem i kliknij „{{int:emailcapture-submit}}”.',
 	'emailcapture-verify' => 'Kod weryfikacji',
@@ -272,6 +313,30 @@ Salamat sa pagpapatotoo ng tirahan mo ng e-liham.',
 	'emailcapture-instructions' => 'Upang mapatunayan ang tirahan mo ng e-liham, ipasok ang kodigong ipinadala sa iyo sa pamamagitan ng e-liham at pindutin ang "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Kodigo ng pagpapatotoo:',
 	'emailcapture-submit' => 'Patunayan ang tirahan ng e-liham',
+);
+
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'emailcapture' => 'Bắt địa chỉ thư điện tử',
+	'emailcapture-desc' => 'Bắt các địa chỉ thư điện tử và cho phép người dùng xác minh chúng qua thư điện tử',
+	'emailcapture-failure' => "Địa chỉ thư điện tử của bạn '''chưa''' được xác minh.",
+	'emailcapture-response-subject' => 'Xác minh địa chỉ thư điện tử tại {{SITENAME}}',
+	'emailcapture-response-body' => 'Xin vui lòng xác nhận địa chỉ thư điện tử của bạn qua liên kết này:
+$1
+
+Bạn cũng có thể ghé thăm:
+$2
+
+và nhập mã xác minh sau:
+$3
+
+Cám ơn bạn xác minh địa chỉ thư điện tử của bạn.',
+	'emailcapture-success' => 'Địa chỉ thư điện tử của bạn đã được xác minh thành công.',
+	'emailcapture-instructions' => 'Để xác minh địa chỉ thư điện tử của bạn, hãy nhập mã trong thư điện tử đã được gửi cho bạn và bấm nút “{{int:emailcapture-submit}}”.',
+	'emailcapture-verify' => 'Mã xác minh:',
+	'emailcapture-submit' => 'Xác minh địa chỉ thư điện tử',
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
