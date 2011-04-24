@@ -283,6 +283,30 @@ Dziękujemy za potwierdzenie adresu e‐mailowego.',
 	'emailcapture-submit' => 'Potwierdź adres e‐mailowy',
 );
 
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'emailcapture' => 'Zajem e-poštnih naslovov',
+	'emailcapture-desc' => 'Zajame e-poštne naslove in omogoča uporabnikom, da jih preverijo preko e-pošte',
+	'emailcapture-failure' => "Vaš e-poštni naslov '''ni''' bil preverjen.",
+	'emailcapture-response-subject' => 'Preverjanje e-poštnega naslova {{SITENAME}}',
+	'emailcapture-response-body' => 'Preverite svoj e-poštni naslov z obiskom te povezave:
+$1
+
+Obiščete lahko tudi:
+$2
+
+in vnesete naslednjo kodo za preverjanje:
+$3
+
+Zahvaljujemo se vam za preverjanje vašega e-poštnega naslova.',
+	'emailcapture-success' => 'Vaš e-poštni naslov je bil uspešno preverjen.',
+	'emailcapture-instructions' => 'Da preverite vaš e-poštni naslov, vnesite kodo, ki ste jo prejeli po e-pošti, in kliknite »{{int:emailcapture-submit}}«.',
+	'emailcapture-verify' => 'Koda za preverjanje:',
+	'emailcapture-submit' => 'Preveri e-poštni naslov',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
