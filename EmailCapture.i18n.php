@@ -82,6 +82,8 @@ $3
  * @author Fulup
  */
 $messages['br'] = array(
+	'emailcapture' => "Pakadenn chomlec'h postel",
+	'emailcapture-desc' => "Pakañ a ra chomlec'hioù postel ha talvezout a ra d'an implijerien da wiriañ anezho dre bostel",
 	'emailcapture-failure' => "'''N'eo ket bet''' gwiriekaet ho chomlec'h postel.",
 	'emailcapture-response-subject' => "Gwiriadenn chomlec'h postel evit {{SITENAME}}",
 	'emailcapture-response-body' => "Gwiriit ho chomlec'h postel en ur heuliañ al liamm-mañ :
@@ -121,6 +123,38 @@ Vielen Dank für das Bestätigen deiner E-Mail-Adresse.',
 	'emailcapture-instructions' => 'Um deine E-Mail-Adresse zu bestätigen, gib bitte den Code ein, der dir per E-Mail zuschickt wurde und klicke anschließend auf „{{int:emailcapture-submit}}“.',
 	'emailcapture-verify' => 'Bestätigungscode:',
 	'emailcapture-submit' => 'E-Mail-Adresse bestätigen',
+);
+
+/** Esperanto (Esperanto)
+ * @author Yekrats
+ */
+$messages['eo'] = array(
+	'emailcapture-response-subject' => '{{SITENAME}} retpoŝta konfirmado',
+	'emailcapture-submit' => 'Konfirmi adreson de retpoŝto',
+);
+
+/** French (Français)
+ * @author IAlex
+ */
+$messages['fr'] = array(
+	'emailcapture' => "Capture d'adresse de courriel",
+	'emailcapture-desc' => 'Capture des adresses de courriel et permet aux utilisateurs de les vérifier par courriel',
+	'emailcapture-failure' => "Votre adresse de courriel n'a '''pas''' été vérifiée.",
+	'emailcapture-response-subject' => "Vérification d'adresse de courriel de {{SITENAME}}",
+	'emailcapture-response-body' => 'Vérifiez votre adresse de courriel en suivant le lien suivant :
+$1
+
+Vous pouvez aussi visiter :
+$2
+
+et entrer le code de vérification suivant :
+$3
+
+Merci pour la vérification de votre adresse de courriel.',
+	'emailcapture-success' => 'Votre adresse de courriel a été vérifiée avec succès.',
+	'emailcapture-instructions' => 'Pour vérifier votre adresse de courriel, entrez le code qui vous a été envoyé par courriel et cliquez sur « {{int:emailcapture-soumettre}} ».',
+	'emailcapture-verify' => 'Code de vérification :',
+	'emailcapture-submit' => "Vérifier l'adresse de courriel",
 );
 
 /** Hebrew (עברית)
@@ -281,6 +315,30 @@ Dziękujemy za potwierdzenie adresu e‐mailowego.',
 	'emailcapture-instructions' => 'Jeśli chcesz potwierdzić swój adres poczty elektronicznej, wprowadź poniżej kod, który otrzymałeś e‐mailem i kliknij „{{int:emailcapture-submit}}”.',
 	'emailcapture-verify' => 'Kod weryfikacji',
 	'emailcapture-submit' => 'Potwierdź adres e‐mailowy',
+);
+
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'emailcapture' => 'Ciapa adrëssa ëd corel',
+	'emailcapture-desc' => "Ciapa adrëssa ëd corel, e përmëtt a j'utent ëd verifichelo con corel",
+	'emailcapture-failure' => "Tò corel a l'é '''pa''' stàit verificà.",
+	'emailcapture-response-subject' => "Verìfica dl'adrëssa postal ëd {{SITENAME}}",
+	'emailcapture-response-body' => 'Verìfica toa adrëssaq ëd corel andasend daré a sto colegament:
+$1
+
+It peule visité:
+$2
+
+e anserì ël còdes ëd verìfica si sota:
+$3
+
+Mersì për avèj verificà toa adrëssa ëd corel.',
+	'emailcapture-success' => "Toa adrëssa ëd corel a l'é stàita verificà da bin.",
+	'emailcapture-instructions' => 'Për verifiché toa adrëssa ëd corel, anseriss ë còdes ch\'a l\'é stàte spedì e sgnaca "{{int:emailcapture-submit}}".',
+	'emailcapture-verify' => 'Còdes ëd verìfica:',
+	'emailcapture-submit' => 'Verìfica adrëssa ëd corel',
 );
 
 /** Slovenian (Slovenščina)
