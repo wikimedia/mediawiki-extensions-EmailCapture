@@ -205,6 +205,30 @@ Gratias pro verificar tu adresse de e-mail.',
 	'emailcapture-submit' => 'Verificar adresse de e-mail',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author IvanLanin
+ */
+$messages['id'] = array(
+	'emailcapture' => 'Perekam alamat surel',
+	'emailcapture-desc' => 'Merekam alamat surel dan memungkinkan pengguna untuk melakukan verifikasi melalui surel',
+	'emailcapture-failure' => "Surel Anda '''belum'' terverifikasi.",
+	'emailcapture-response-subject' => 'Verifikasi alamat surel {{SITENAME}}',
+	'emailcapture-response-body' => 'Verifikasi alamat surel Anda dengan mengikuti tautan ini:
+$1
+
+Anda juga dapat mengunjungi:
+$2
+
+dan memasukkan kode verifikasi berikut:
+$3
+
+Terima kasih telah memverifikasi alamat surel Anda.',
+	'emailcapture-success' => 'Alamat surel Anda berhasil diverifikasi.',
+	'emailcapture-instructions' => 'Untuk memverifikasi alamat surel Anda, masukkan kode yang dikirim melalui surel kepada Anda dan klik "{{int: emailcapture-submit}}".',
+	'emailcapture-verify' => 'Kode verifikasi:',
+	'emailcapture-submit' => 'Verifikasi alamat surel',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
@@ -341,6 +365,38 @@ Mersì për avèj verificà toa adrëssa ëd corel.',
 	'emailcapture-submit' => 'Verìfica adrëssa ëd corel',
 );
 
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'emailcapture-failure' => "L'e-mail toje '''non''' g'ha state verificate.",
+);
+
+/** Slovak (Slovenčina)
+ * @author Helix84
+ */
+$messages['sk'] = array(
+	'emailcapture' => 'Zachytenie emailovej adresy',
+	'emailcapture-desc' => 'Zachytiť emailovú adresu a umožniť používateľom overenie pomocou emailu',
+	'emailcapture-failure' => "Váš e-mail '''nebol''' overený.",
+	'emailcapture-response-subject' => 'Potvrdenie emailovej adresy pre {{GRAMMAR:akuzatív|{{SITENAME}}}}',
+	'emailcapture-response-body' => 'Overiť svoju emailovú adresu nasledovaním tohto odkazu:
+
+$1
+
+Môžete tiež navštíviť:
+$2
+
+a zadať nasledovný overovací kód:
+$3
+
+Ďakujeme za overenie vašej emailovej adresy.',
+	'emailcapture-success' => 'Vaša emailová adresa bola úspešne overená.',
+	'emailcapture-instructions' => 'Ak chcete overiť svoju emailovú adresu, zadajte kód, ktorý vám bol zaslaný emailom a kliknite na „{{int:emailcapture-submit}}“.',
+	'emailcapture-verify' => 'Overovací kód:',
+	'emailcapture-submit' => 'Overiť e-mailovú adresu',
+);
+
 /** Slovenian (Slovenščina)
  * @author Dbc334
  */
@@ -428,6 +484,7 @@ $messages['zh-hans'] = array(
 	'emailcapture' => '电子邮件地址的捕获',
 	'emailcapture-desc' => '捕获电子邮件地址，并允许用户通过电子邮件确认他们',
 	'emailcapture-failure' => "您的电子邮件'''不'''是已验证。",
+	'emailcapture-success' => '您的电子邮件地址被成功验证。',
 	'emailcapture-verify' => '验证码：',
 	'emailcapture-submit' => '验证电子邮件地址',
 );
