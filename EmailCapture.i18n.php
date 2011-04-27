@@ -181,6 +181,14 @@ $3
 	'emailcapture-submit' => 'לאמת כתובת דוא״ל',
 );
 
+/** Hungarian (Magyar)
+ * @author Dani
+ */
+$messages['hu'] = array(
+	'emailcapture-verify' => 'Ellenőrző kód:',
+	'emailcapture-submit' => 'E-mail cím megerősítése',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
@@ -288,8 +296,23 @@ $messages['mk'] = array(
  * @author Praveenp
  */
 $messages['ml'] = array(
+	'emailcapture' => 'ഇമെയിൽ വിലാസം നോക്കൽ',
 	'emailcapture-failure' => "താങ്കളുടെ ഇമെയിൽ വിലാസം '''പരിശോധിച്ചിട്ടില്ല'''.",
+	'emailcapture-response-subject' => '{{SITENAME}} സംരംഭത്തിലെ ഇമെയിൽ വിലാസ പരിശോധന',
+	'emailcapture-response-body' => 'താഴെ നൽകിയിരിക്കുന്ന കണ്ണി ഉപയോഗിച്ച് താങ്കളുടെ ഇമെയിൽ വിലാസം പരിശോധനയ്ക്കു പാത്രമാക്കുക:
+$1
+
+താങ്കൾക്ക് ഇതും സന്ദർശിക്കാവുന്നതാണ്:
+$2
+
+എന്നിട്ട് താഴെ കൊടുത്തിരിക്കുന്ന പരിശോധനാ കോഡ് നൽകുക:
+$3
+
+താങ്കളുടെ ഇമെയിൽ വിലാസം പരിശോധനയ്ക്ക് പാത്രമാക്കിയതിനു നന്ദി.',
+	'emailcapture-success' => 'താങ്കളുടെ ഇമെയിൽ വിലാസം വിജയകരമായി പരിശോധിച്ചിരിക്കുന്നു.',
+	'emailcapture-instructions' => 'താങ്കളുടെ ഇമെയിൽ വിലാസം പരിശോധനയ്ക്കു പാത്രമാക്കുവാൻ, താങ്കൾക്ക് ഇമെയിൽ വഴി അയച്ചിട്ടുള്ള കോഡ് നൽകിയ ശേഷം "{{int:emailcapture-submit}}" ഞെക്കുക.',
 	'emailcapture-verify' => 'പരിശോധനയ്ക്കുള്ള കോഡ്:',
+	'emailcapture-submit' => 'ഇമെയിൽ വിലാസം പരിശോധനയ്ക്ക് പാത്രമാക്കുക',
 );
 
 /** Dutch (Nederlands)
@@ -365,11 +388,45 @@ Mersì për avèj verificà toa adrëssa ëd corel.',
 	'emailcapture-submit' => 'Verìfica adrëssa ëd corel',
 );
 
+/** Romanian (Română)
+ * @author Firilacroco
+ * @author Minisarm
+ */
+$messages['ro'] = array(
+	'emailcapture-verify' => 'Cod de verificare:',
+	'emailcapture-submit' => 'Verifică adresa de e-mail',
+);
+
 /** Tarandíne (Tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
 	'emailcapture-failure' => "L'e-mail toje '''non''' g'ha state verificate.",
+	'emailcapture-response-subject' => "Verifeche de l'indirizze email pe {{SITENAME}}",
+);
+
+/** Russian (Русский)
+ * @author Александр Сигачёв
+ */
+$messages['ru'] = array(
+	'emailcapture' => 'Захват адреса электронной почты',
+	'emailcapture-desc' => 'Захват адреса электронной почты, разрешение участникам подтверждать себя по электронной почте',
+	'emailcapture-failure' => "Ваш адрес электронной почты '''не''' был подтверждён.",
+	'emailcapture-response-subject' => 'Проверка адреса электронной почты {{SITENAME}}',
+	'emailcapture-response-body' => 'Подтвердите свой адрес электронной почты, перейдя по ссылке:
+$1
+
+Вы также можете зайти на страницу:
+$2
+
+и ввести следующий проверочный код:
+$3
+
+Спасибо за подтверждение вашего адреса электронной почты.',
+	'emailcapture-success' => 'Ваш адрес электронной почты был успешно подтверждён.',
+	'emailcapture-instructions' => 'Для подтверждения вашего адреса электронной почты, введите код, который был вам отправлен, и нажмите кнопку «{{int:emailcapture-submit}}».',
+	'emailcapture-verify' => 'Код подтверждения:',
+	'emailcapture-submit' => 'Подтвердить адрес электронной почты',
 );
 
 /** Slovak (Slovenčina)
@@ -479,12 +536,25 @@ Cám ơn bạn xác minh địa chỉ thư điện tử của bạn.',
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
+ * @author 阿pp
  */
 $messages['zh-hans'] = array(
 	'emailcapture' => '电子邮件地址的捕获',
 	'emailcapture-desc' => '捕获电子邮件地址，并允许用户通过电子邮件确认他们',
 	'emailcapture-failure' => "您的电子邮件'''不'''是已验证。",
+	'emailcapture-response-subject' => '{{SITENAME}}邮箱地址确认',
+	'emailcapture-response-body' => '通过此链接验证邮箱地址：
+$1
+
+或者也可以访问：
+$2
+
+并输入以下验证码：
+$3
+
+感谢您验证邮箱地址。',
 	'emailcapture-success' => '您的电子邮件地址被成功验证。',
+	'emailcapture-instructions' => '输入邮件的标明的验证码并点击"{{int:emailcapture-submit}}"以验证您的邮箱地址。',
 	'emailcapture-verify' => '验证码：',
 	'emailcapture-submit' => '验证电子邮件地址',
 );
