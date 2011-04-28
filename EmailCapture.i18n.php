@@ -12,7 +12,7 @@ $messages = array();
  * @author Trevor Parscal
  */
 $messages['en'] = array(
-	'emailcapture' => 'E-mail address capture',
+	'emailcapture' => 'Email verification',
 	'emailcapture-desc' => 'Capture e-mail addresses, and allow users to verify them through e-mail',
 	'emailcapture-failure' => "Your e-mail was '''not''' verified.",
 	'emailcapture-response-subject' => '{{SITENAME}} e-mail address verification',
