@@ -31,7 +31,7 @@ class ApiEmailCapture extends ApiBase {
 
 		if ( $dbw->affectedRows() ) {
 			// Send auto-response
-			global $wgUser, $wgEmailCaptureSendAutoResponse, $wgEmailCaptureAutoResponse;
+			global $wgEmailCaptureSendAutoResponse, $wgEmailCaptureAutoResponse;
 			$title = SpecialPage::getTitleFor( 'EmailCapture' );
 			$link = $title->getFullURL();
 			$fullLink = $title->getFullURL( array( 'verify' => $code ) );

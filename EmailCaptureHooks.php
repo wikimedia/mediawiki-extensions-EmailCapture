@@ -5,6 +5,9 @@
 class EmailCaptureHooks {
 	/**
 	 * LoadExtensionSchemaUpdates hook
+	 *
+	 * @param $updater DatabaseUpdater
+	 * @return bool
 	 */
 	public static function loadExtensionSchemaUpdates( $updater ) {
 		$db = $updater->getDB();

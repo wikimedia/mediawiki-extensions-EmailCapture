@@ -7,7 +7,7 @@ class SpecialEmailCapture extends SpecialPage {
 	}
 
 	public function execute( $par ) {
-		global $wgOut, $wgUser, $wgRequest;
+		global $wgOut, $wgRequest;
 
 		$this->setHeaders();
 
