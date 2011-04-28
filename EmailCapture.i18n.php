@@ -368,7 +368,7 @@ Dziękujemy za potwierdzenie adresu e‐mailowego.',
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'emailcapture' => 'Ciapa adrëssa ëd corel',
+	'emailcapture' => 'Verìfica ëd corel',
 	'emailcapture-desc' => "Ciapa adrëssa ëd corel, e përmëtt a j'utent ëd verifichelo con corel",
 	'emailcapture-failure' => "Tò corel a l'é '''pa''' stàit verificà.",
 	'emailcapture-response-subject' => "Verìfica dl'adrëssa postal ëd {{SITENAME}}",
@@ -458,7 +458,7 @@ $3
  * @author Dbc334
  */
 $messages['sl'] = array(
-	'emailcapture' => 'Zajem e-poštnih naslovov',
+	'emailcapture' => 'Preverjanje e-pošte',
 	'emailcapture-desc' => 'Zajame e-poštne naslove in omogoča uporabnikom, da jih preverijo preko e-pošte',
 	'emailcapture-failure' => "Vaš e-poštni naslov '''ni''' bil preverjen.",
 	'emailcapture-response-subject' => 'Preverjanje e-poštnega naslova {{SITENAME}}',
