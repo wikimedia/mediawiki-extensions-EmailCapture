@@ -58,7 +58,7 @@ $messages['ar'] = array(
  * @author Jim-by
  */
 $messages['be-tarask'] = array(
-	'emailcapture' => 'Перахоп адрасу электроннай пошты',
+	'emailcapture' => 'Праверка электроннай пошты',
 	'emailcapture-desc' => 'Перахоплівае адрасы электроннай пошты, і дазваляе ўдзельнікам правяраць іх',
 	'emailcapture-failure' => "Ваш адрас электроннай пошты '''ня''' быў правераны.",
 	'emailcapture-response-subject' => 'Праверка адрасу электронную пошты для {{GRAMMAR:родны|{{SITENAME}}}}',
@@ -82,7 +82,7 @@ $3
  * @author Fulup
  */
 $messages['br'] = array(
-	'emailcapture' => "Pakadenn chomlec'h postel",
+	'emailcapture' => 'Gwiriañ ar postel',
 	'emailcapture-desc' => "Pakañ a ra chomlec'hioù postel ha talvezout a ra d'an implijerien da wiriañ anezho dre bostel",
 	'emailcapture-failure' => "'''N'eo ket bet''' gwiriekaet ho chomlec'h postel.",
 	'emailcapture-response-subject' => "Gwiriadenn chomlec'h postel evit {{SITENAME}}",
@@ -157,6 +157,30 @@ Merci pour la vérification de votre adresse de courriel.',
 	'emailcapture-submit' => "Vérifier l'adresse de courriel",
 );
 
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'emailcapture' => 'Verificación do correo electrónico',
+	'emailcapture-desc' => 'Captura enderezos de correo electrónico e permite aos usuarios comprobalos a través do propio correo electrónico',
+	'emailcapture-failure' => "O seu correo electrónico '''non''' foi verificado.",
+	'emailcapture-response-subject' => 'Verificación do enderezo de correo electrónico de {{SITENAME}}',
+	'emailcapture-response-body' => 'Verifique o seu enderezo de correo electrónico seguindo esta ligazón:
+$1
+
+Tamén pode visitar:
+$2
+
+e inserir o seguinte código de verificación:
+$3
+
+Grazas por verificar o seu enderezo de correo electrónico.',
+	'emailcapture-success' => 'O seu enderezo de correo electrónico verificouse correctamente.',
+	'emailcapture-instructions' => 'Para verificar o seu enderezo de correo electrónico, introduza o código que se lle enviou e prema en "{{int:emailcapture-submit}}".',
+	'emailcapture-verify' => 'Código de verificación:',
+	'emailcapture-submit' => 'Verificar o enderezo de correo electrónico',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  */
@@ -193,7 +217,7 @@ $messages['hu'] = array(
  * @author McDutchie
  */
 $messages['ia'] = array(
-	'emailcapture' => 'Captura de adresses de e-mail',
+	'emailcapture' => 'Verification de e-mail',
 	'emailcapture-desc' => 'Capturar adresses de e-mail, e permitter al usatores de verificar los per e-mail',
 	'emailcapture-failure' => "Tu adresse de e-mail '''non''' ha essite verificate.",
 	'emailcapture-response-subject' => 'Verification del adresse de e-mail pro {{SITENAME}}',
@@ -217,7 +241,7 @@ Gratias pro verificar tu adresse de e-mail.',
  * @author IvanLanin
  */
 $messages['id'] = array(
-	'emailcapture' => 'Perekam alamat surel',
+	'emailcapture' => 'Verifikasi surel',
 	'emailcapture-desc' => 'Merekam alamat surel dan memungkinkan pengguna untuk melakukan verifikasi melalui surel',
 	'emailcapture-failure' => "Surel Anda '''belum'' terverifikasi.",
 	'emailcapture-response-subject' => 'Verifikasi alamat surel {{SITENAME}}',
@@ -296,7 +320,8 @@ $messages['mk'] = array(
  * @author Praveenp
  */
 $messages['ml'] = array(
-	'emailcapture' => 'ഇമെയിൽ വിലാസം നോക്കൽ',
+	'emailcapture' => 'ഇമെയിൽ പരിശോധന',
+	'emailcapture-desc' => 'ഇമെയിൽ സ്വയം എടുക്കുകയും ഉപയോക്താക്കളെ ഇമെയിൽ ഉപയോഗിച്ച് പരിശോധിക്കുകയും ചെയ്യുന്നു',
 	'emailcapture-failure' => "താങ്കളുടെ ഇമെയിൽ വിലാസം '''പരിശോധിച്ചിട്ടില്ല'''.",
 	'emailcapture-response-subject' => '{{SITENAME}} സംരംഭത്തിലെ ഇമെയിൽ വിലാസ പരിശോധന',
 	'emailcapture-response-body' => 'താഴെ നൽകിയിരിക്കുന്ന കണ്ണി ഉപയോഗിച്ച് താങ്കളുടെ ഇമെയിൽ വിലാസം പരിശോധനയ്ക്കു പാത്രമാക്കുക:
@@ -320,7 +345,7 @@ $3
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'emailcapture' => 'E-mailadres bevestigen',
+	'emailcapture' => 'E-mailadresbevestiging',
 	'emailcapture-desc' => 'E-mailadressen bevestigen en stelt gebruikers in staat dit te doen via e-mail',
 	'emailcapture-failure' => "Uw e-mailadres is '''niet''' bevestigd.",
 	'emailcapture-response-subject' => 'E-mailadrescontrole van {{SITENAME}}',
@@ -491,7 +516,7 @@ $messages['te'] = array(
  * @author AnakngAraw
  */
 $messages['tl'] = array(
-	'emailcapture' => 'Pagdakip ng E-liham',
+	'emailcapture' => 'Pagpapatunay ng e-liham',
 	'emailcapture-desc' => 'Hulihin ang mga tirahan ng e-liham, at payagan ang mga tagagamit na patunayan sila sa pamamagitan ng e-liham',
 	'emailcapture-failure' => "'''Hindi''' pa napapatunayan ang e-liham mo.",
 	'emailcapture-response-subject' => 'Pagpapatunay ng E-liham ng {{SITENAME}}',
@@ -514,7 +539,7 @@ Salamat sa pagpapatotoo ng tirahan mo ng e-liham.',
  * @author Minh Nguyen
  */
 $messages['vi'] = array(
-	'emailcapture' => 'Bắt địa chỉ thư điện tử',
+	'emailcapture' => 'Xác minh địa chỉ thư điện tử',
 	'emailcapture-desc' => 'Bắt các địa chỉ thư điện tử và cho phép người dùng xác minh chúng qua thư điện tử',
 	'emailcapture-failure' => "Địa chỉ thư điện tử của bạn '''chưa''' được xác minh.",
 	'emailcapture-response-subject' => 'Xác minh địa chỉ thư điện tử tại {{SITENAME}}',
