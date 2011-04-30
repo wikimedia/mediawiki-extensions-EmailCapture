@@ -78,6 +78,17 @@ $3
 	'emailcapture-submit' => 'Праверыць адрас электроннай пошты',
 );
 
+/** Bengali (বাংলা)
+ * @author Wikitanvir
+ */
+$messages['bn'] = array(
+	'emailcapture' => 'ই-মেইল নিশ্চিতকরণ',
+	'emailcapture-response-subject' => '{{SITENAME}} সাইটের ই-মেইল ঠিকানা নিশ্চিতকরণ',
+	'emailcapture-success' => 'আপনার ই-মেইল ঠিকানা সফলভাবে পরীক্ষিত হয়েছিলো।',
+	'emailcapture-verify' => 'নিশ্চিতকরণ কোড:',
+	'emailcapture-submit' => 'ই-মেইল ঠিকানা নিশ্চিতকরণ',
+);
+
 /** Breton (Brezhoneg)
  * @author Fulup
  */
@@ -129,15 +140,32 @@ Vielen Dank für das Bestätigen deiner E-Mail-Adresse.',
  * @author Yekrats
  */
 $messages['eo'] = array(
+	'emailcapture' => 'Retpoŝta kontrolado',
+	'emailcapture-desc' => 'Kapti retpoŝadresojn, kaj permesi al uzantoj kontroli tion per retpoŝto',
+	'emailcapture-failure' => "Via retpoŝtadreso '''ne estis''' kontrolita.",
 	'emailcapture-response-subject' => '{{SITENAME}} retpoŝta konfirmado',
+	'emailcapture-response-body' => 'Kontroli vian retpoŝtadreso klakante la jenan ligilon:
+$1
+
+Ankaŭ vi povas viziti:
+$2
+
+kaj enigi la jenan kontrolkodon:
+$3
+
+Dankon pro kontrolante vian retpoŝtadreson.',
+	'emailcapture-success' => 'Via retpoŝtadreso estis sukcese kontrolita.',
+	'emailcapture-instructions' => 'Por kontroli vian retpoŝtadreson, enigi la kodo kiu estis retpoŝtita al vi kaj klaku butonon "{{int:emailcapture-submit}}".',
+	'emailcapture-verify' => 'Kontrolkodo:',
 	'emailcapture-submit' => 'Konfirmi adreson de retpoŝto',
 );
 
 /** French (Français)
  * @author IAlex
+ * @author Wyz
  */
 $messages['fr'] = array(
-	'emailcapture' => "Capture d'adresse de courriel",
+	'emailcapture' => 'Vérification de courriel',
 	'emailcapture-desc' => 'Capture des adresses de courriel et permet aux utilisateurs de les vérifier par courriel',
 	'emailcapture-failure' => "Votre adresse de courriel n'a '''pas''' été vérifiée.",
 	'emailcapture-response-subject' => "Vérification d'adresse de courriel de {{SITENAME}}",
@@ -155,6 +183,17 @@ Merci pour la vérification de votre adresse de courriel.',
 	'emailcapture-instructions' => 'Pour vérifier votre adresse de courriel, entrez le code qui vous a été envoyé par courriel et cliquez sur « {{int:emailcapture-soumettre}} ».',
 	'emailcapture-verify' => 'Code de vérification :',
 	'emailcapture-submit' => "Vérifier l'adresse de courriel",
+);
+
+/** Franco-Provençal (Arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'emailcapture' => 'Contrôlo d’adrèce èlèctronica',
+	'emailcapture-failure' => "Voutra adrèce èlèctronica at '''pas''' étâ controlâ.",
+	'emailcapture-response-subject' => 'Contrôlo d’adrèce èlèctronica de {{SITENAME}}',
+	'emailcapture-verify' => 'Code de contrôlo :',
+	'emailcapture-submit' => 'Controlar l’adrèce èlèctronica',
 );
 
 /** Galician (Galego)
@@ -434,7 +473,7 @@ $messages['roa-tara'] = array(
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
-	'emailcapture' => 'Захват адреса электронной почты',
+	'emailcapture' => 'Подтверждение адреса электронной почты',
 	'emailcapture-desc' => 'Захват адреса электронной почты, разрешение участникам подтверждать себя по электронной почте',
 	'emailcapture-failure' => "Ваш адрес электронной почты '''не''' был подтверждён.",
 	'emailcapture-response-subject' => 'Проверка адреса электронной почты {{SITENAME}}',
@@ -504,12 +543,28 @@ Zahvaljujemo se vam za preverjanje vašega e-poštnega naslova.',
 );
 
 /** Telugu (తెలుగు)
+ * @author Chaduvari
  * @author Veeven
  */
 $messages['te'] = array(
+	'emailcapture' => 'ఈమెయిలు ధృవీకరణ',
+	'emailcapture-desc' => 'ఈమెయిలు అడ్రసుల్ని సేకరించి, వాడుకరులు వాటిని ఈమెయిలు ద్వారా ధృవీకరించే వీలు కల్పించు',
+	'emailcapture-failure' => 'మీ ఈమెయిలు ధృవీకరణ ’’’కాలేదు’’’.',
 	'emailcapture-response-subject' => '{{SITENAME}} ఈ-మెయిలు చిరునామా తనిఖీ',
+	'emailcapture-response-body' => 'కింది లింకుకు వెళ్ళి మీ ఈమెయిలు అడ్రసును ధృవీకరించండి:
+$1
+
+లేదా మీరు కింది లింకుకు వెళ్ళి:
+$2
+
+కింది ధృవీకరణ కోడును ఇవ్వవచ్చు:
+$3
+
+మీ ఈమెయిలు అడ్రసును ధృవీకరించినందుకు నెనరులు.',
 	'emailcapture-success' => 'మీ ఈ-మెయిలు చిరునామాను విజయవంతంగా తనిఖీచేసాం.',
+	'emailcapture-instructions' => 'మీ ఈమెయిలు అడ్రసును ధృవీకరించేందుకు, మీ ఈమెయిలైడీకి పంపించిన కోడును ఇచ్చి, "{{int:emailcapture-submit}}" ను నొక్కండి.',
 	'emailcapture-verify' => 'తనిఖీ సంకేతం:',
+	'emailcapture-submit' => 'ఈమెయిలు అడ్రసును ధృవీకరించు',
 );
 
 /** Tagalog (Tagalog)
