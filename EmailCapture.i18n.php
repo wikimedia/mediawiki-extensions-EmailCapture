@@ -20,7 +20,7 @@ $messages['en'] = array(
 
 Thank you for expressing interest in helping to improve {{SITENAME}}.
 
-Please take a moment to confirm your email by clicking on the link below:
+Please take a moment to confirm your e-mail by clicking on the link below:
 $1
 
 You may also visit:
@@ -31,12 +31,12 @@ $3
 
 We’ll be in touch shortly with how you can help improve {{SITENAME}}.
 
-If you didn’t initiate this request, please ignore this email and we won’t send you anything else.
+If you didn’t initiate this request, please ignore this e-mail and we won’t send you anything else.
 ',
 	'emailcapture-success' => 'Thank you!
 
-Your email has been successfully confirmed.',
-	'emailcapture-instructions' => 'To verify your e-mail address, enter the code that was emailed to you and click "{{int:emailcapture-submit}}".',
+Your e-mail has been successfully confirmed.',
+	'emailcapture-instructions' => 'To verify your e-mail address, enter the code that was e-mailed to you and click "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Verification code:',
 	'emailcapture-submit' => 'Verify e-mail address',
 );
