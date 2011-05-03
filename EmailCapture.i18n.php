@@ -16,16 +16,23 @@ $messages['en'] = array(
 	'emailcapture-desc' => 'Capture e-mail addresses, and allow users to verify them through e-mail',
 	'emailcapture-failure' => "Your e-mail was '''not''' verified.",
 	'emailcapture-response-subject' => '{{SITENAME}} e-mail address verification',
-	'emailcapture-response-body' => 'Verify your e-mail address by following this link:
+	'emailcapture-response-body' => 'Hello!
+
+Thank you for for expressing interest in helping to improve {{SITENAME}}.
+
+Please take a moment to confirm your email by clicking on the link below:
 $1
 
-You can also visit:
+You may also visit:
 $2
 
-and enter the following verification code:
+And enter the following confirmation cod:
 $3
 
-Thank you for verifying your e-mail address.',
+We’ll be in touch shortly with how you can help improve {{SITENAME}}.
+
+If you didn’t initiate this request, please ignore this email and we won’t send you anything else.
+',
 	'emailcapture-success' => 'Your e-mail address was successfully verified.',
 	'emailcapture-instructions' => 'To verify your e-mail address, enter the code that was emailed to you and click "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Verification code:',
