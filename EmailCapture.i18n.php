@@ -18,7 +18,7 @@ $messages['en'] = array(
 	'emailcapture-response-subject' => '{{SITENAME}} e-mail address verification',
 	'emailcapture-response-body' => 'Hello!
 
-Thank you for for expressing interest in helping to improve {{SITENAME}}.
+Thank you for expressing interest in helping to improve {{SITENAME}}.
 
 Please take a moment to confirm your email by clicking on the link below:
 $1
