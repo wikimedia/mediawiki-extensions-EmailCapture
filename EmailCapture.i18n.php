@@ -124,22 +124,33 @@ Trugarez da lakaat gwiriekaat ho chomlec'h postel.",
 
 /** German (Deutsch)
  * @author Kghbln
+ * @author MF-Warburg
+ * @author Metalhead64
  */
 $messages['de'] = array(
 	'emailcapture' => 'E-Mail-Bestätigung',
 	'emailcapture-desc' => 'Ermöglicht das automatische Aufgreifen von E-Mail-Adressen und deren Bestätigung durch deren Benutzer per E-Mail',
 	'emailcapture-failure' => "Deine E-Mail-Adresse wurde '''nicht''' bestätigt.",
 	'emailcapture-response-subject' => '{{SITENAME}} E-Mail-Bestätigung',
-	'emailcapture-response-body' => 'Um deine E-Mail-Adresse zu bestätigen, klicke bitte auf den folgenden Link:
+	'emailcapture-response-body' => 'Hallo!
+
+Vielen Dank für dein Interesse an der Verbesserung von {{SITENAME}}.
+
+Bitte nimm dir einen Moment Zeit, deine E-Mail-Adresse zu bestätigen, indem du auf den folgenden Link klickst:
 $1
 
-Du kannst ebenso
+Du kannst auch die folgende Seite besuchen:
 $2
-besuchen und den folgenden Bestätigungscode angeben:
+
+Gib dort den nachfolgenden Bestätigungscode ein:
 $3
 
-Vielen Dank für das Bestätigen deiner E-Mail-Adresse.',
-	'emailcapture-success' => 'Deine E-Mail-Adresse wurde erfolgreich bestätigt.',
+Wir melden uns in Kürze dazu, wie du helfen kannst, {{SITENAME}} zu verbessern.
+
+Sofern du diese Anfrage nicht ausgelöst hast, ignoriere einfach diese E-Mail. Wir werden dir dann nichts mehr zusenden.',
+	'emailcapture-success' => 'Danke!
+
+Deine E-Mail-Adresse wurde erfolgreich bestätigt.',
 	'emailcapture-instructions' => 'Um deine E-Mail-Adresse zu bestätigen, gib bitte den Code ein, der dir per E-Mail zuschickt wurde und klicke anschließend auf „{{int:emailcapture-submit}}“.',
 	'emailcapture-verify' => 'Bestätigungscode:',
 	'emailcapture-submit' => 'E-Mail-Adresse bestätigen',
@@ -390,6 +401,7 @@ $3
 
 /** Dutch (Nederlands)
  * @author McDutchie
+ * @author SPQRobin
  * @author Siebrand
  */
 $messages['nl'] = array(
@@ -407,10 +419,36 @@ en daar de volgende bevestigingscode invoeren:
 $3
 
 Dank u wel voor het bevestigen van uw e-mailadres.',
-	'emailcapture-success' => 'Uw e-mailadres is bevestigd.',
+	'emailcapture-success' => 'Bedankt!
+
+Uw e-mailadres is bevestigd.',
 	'emailcapture-instructions' => 'Voer de code uit uw e-mail in om uw e-mailadres te bevestigen en klik daarna op "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Bevestigingscode:',
 	'emailcapture-submit' => 'E-mailadres bevestigen',
+);
+
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Sjurhamre
+ */
+$messages['no'] = array(
+	'emailcapture' => 'E-postbekreftelse',
+	'emailcapture-desc' => 'Samler inn e-postadresser, og lar brukere bekrefte dem via e-post',
+	'emailcapture-failure' => "E-postadressen din ble '''ikke''' bekreftet",
+	'emailcapture-response-subject' => 'E-postbekreftelse fra {{SITENAME}}',
+	'emailcapture-response-body' => 'Bekreft e-postadressen din ved å følge lenken under:
+$1
+
+Eventuelt kan du besøke:
+$2
+
+Og skrive inn følgende bekreftelseskode:
+$3
+
+Takk for at du bekrefter e-postadressen din.',
+	'emailcapture-success' => 'E-postadressen din har blitt bekreftet.',
+	'emailcapture-instructions' => 'For å bekrefte e-postadressen din, skriver du inn koden du fikk på e-post, og klikker "{{int:emailcapture-submit}}".',
+	'emailcapture-verify' => 'Bekreftelseskode:',
+	'emailcapture-submit' => 'Bekreft e-postadresse',
 );
 
 /** Polish (Polski)
@@ -535,17 +573,25 @@ $messages['sl'] = array(
 	'emailcapture-desc' => 'Zajame e-poštne naslove in omogoča uporabnikom, da jih preverijo preko e-pošte',
 	'emailcapture-failure' => "Vaš e-poštni naslov '''ni''' bil preverjen.",
 	'emailcapture-response-subject' => 'Preverjanje e-poštnega naslova {{SITENAME}}',
-	'emailcapture-response-body' => 'Preverite svoj e-poštni naslov z obiskom te povezave:
+	'emailcapture-response-body' => 'Pozdravljeni!
+
+Zahvaljujemo se vam za izkazano zanimanje za pomoč pri izboljševanju {{GRAMMAR:rodilnik|{{SITENAME}}}}.
+
+Prosimo, vzemite si trenutek in potrdite vaš e-poštni naslov s klikom na spodnjo povezavo:
 $1
 
 Obiščete lahko tudi:
 $2
 
-in vnesete naslednjo kodo za preverjanje:
+in vnesete naslednjo potrditveno kodo:
 $3
 
-Zahvaljujemo se vam za preverjanje vašega e-poštnega naslova.',
-	'emailcapture-success' => 'Vaš e-poštni naslov je bil uspešno preverjen.',
+Kmalu vam bomo sporočili, kako lahko pomagate izboljšati {{GRAMMAR:tožilnik|{{SITENAME}}}}.
+
+Če tega niste zahtevali, prosimo, prezrite to e-pošto in ničesar več vam ne bomo poslali.',
+	'emailcapture-success' => 'Hvala!
+
+Vaš e-poštni naslov je bil uspešno potrjen.',
 	'emailcapture-instructions' => 'Da preverite vaš e-poštni naslov, vnesite kodo, ki ste jo prejeli po e-pošti, in kliknite »{{int:emailcapture-submit}}«.',
 	'emailcapture-verify' => 'Koda za preverjanje:',
 	'emailcapture-submit' => 'Preveri e-poštni naslov',
@@ -570,7 +616,9 @@ $2
 $3
 
 మీ ఈమెయిలు అడ్రసును ధృవీకరించినందుకు నెనరులు.',
-	'emailcapture-success' => 'మీ ఈ-మెయిలు చిరునామాను విజయవంతంగా తనిఖీచేసాం.',
+	'emailcapture-success' => 'ధన్యవాదాలు!
+
+మీ ఈమెయిలు చిరునామా నిర్ధారితమైంది.',
 	'emailcapture-instructions' => 'మీ ఈమెయిలు అడ్రసును ధృవీకరించేందుకు, మీ ఈమెయిలైడీకి పంపించిన కోడును ఇచ్చి, "{{int:emailcapture-submit}}" ను నొక్కండి.',
 	'emailcapture-verify' => 'తనిఖీ సంకేతం:',
 	'emailcapture-submit' => 'ఈమెయిలు అడ్రసును ధృవీకరించు',
