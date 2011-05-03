@@ -33,7 +33,9 @@ We’ll be in touch shortly with how you can help improve {{SITENAME}}.
 
 If you didn’t initiate this request, please ignore this email and we won’t send you anything else.
 ',
-	'emailcapture-success' => 'Your e-mail address was successfully verified.',
+	'emailcapture-success' => 'Thank you!
+
+Your email has been successfully confirmed.',
 	'emailcapture-instructions' => 'To verify your e-mail address, enter the code that was emailed to you and click "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Verification code:',
 	'emailcapture-submit' => 'Verify e-mail address',
