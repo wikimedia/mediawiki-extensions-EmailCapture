@@ -26,7 +26,7 @@ $1
 You may also visit:
 $2
 
-And enter the following confirmation cod:
+And enter the following confirmation code:
 $3
 
 We’ll be in touch shortly with how you can help improve {{SITENAME}}.
