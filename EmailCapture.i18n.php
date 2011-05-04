@@ -71,17 +71,28 @@ $messages['be-tarask'] = array(
 	'emailcapture-desc' => 'Перахоплівае адрасы электроннай пошты, і дазваляе ўдзельнікам правяраць іх',
 	'emailcapture-failure' => "Ваш адрас электроннай пошты '''ня''' быў правераны.",
 	'emailcapture-response-subject' => 'Праверка адрасу электронную пошты для {{GRAMMAR:родны|{{SITENAME}}}}',
-	'emailcapture-response-body' => 'Каб праверыць Ваш адрас электроннай пошты, перайдзіце па спасылцы:
+	'emailcapture-response-body' => 'Вітаем!
+
+Дзякуй, за дапамогу ў паляпшэньні {{GRAMMAR:родны|{{SITENAME}}}}.
+
+Калі ласка, знайдзіце час каб пацьвердзіць Ваш адрас электроннай пошты. Перайдзіце па спасылцы пададзенай ніжэй: 
+
 $1
 
-Так сама, Вы можаце наведаць:
+Таксама, Вы можаце наведаць:
+
 $2
 
-і увесьці наступны код праверкі:
+І увесьці наступны код пацьверджаньня:
+
 $3
 
-Дзякуй за праверку Вашага адрасу электроннай пошты.',
-	'emailcapture-success' => 'Ваш адрас электроннай пошты быў правераны пасьпяхова.',
+Хутка мы перададзім Вам інфармацыю, як Вы можаце дапамагчы ў паляпшэньні {{GRAMMAR:родны|{{SITENAME}}}}.
+
+Калі Вы не дасылалі гэты запыт, калі ласка, праігнаруйце гэты ліст, і мы больш не будзем Вас турбаваць.',
+	'emailcapture-success' => 'Дзякуем!
+
+Ваш адрас электроннай пошты быў правераны пасьпяхова.',
 	'emailcapture-instructions' => 'Каб праверыць Ваш адрас электроннай пошты, увядзіце код, які быў Вам дасланы па электроннай пошце і націсьніце кнопку «{{int:emailcapture-submit}}».',
 	'emailcapture-verify' => 'Код праверкі:',
 	'emailcapture-submit' => 'Праверыць адрас электроннай пошты',
@@ -106,17 +117,25 @@ $messages['br'] = array(
 	'emailcapture-desc' => "Pakañ a ra chomlec'hioù postel ha talvezout a ra d'an implijerien da wiriañ anezho dre bostel",
 	'emailcapture-failure' => "'''N'eo ket bet''' gwiriekaet ho chomlec'h postel.",
 	'emailcapture-response-subject' => "Gwiriadenn chomlec'h postel evit {{SITENAME}}",
-	'emailcapture-response-body' => "Gwiriit ho chomlec'h postel en ur heuliañ al liamm-mañ :
+	'emailcapture-response-body' => "Demat deoc'h !
+
+Trugarez deoc'h da vezañ diskouezet bezañ dedennet d'hor skoazellañ evit gwellaat {{SITENAME}}.
+
+Kemerit ur pennadig amzer evit kadarnaat ho chomlec'h postel en ur glikañ war al liamm a-is : 
 $1
 
 Gallout a rit ivez mont da welet :
 $2
 
-ha merkañ ar c'hod gwiriekaat-mañ :
+Ha merkañ ar c'hod kadarnaat da-heul :
 $3
 
-Trugarez da lakaat gwiriekaat ho chomlec'h postel.",
-	'emailcapture-success' => "Gwiriet eo bet ho chomlec'h postel ervat.",
+A-barzh pell ez aimp e darempred ganeoc'h evit ho skoazellañ da wellaat {{SITENAME}}.
+
+Ma n'eo ket deuet ar goulenn ganeoc'h, na rit ket van ouzh ar postel-mañ, ne vo ket kaset mann ebet all deoc'h.",
+	'emailcapture-success' => "Trugarez deoc'h !
+
+Gwiriet eo bet ho chomlec'h postel ervat.",
 	'emailcapture-instructions' => "Da wiriañ ho chomlec'h postel, merkit ar c'hod zo bet kaset deoc'h ha klikit war \"{{int:emailcapture-submit}}\".",
 	'emailcapture-verify' => 'Kod gwiriekaat :',
 	'emailcapture-submit' => "Gwiriekaat ar chomlec'h postel",
@@ -148,7 +167,7 @@ $3
 Wir melden uns in Kürze dazu, wie du helfen kannst, {{SITENAME}} zu verbessern.
 
 Sofern du diese Anfrage nicht ausgelöst hast, ignoriere einfach diese E-Mail. Wir werden dir dann nichts mehr zusenden.',
-	'emailcapture-success' => 'Danke!
+	'emailcapture-success' => 'Vielen Dank!
 
 Deine E-Mail-Adresse wurde erfolgreich bestätigt.',
 	'emailcapture-instructions' => 'Um deine E-Mail-Adresse zu bestätigen, gib bitte den Code ein, der dir per E-Mail zuschickt wurde und klicke anschließend auf „{{int:emailcapture-submit}}“.',
@@ -224,17 +243,25 @@ $messages['gl'] = array(
 	'emailcapture-desc' => 'Captura enderezos de correo electrónico e permite aos usuarios comprobalos a través do propio correo electrónico',
 	'emailcapture-failure' => "O seu correo electrónico '''non''' foi verificado.",
 	'emailcapture-response-subject' => 'Verificación do enderezo de correo electrónico de {{SITENAME}}',
-	'emailcapture-response-body' => 'Verifique o seu enderezo de correo electrónico seguindo esta ligazón:
+	'emailcapture-response-body' => 'Ola!
+
+Grazas por expresar interese en axudar a mellorar {{SITENAME}}.
+
+Tome un momento para confirmar o seu correo electrónico premendo na ligazón que hai a continuación: 
 $1
 
 Tamén pode visitar:
 $2
 
-e inserir o seguinte código de verificación:
+E inserir o seguinte código de confirmación:
 $3
 
-Grazas por verificar o seu enderezo de correo electrónico.',
-	'emailcapture-success' => 'O seu enderezo de correo electrónico verificouse correctamente.',
+Poñerémonos en contacto con vostede para informarlle sobre como axudar a mellorar {{SITENAME}}.
+
+Se vostede non fixo esta petición, ignore esta mensaxe e non lle enviaremos máis nada.',
+	'emailcapture-success' => 'Grazas!
+
+O seu enderezo de correo electrónico verificouse correctamente.',
 	'emailcapture-instructions' => 'Para verificar o seu enderezo de correo electrónico, introduza o código que se lle enviou e prema en "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Código de verificación:',
 	'emailcapture-submit' => 'Verificar o enderezo de correo electrónico',
@@ -244,21 +271,29 @@ Grazas por verificar o seu enderezo de correo electrónico.',
  * @author Amire80
  */
 $messages['he'] = array(
-	'emailcapture' => 'לכידת כתובת דואר אלקטרוני',
+	'emailcapture' => 'אימות כתובת דואר אלקטרוני',
 	'emailcapture-desc' => 'לכידה של כתובת דואר אלקטרוני ואפשרות לאמת את הכתובת דרך דואר אלקטרוני',
 	'emailcapture-failure' => "הדואר האלקטרוני שלך היה '''לא''' אומתה.",
 	'emailcapture-response-subject' => 'אימות כתובת דואר אלקטרוני באתר {{SITENAME}}',
-	'emailcapture-response-body' => 'אמתו את כתובת הדוא האלקטרוני שלכם באמצעות לחיצה על הקישור הבא:
+	'emailcapture-response-body' => 'שלום!
+
+תודה על הבעת העניין בעזרה לאתר {{SITENAME}}.
+
+אנא הקדישו דקה לאימות הדואר האלקטרוני שלכם באמצעות לחיצה על הקישור הבא:
 $1
 
 אפשר גם לבקר כאן:
-$1
+$2
 
 ולהכניס את קוד האימות הבא:
 $3
 
-תודה על אימות כתובת הדואר האלקטרוני שלכם.',
-	'emailcapture-success' => 'כתובת הדוא״ל שלכם אומתה בהצלחה.',
+אנחנו ניצור אתכם קשר עם מידע על הדרכים שבהן תוכלו לעזור לשפר את אתר {{SITENAME}}.
+
+אם לא שלחתם את הבקשה הזאת, התעלמו מהמכתב הזה ולא נשלח להם עוד שום דבר.',
+	'emailcapture-success' => 'תודה!
+
+כתובת הדוא״ל שלכם אומתה בהצלחה.',
 	'emailcapture-instructions' => 'כדי לאמת את כתובת הדוא״ל שלכם, הכניסו את הקוד שנשלח אליכם ולחצו על "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'קוד אימות:',
 	'emailcapture-submit' => 'לאמת כתובת דוא״ל',
@@ -280,17 +315,25 @@ $messages['ia'] = array(
 	'emailcapture-desc' => 'Capturar adresses de e-mail, e permitter al usatores de verificar los per e-mail',
 	'emailcapture-failure' => "Tu adresse de e-mail '''non''' ha essite verificate.",
 	'emailcapture-response-subject' => 'Verification del adresse de e-mail pro {{SITENAME}}',
-	'emailcapture-response-body' => 'Pro verificar tu adresse de e-mail, seque iste ligamine:
+	'emailcapture-response-body' => 'Salute!
+
+Gratias pro haber interesse in adjutar a meliorar {{SITENAME}}.
+
+Per favor prende un momento pro confirmar tu adresse de e-mail, con un clic super le ligamine sequente:
 $1
 
-Alternativemente visita:
+Alternativemente, visita:
 $2
 
-e entra le codice de verification sequente:
+...e entra le codice de confirmation sequente:
 $3
 
-Gratias pro verificar tu adresse de e-mail.',
-	'emailcapture-success' => 'Tu adresse de e-mail ha essite verificate con successo.',
+Nos va tosto contactar te pro explicar como tu pote adjutar a meliorar {{SITENAME}}.
+
+Si tu non ha initiate iste requesta, per favor ignora iste e-mail e nos non te inviara altere cosa.',
+	'emailcapture-success' => 'Gratias!
+
+Tu adresse de e-mail ha essite confirmate con successo.',
 	'emailcapture-instructions' => 'Pro verificar tu adresse de e-mail, entra le codice que te esseva inviate in e-mail, e clicca super "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Codice de verification:',
 	'emailcapture-submit' => 'Verificar adresse de e-mail',
@@ -304,7 +347,11 @@ $messages['id'] = array(
 	'emailcapture-desc' => 'Merekam alamat surel dan memungkinkan pengguna untuk melakukan verifikasi melalui surel',
 	'emailcapture-failure' => "Surel Anda '''belum'' terverifikasi.",
 	'emailcapture-response-subject' => 'Verifikasi alamat surel {{SITENAME}}',
-	'emailcapture-response-body' => 'Verifikasi alamat surel Anda dengan mengikuti tautan ini:
+	'emailcapture-response-body' => 'Halo!
+
+Terima kasih Anda telah menyatakan minat untuk membantu penyempurnaan {{SITENAME}}.
+
+Harap luangkan waktu sejenak untuk memverifikasikan alamat surel Anda dengan mengikuti tautan berikut:
 $1
 
 Anda juga dapat mengunjungi:
@@ -313,8 +360,12 @@ $2
 dan memasukkan kode verifikasi berikut:
 $3
 
-Terima kasih telah memverifikasi alamat surel Anda.',
-	'emailcapture-success' => 'Alamat surel Anda berhasil diverifikasi.',
+Kami akan segera menghubungi Anda untuk memberi tahu cara membantu menyempurnakan {{SITENAME}}.
+
+Jika Anda merasa tidak mengirim permintaan ini, harap abaikan saja surel ini dan kami tidak akan lagi mengirimkan apa pun kepada Anda.',
+	'emailcapture-success' => 'Terima kasih!
+
+Alamat surel Anda berhasil diverifikasi.',
 	'emailcapture-instructions' => 'Untuk memverifikasi alamat surel Anda, masukkan kode yang dikirim melalui surel kepada Anda dan klik "{{int: emailcapture-submit}}".',
 	'emailcapture-verify' => 'Kode verifikasi:',
 	'emailcapture-submit' => 'Verifikasi alamat surel',
@@ -360,16 +411,28 @@ $messages['mk'] = array(
 	'emailcapture-desc' => 'Заведување на е-поштенски адреси што корисниците можат да ги потврдат преку порака',
 	'emailcapture-failure' => "Вашата е-пошта '''не''' е потврдена.",
 	'emailcapture-response-subject' => '{{SITENAME}} — Потврда на е-пошта',
-	'emailcapture-response-body' => 'За да ја потврдите вашата е-пошта, проследете ја следнава врска:
-	$1
+	'emailcapture-response-body' => 'Здраво!
 
-Или посетете ја страницава:
-	$2
-и внесете го следниов потврден код:
-	$3
+Ви благодариме што изразивте интерес да помогнете во развојот на {{SITENAME}}.
 
-Ви благодариме што ја потврдивте вашата адреса.',
-	'emailcapture-success' => 'Вашата е-пошта е успешно потврдена.',
+Потврдете ја вашата е-пошта на следнава врска: 
+
+$1
+
+Можете да ја посетите и страницата:
+
+$2
+
+Внесете го следниов потврден кон:
+
+$3
+
+Набргу ќе ви пишеме како можете да помогнете во подобрувањето на {{SITENAME}}.
+
+Ако го немате побарано ова, занемарате ја поракава, и повеќе ништо нема да ви испраќаме.',
+	'emailcapture-success' => 'Ви благодариме!
+
+Вашата е-пошта е успешно потврдена.',
 	'emailcapture-instructions' => 'За да ја потврдите вашата е-пошта, внесете го кодот што ви го испративме и стиснете на „{{int:emailcapture-submit}}“.',
 	'emailcapture-verify' => 'Потврден код:',
 	'emailcapture-submit' => 'Потврди е-пошта',
@@ -383,17 +446,25 @@ $messages['ml'] = array(
 	'emailcapture-desc' => 'ഇമെയിൽ സ്വയം എടുക്കുകയും ഉപയോക്താക്കളെ ഇമെയിൽ ഉപയോഗിച്ച് പരിശോധിക്കുകയും ചെയ്യുന്നു',
 	'emailcapture-failure' => "താങ്കളുടെ ഇമെയിൽ വിലാസം '''പരിശോധിച്ചിട്ടില്ല'''.",
 	'emailcapture-response-subject' => '{{SITENAME}} സംരംഭത്തിലെ ഇമെയിൽ വിലാസ പരിശോധന',
-	'emailcapture-response-body' => 'താഴെ നൽകിയിരിക്കുന്ന കണ്ണി ഉപയോഗിച്ച് താങ്കളുടെ ഇമെയിൽ വിലാസം പരിശോധനയ്ക്കു പാത്രമാക്കുക:
+	'emailcapture-response-body' => 'നമസ്കാരം!
+
+{{SITENAME}} സംരംഭം മെച്ചപ്പെടുത്താനുള്ള താത്പര്യത്തിനു അകമഴിഞ്ഞ നന്ദി.
+
+താഴെക്കൊടുത്തിരിക്കുന്ന കണ്ണി ഞെക്കി താങ്കളുടെ ഇമെയിൽ വിലാസം സ്ഥിരീകരിക്കാൻ ഒരു നിമിഷം ദയവായി ചിലവഴിക്കുക:
 $1
 
-താങ്കൾക്ക് ഇതും സന്ദർശിക്കാവുന്നതാണ്:
+ഇതും താങ്കൾക്ക് സന്ദർശിക്കാവുന്നതാണ്:
 $2
 
-എന്നിട്ട് താഴെ കൊടുത്തിരിക്കുന്ന പരിശോധനാ കോഡ് നൽകുക:
+എന്നിട്ട് താഴെ കൊടുത്തിരിക്കുന്ന സ്ഥിരീകരണ കോഡ് നൽകുക:
 $3
 
-താങ്കളുടെ ഇമെയിൽ വിലാസം പരിശോധനയ്ക്ക് പാത്രമാക്കിയതിനു നന്ദി.',
-	'emailcapture-success' => 'താങ്കളുടെ ഇമെയിൽ വിലാസം വിജയകരമായി പരിശോധിച്ചിരിക്കുന്നു.',
+{{SITENAME}} സംരംഭം മെച്ചപ്പെടുത്താൻ താങ്കൾക്ക് എങ്ങനെ സഹായിക്കാനാകും എന്ന് തീരുമാനിക്കാൻ ഞങ്ങൾ താങ്കളുമായി ഉടനെ ബന്ധപ്പെടുന്നതായിരിക്കും.
+
+താങ്കളുടെ ഇച്ഛ പ്രകാരം അല്ല ഈ അഭ്യർത്ഥനയെങ്കിൽ, ഈ ഇമെയിൽ അവഗണിക്കുക, ഞങ്ങൾ താങ്കൾക്ക് പിന്നീടൊന്നും അയച്ച് ബുദ്ധിമുട്ടിയ്ക്കില്ല.',
+	'emailcapture-success' => 'നന്ദി!
+
+താങ്കളുടെ ഇമെയിൽ വിലാസം വിജയകരമായി സ്ഥിരീകരിച്ചിരിക്കുന്നു.',
 	'emailcapture-instructions' => 'താങ്കളുടെ ഇമെയിൽ വിലാസം പരിശോധനയ്ക്കു പാത്രമാക്കുവാൻ, താങ്കൾക്ക് ഇമെയിൽ വഴി അയച്ചിട്ടുള്ള കോഡ് നൽകിയ ശേഷം "{{int:emailcapture-submit}}" ഞെക്കുക.',
 	'emailcapture-verify' => 'പരിശോധനയ്ക്കുള്ള കോഡ്:',
 	'emailcapture-submit' => 'ഇമെയിൽ വിലാസം പരിശോധനയ്ക്ക് പാത്രമാക്കുക',
@@ -409,22 +480,37 @@ $messages['nl'] = array(
 	'emailcapture-desc' => 'E-mailadressen bevestigen en stelt gebruikers in staat dit te doen via e-mail',
 	'emailcapture-failure' => "Uw e-mailadres is '''niet''' bevestigd.",
 	'emailcapture-response-subject' => 'E-mailadrescontrole van {{SITENAME}}',
-	'emailcapture-response-body' => 'Volg deze verwijzing om uw e-mailadres te bevestigen:
+	'emailcapture-response-body' => 'Hallo!
+
+Bedankt voor uw interesse in het verbeteren van {{SITENAME}}.
+
+Volg deze verwijzing om uw e-mailadres te bevestigen:
 $1
 
 U kunt ook deze verwijzing volgen:
 $2
 
-en daar de volgende bevestigingscode invoeren:
+En daar de volgende bevestigingscode invoeren:
 $3
 
-Dank u wel voor het bevestigen van uw e-mailadres.',
+We nemen binnenkort contact met u op over hoe u kunt helpen {{SITENAME}} te verbeteren.
+
+Als u niet hebt gevraagd om dit bericht, negeer deze e-mail dan en dan krijgt u geen e-mail meer van ons.',
 	'emailcapture-success' => 'Bedankt!
 
 Uw e-mailadres is bevestigd.',
 	'emailcapture-instructions' => 'Voer de code uit uw e-mail in om uw e-mailadres te bevestigen en klik daarna op "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Bevestigingscode:',
 	'emailcapture-submit' => 'E-mailadres bevestigen',
+);
+
+/** ‪Nederlands (informeel)‬ (‪Nederlands (informeel)‬)
+ * @author Siebrand
+ */
+$messages['nl-informal'] = array(
+	'emailcapture-success' => 'Bedankt!
+
+Je e-mailadres is bevestigd.',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
@@ -524,7 +610,11 @@ $messages['ru'] = array(
 	'emailcapture-desc' => 'Захват адреса электронной почты, разрешение участникам подтверждать себя по электронной почте',
 	'emailcapture-failure' => "Ваш адрес электронной почты '''не''' был подтверждён.",
 	'emailcapture-response-subject' => 'Проверка адреса электронной почты {{SITENAME}}',
-	'emailcapture-response-body' => 'Подтвердите свой адрес электронной почты, перейдя по ссылке:
+	'emailcapture-response-body' => 'Здравствуйте!
+
+Спасибо за выражение интереса к улучшению проекта {{SITENAME}}.
+
+Пожалуйста, подтвердите свой адрес электронной почты, перейдя по ссылке:
 $1
 
 Вы также можете зайти на страницу:
@@ -533,8 +623,12 @@ $2
 и ввести следующий проверочный код:
 $3
 
-Спасибо за подтверждение вашего адреса электронной почты.',
-	'emailcapture-success' => 'Ваш адрес электронной почты был успешно подтверждён.',
+Вскоре мы сообщим вам, как можно помочь в улучшении проекта {{SITENAME}}.
+
+Если вы не отправляли подобного запроса, пожалуйста, проигнорируйте это сообщение, мы больше не будем вас тревожить.',
+	'emailcapture-success' => 'Спасибо!
+
+Ваш адрес электронной почты был подтверждён.',
 	'emailcapture-instructions' => 'Для подтверждения вашего адреса электронной почты, введите код, который был вам отправлен, и нажмите кнопку «{{int:emailcapture-submit}}».',
 	'emailcapture-verify' => 'Код подтверждения:',
 	'emailcapture-submit' => 'Подтвердить адрес электронной почты',
@@ -597,6 +691,18 @@ Vaš e-poštni naslov je bil uspešno potrjen.',
 	'emailcapture-submit' => 'Preveri e-poštni naslov',
 );
 
+/** Swedish (Svenska)
+ * @author WikiPhoenix
+ */
+$messages['sv'] = array(
+	'emailcapture' => 'E-postbekräftelse',
+	'emailcapture-success' => 'Tack!
+
+Din e-post har bekräftats.',
+	'emailcapture-verify' => 'Verifieringskod:',
+	'emailcapture-submit' => 'Verifiera e-postadress',
+);
+
 /** Telugu (తెలుగు)
  * @author Chaduvari
  * @author Veeven
@@ -655,7 +761,11 @@ $messages['vi'] = array(
 	'emailcapture-desc' => 'Bắt các địa chỉ thư điện tử và cho phép người dùng xác minh chúng qua thư điện tử',
 	'emailcapture-failure' => "Địa chỉ thư điện tử của bạn '''chưa''' được xác minh.",
 	'emailcapture-response-subject' => 'Xác minh địa chỉ thư điện tử tại {{SITENAME}}',
-	'emailcapture-response-body' => 'Xin vui lòng xác nhận địa chỉ thư điện tử của bạn qua liên kết này:
+	'emailcapture-response-body' => 'Xin chào!
+
+Cám ơn bạn đã bày tỏ quan tâm về việc giúp cải tiến {{SITENAME}}.
+
+Xin vui lòng xác nhận địa chỉ thư điện tử của bạn qua liên kết này:
 $1
 
 Bạn cũng có thể ghé thăm:
@@ -664,8 +774,12 @@ $2
 và nhập mã xác minh sau:
 $3
 
-Cám ơn bạn xác minh địa chỉ thư điện tử của bạn.',
-	'emailcapture-success' => 'Địa chỉ thư điện tử của bạn đã được xác minh thành công.',
+Chúng tôi sẽ sớm liên lạc với bạn với thông tin về giúp cải tiến {{SITENAME}}.
+
+Nếu bạn không phải là người yêu cầu thông tin này, xin vui lòng kệ thông điệp này và chúng tôi sẽ không gửi cho bạn bất cứ gì nữa.',
+	'emailcapture-success' => 'Cám ơn!
+
+Địa chỉ thư điện tử của bạn đã được xác minh thành công.',
 	'emailcapture-instructions' => 'Để xác minh địa chỉ thư điện tử của bạn, hãy nhập mã trong thư điện tử đã được gửi cho bạn và bấm nút “{{int:emailcapture-submit}}”.',
 	'emailcapture-verify' => 'Mã xác minh:',
 	'emailcapture-submit' => 'Xác minh địa chỉ thư điện tử',
