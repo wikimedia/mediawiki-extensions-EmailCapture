@@ -199,6 +199,13 @@ Dankon pro kontrolante vian retpoŝtadreson.',
 	'emailcapture-submit' => 'Konfirmi adreson de retpoŝto',
 );
 
+/** Spanish (Español)
+ * @author Fitoschido
+ */
+$messages['es'] = array(
+	'emailcapture' => 'Verificación de correo electrónico',
+);
+
 /** French (Français)
  * @author IAlex
  * @author Wyz
@@ -400,6 +407,9 @@ Mer bedangke uns för et Beschtäätejje.',
  */
 $messages['lb'] = array(
 	'emailcapture-failure' => "Är E-Mail konnt '''net''' confirméiert ginn.",
+	'emailcapture-success' => 'Merci!
+
+Är E-Mailadress konnt confirméiert ginn.',
 	'emailcapture-submit' => 'E-Mail-Adress iwwerpréifen',
 );
 
@@ -541,7 +551,7 @@ Takk for at du bekrefter e-postadressen din.',
  * @author Sp5uhe
  */
 $messages['pl'] = array(
-	'emailcapture' => 'Przechowywanie adresów e‐mailowych',
+	'emailcapture' => 'Weryfikacja adresu e‐mailowego',
 	'emailcapture-desc' => 'Przechowywanie adresów e‐mailowych i umożliwianie użytkownikom sprawdzenie ich poprzez e‐mail',
 	'emailcapture-failure' => "Twój adres e‐mailowy '''nie''' został zweryfikowany.",
 	'emailcapture-response-subject' => '{{SITENAME}} – weryfikacja adresu e‐mail',
@@ -555,7 +565,9 @@ i wprowadzić kod weryfikacji
 $3
 
 Dziękujemy za potwierdzenie adresu e‐mailowego.',
-	'emailcapture-success' => 'Twój adres e‐mailowy został zweryfikowany.',
+	'emailcapture-success' => 'Dziękujemy!
+
+Twój adres e‐mailowy został zweryfikowany.',
 	'emailcapture-instructions' => 'Jeśli chcesz potwierdzić swój adres poczty elektronicznej, wprowadź poniżej kod, który otrzymałeś e‐mailem i kliknij „{{int:emailcapture-submit}}”.',
 	'emailcapture-verify' => 'Kod weryfikacji',
 	'emailcapture-submit' => 'Potwierdź adres e‐mailowy',
