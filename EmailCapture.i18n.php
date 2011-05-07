@@ -406,10 +406,12 @@ Mer bedangke uns för et Beschtäätejje.',
  * @author Robby
  */
 $messages['lb'] = array(
+	'emailcapture' => 'E-Mail-Iwwerpréifung',
 	'emailcapture-failure' => "Är E-Mail konnt '''net''' confirméiert ginn.",
 	'emailcapture-success' => 'Merci!
 
 Är E-Mailadress konnt confirméiert ginn.',
+	'emailcapture-verify' => 'Iwwerpréifungs-Code:',
 	'emailcapture-submit' => 'E-Mail-Adress iwwerpréifen',
 );
 
