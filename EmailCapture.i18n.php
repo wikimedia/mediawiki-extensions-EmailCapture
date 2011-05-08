@@ -761,7 +761,9 @@ at ipasok ang sumusundo na kodigo ng pagpapatunay:
 $3
 
 Salamat sa pagpapatotoo ng tirahan mo ng e-liham.',
-	'emailcapture-success' => 'Matagumpay na napatunayan ang e-liham mo.',
+	'emailcapture-success' => 'Salamat!
+
+Matagumpay na natiyak ang e-liham mo.',
 	'emailcapture-instructions' => 'Upang mapatunayan ang tirahan mo ng e-liham, ipasok ang kodigong ipinadala sa iyo sa pamamagitan ng e-liham at pindutin ang "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Kodigo ng pagpapatotoo:',
 	'emailcapture-submit' => 'Patunayan ang tirahan ng e-liham',
