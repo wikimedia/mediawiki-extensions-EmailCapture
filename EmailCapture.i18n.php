@@ -382,11 +382,13 @@ Alamat surel Anda berhasil diverifikasi.',
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'emailcapture' => 'Adräß för de <i lang="en">e-mail</i> schnappe',
+	'emailcapture' => 'Adräß för de <i lang="en">e-mail</i> schnappe un prööve',
 	'emailcapture-desc' => 'Schnabb en Adräß för de <i lang="en">e-mail</i> un lohß de Metmaacher se övver en <i lang="en">e-mail</i> beschtäätejje.',
 	'emailcapture-failure' => "Ding <i lang=\"en\">e-mail</i> wood '''nit''' beschtätesch",
 	'emailcapture-response-subject' => '{{ucfirst:{{GRAMMAR:Genitiv ier feminine|{{SITENAME}}}}}} Beschtätejung för Adräße vun de <i lang="en">e-mail</i>',
-	'emailcapture-response-body' => 'Öm Ding e-mail Adräß ze beschtääteje donn däm Lingk heh follje:
+	'emailcapture-response-body' => 'Mer bedangke uns för Ding Enträße, {{GRAMMAR:Akkusativ|{{SITENAME}}}} bäßer ze maache.
+
+Nemm Der ene Momang, öm Ding e-mail Adräß ze beschtääteje, un donn däm Lingk heh follje:
 $1
 
 Do kanns och op heh di Sigg jonn:
@@ -395,8 +397,14 @@ $2
 un dann dä Kood heh enjävve:
 $3
 
-Mer bedangke uns för et Beschtäätejje.',
-	'emailcapture-success' => 'Ding Adräß för de <i lang="en">e-mail</i> wood beschtäätesch.',
+Mer mälde ons bahl bei Der, wi de met {{GRAMMAR:Dativ|{{SITENAME}}}} hälfe kanns.
+
+Wann De dat heh sällver nit aanjschtüße häs, donn nix, un mer don Der och nix mieh schecke.
+
+Ene schööne Jrohß!',
+	'emailcapture-success' => 'Ene schönne Dank!
+
+Ding Adräß för de <i lang="en">e-mail</i> wood beschtäätesch.',
 	'emailcapture-instructions' => 'Öm Ding Adräß för de <i lang="en">e-mail</i> ze bschtäätejje, donn onge dä Kood enjävve, dän De jescheck krääje häß, un donn dann op „{{int:emailcapture-submit}}“ klecke.',
 	'emailcapture-verify' => 'Dä Kood för et Beschtäätejje:',
 	'emailcapture-submit' => 'Lohß jonn!',
