@@ -208,6 +208,7 @@ $messages['es'] = array(
 
 /** French (Français)
  * @author IAlex
+ * @author Sherbrooke
  * @author Wyz
  */
 $messages['fr'] = array(
@@ -215,7 +216,11 @@ $messages['fr'] = array(
 	'emailcapture-desc' => 'Capture des adresses de courriel et permet aux utilisateurs de les vérifier par courriel',
 	'emailcapture-failure' => "Votre adresse de courriel n'a '''pas''' été vérifiée.",
 	'emailcapture-response-subject' => "Vérification d'adresse de courriel de {{SITENAME}}",
-	'emailcapture-response-body' => 'Vérifiez votre adresse de courriel en suivant le lien suivant :
+	'emailcapture-response-body' => "Bonjour,
+
+Merci de démontrer votre intérêt à améliorer {{SITENAME}}.
+
+Vérifiez votre adresse de courriel en suivant le lien suivant :
 $1
 
 Vous pouvez aussi visiter :
@@ -224,11 +229,15 @@ $2
 et entrer le code de vérification suivant :
 $3
 
-Merci pour la vérification de votre adresse de courriel.',
-	'emailcapture-success' => 'Votre adresse de courriel a été vérifiée avec succès.',
+Nous vous contacterons bientôt pour savoir comment vous pouvez aider à améliorer {{SITENAME}}.
+
+Si vous n'avez pas initié cette requête, prière d'ignorer ce courriel et nous ne vous enverrons plus rien d'autre.",
+	'emailcapture-success' => 'Merci !
+
+Votre adresse de courriel a été vérifiée avec succès.',
 	'emailcapture-instructions' => 'Pour vérifier votre adresse de courriel, entrez le code qui vous a été envoyé par courriel et cliquez sur « {{int:emailcapture-soumettre}} ».',
 	'emailcapture-verify' => 'Code de vérification :',
-	'emailcapture-submit' => "Vérifier l'adresse de courriel",
+	'emailcapture-submit' => "Vérifiez l'adresse de courriel",
 );
 
 /** Franco-Provençal (Arpetan)
@@ -605,6 +614,38 @@ Mersì për avèj verificà toa adrëssa ëd corel.',
 	'emailcapture-instructions' => 'Për verifiché toa adrëssa ëd corel, anseriss ë còdes ch\'a l\'é stàte spedì e sgnaca "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Còdes ëd verìfica:',
 	'emailcapture-submit' => 'Verìfica adrëssa ëd corel',
+);
+
+/** Portuguese (Português)
+ * @author Hamilton Abreu
+ */
+$messages['pt'] = array(
+	'emailcapture' => 'Verificação do correio electrónico',
+	'emailcapture-desc' => 'Capturar endereços de correio electrónico e permitir que os utilizadores os verifiquem através do próprio correio electrónico',
+	'emailcapture-failure' => "O seu correio electrónico '''não''' foi verificado.",
+	'emailcapture-response-subject' => 'Verificação do endereço de correio electrónico, da {{SITENAME}}',
+	'emailcapture-response-body' => 'Olá!
+
+Obrigado por expressar interesse em ajudar a melhorar a {{SITENAME}}.
+
+Confirme o seu endereço de correio electrónico, clicando o link abaixo, por favor:
+$1
+
+Também pode visitar:
+$2
+
+E introduzir o seguinte código de confirmação:
+$3
+
+Em breve irá receber informações sobre como poderá ajudar a melhorar a {{SITENAME}}.
+
+Se não iniciou este pedido, ignore esta mensagem e não voltará a ser contactado.',
+	'emailcapture-success' => 'Obrigado!
+
+O seu correio electrónico foi confirmado.',
+	'emailcapture-instructions' => 'Para verificar o seu endereço de correio electrónico, introduza o código que lhe foi enviado por correio electrónico e clique "{{int:emailcapture-submit}}".',
+	'emailcapture-verify' => 'Código de verificação:',
+	'emailcapture-submit' => 'Verificar endereço',
 );
 
 /** Romanian (Română)
