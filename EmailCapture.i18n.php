@@ -648,6 +648,38 @@ O seu correio electrónico foi confirmado.',
 	'emailcapture-submit' => 'Verificar endereço',
 );
 
+/** Brazilian Portuguese (Português do Brasil)
+ * @author Giro720
+ */
+$messages['pt-br'] = array(
+	'emailcapture' => 'Verificação do e-mail',
+	'emailcapture-desc' => 'Capturar endereços de e-mail e permitir que os usuários os verifiquem através do próprio e-mail',
+	'emailcapture-failure' => "O seu e-mail '''não''' foi verificado.",
+	'emailcapture-response-subject' => 'Verificação do endereço de e-mail, da {{SITENAME}}',
+	'emailcapture-response-body' => 'Olá!
+
+Obrigado por expressar interesse em ajudar a melhorar a {{SITENAME}}.
+
+Confirme o seu endereço de e-mail, clicando o link abaixo, por favor:
+$1
+
+Você também pode visitar:
+$2
+
+E introduzir o seguinte código de confirmação:
+$3
+
+Em breve irá receber informações sobre como poderá ajudar a melhorar a {{SITENAME}}.
+
+Se você não iniciou este pedido, ignore esta mensagem e você não voltará a ser contactado.',
+	'emailcapture-success' => 'Obrigado!
+
+O seu e-mail foi confirmado.',
+	'emailcapture-instructions' => 'Para verificar o seu endereço de e-mail, introduza o código que lhe foi enviado por e-mail e clique "{{int:emailcapture-submit}}".',
+	'emailcapture-verify' => 'Código de verificação:',
+	'emailcapture-submit' => 'Verificar endereço de e-mail',
+);
+
 /** Romanian (Română)
  * @author Firilacroco
  * @author Minisarm
