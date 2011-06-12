@@ -141,6 +141,38 @@ Gwiriet eo bet ho chomlec'h postel ervat.",
 	'emailcapture-submit' => "Gwiriekaat ar chomlec'h postel",
 );
 
+/** Czech (Česky)
+ * @author Mormegil
+ */
+$messages['cs'] = array(
+	'emailcapture' => 'Ověření e-mailu',
+	'emailcapture-desc' => 'Uchovává e-mailové adresy a umožňuje uživatelům jejich ověření pomocí e-mailu',
+	'emailcapture-failure' => "Váš e-mail '''nebyl''' ověřen.",
+	'emailcapture-response-subject' => 'Potvrzení e-mailové adresy pro {{grammar:4sg|{{SITENAME}}}}',
+	'emailcapture-response-body' => 'Dobrý den!
+
+Děkujeme za vyjádření zájmu pomoci vylepšit {{grammar:4sg|{{SITENAME}}}}.
+
+Věnujte prosím chvilku potvrzení vaší e-mailové adresy kliknutím na následující odkaz:
+$1
+
+Také můžete navštívit:
+$2
+
+A zadat následující potvrzovací kód:
+$3
+
+Brzy se vám ozveme s informacemi, jak můžete pomoci {{grammar:4sg|{{SITENAME}}}} vylepšit.
+
+Pokud tato žádost nepochází od vás, ignorujte prosím tento e-mail, nic dalšího vám posílat nebudeme.',
+	'emailcapture-success' => 'Děkujeme!
+
+Váš e-mail byl úspěšně potvrzen.',
+	'emailcapture-instructions' => 'Abyste ověřili svou e-mailovou adresu, zadejte kód, který vám přišel e-mailem, a klikněte na „{{int:emailcapture-submit}}“.',
+	'emailcapture-verify' => 'Ověřovací kód:',
+	'emailcapture-submit' => 'Ověřit e-mailovou adresu',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author MF-Warburg
@@ -887,7 +919,7 @@ Nếu bạn không phải là người yêu cầu thông tin này, xin vui lòng
  * @author 阿pp
  */
 $messages['zh-hans'] = array(
-	'emailcapture' => '电子邮件地址的捕获',
+	'emailcapture' => '电子邮件验证',
 	'emailcapture-desc' => '捕获电子邮件地址，并允许用户通过电子邮件确认他们',
 	'emailcapture-failure' => "您的电子邮件'''不'''是已验证。",
 	'emailcapture-response-subject' => '{{SITENAME}}邮箱地址确认',
@@ -901,7 +933,9 @@ $2
 $3
 
 感谢您验证邮箱地址。',
-	'emailcapture-success' => '您的电子邮件地址被成功验证。',
+	'emailcapture-success' => '谢谢！
+
+您的电子邮件已成功地确认。',
 	'emailcapture-instructions' => '输入邮件的标明的验证码并点击"{{int:emailcapture-submit}}"以验证您的邮箱地址。',
 	'emailcapture-verify' => '验证码：',
 	'emailcapture-submit' => '验证电子邮件地址',
