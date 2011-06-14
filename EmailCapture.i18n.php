@@ -141,6 +141,14 @@ Gwiriet eo bet ho chomlec'h postel ervat.",
 	'emailcapture-submit' => "Gwiriekaat ar chomlec'h postel",
 );
 
+/** Bosnian (Bosanski)
+ * @author CERminator
+ */
+$messages['bs'] = array(
+	'emailcapture' => 'Potvrda putem e-maila',
+	'emailcapture-failure' => "Vaš e-mail '''nije''' potvrđen.",
+);
+
 /** Czech (Česky)
  * @author Mormegil
  */
