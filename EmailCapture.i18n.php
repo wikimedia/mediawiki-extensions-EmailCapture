@@ -147,6 +147,9 @@ Gwiriet eo bet ho chomlec'h postel ervat.",
 $messages['bs'] = array(
 	'emailcapture' => 'Potvrda putem e-maila',
 	'emailcapture-failure' => "Vaš e-mail '''nije''' potvrđen.",
+	'emailcapture-success' => 'Hvala vam!
+
+Vaš e-mail je uspješno potvrđen.',
 );
 
 /** Czech (Česky)
