@@ -98,6 +98,15 @@ $3
 	'emailcapture-submit' => 'Праверыць адрас электроннай пошты',
 );
 
+/** Bulgarian (Български)
+ * @author DCLXVI
+ */
+$messages['bg'] = array(
+	'emailcapture-success' => 'Благодарности!
+
+Адресът за електронна поща беше потвърден успешно.',
+);
+
 /** Bengali (বাংলা)
  * @author Wikitanvir
  */
