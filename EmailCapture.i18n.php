@@ -159,6 +159,7 @@ $messages['bs'] = array(
 	'emailcapture-success' => 'Hvala vam!
 
 Vaš e-mail je uspješno potvrđen.',
+	'emailcapture-verify' => 'Kod za potvrdu:',
 );
 
 /** Czech (Česky)
@@ -549,6 +550,13 @@ $3
 	'emailcapture-instructions' => 'താങ്കളുടെ ഇമെയിൽ വിലാസം പരിശോധനയ്ക്കു പാത്രമാക്കുവാൻ, താങ്കൾക്ക് ഇമെയിൽ വഴി അയച്ചിട്ടുള്ള കോഡ് നൽകിയ ശേഷം "{{int:emailcapture-submit}}" ഞെക്കുക.',
 	'emailcapture-verify' => 'പരിശോധനയ്ക്കുള്ള കോഡ്:',
 	'emailcapture-submit' => 'ഇമെയിൽ വിലാസം പരിശോധനയ്ക്ക് പാത്രമാക്കുക',
+);
+
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'emailcapture-response-subject' => 'Pengesahan alamat e-mel {{SITENAME}}',
 );
 
 /** Dutch (Nederlands)
