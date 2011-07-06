@@ -440,6 +440,13 @@ Alamat surel Anda berhasil diverifikasi.',
 	'emailcapture-submit' => 'Verifikasi alamat surel',
 );
 
+/** Korean (한국어)
+ * @author Kwj2772
+ */
+$messages['ko'] = array(
+	'emailcapture' => '이메일 인증',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
