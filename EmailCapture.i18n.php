@@ -507,6 +507,7 @@ $messages['lb'] = array(
 	'emailcapture-success' => 'Merci!
 
 Är E-Mailadress konnt confirméiert ginn.',
+	'emailcapture-instructions' => 'Fir d\'Mailadress ze confirméieren, gitt de Code an deen Dir per Mail geschéckt kritt hutt a klickt "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Iwwerpréifungs-Code:',
 	'emailcapture-submit' => 'E-Mail-Adress iwwerpréifen',
 );
@@ -582,7 +583,35 @@ $3
  * @author Anakmalaysia
  */
 $messages['ms'] = array(
+	'emailcapture' => 'Pengesahan e-mel',
+	'emailcapture-desc' => 'Menangkap alamat e-mel dan membolehkan pengguna untuk mengesahkannya melalui e-mel',
+	'emailcapture-failure' => "E-mel anda '''belum''' disahkan.",
 	'emailcapture-response-subject' => 'Pengesahan alamat e-mel {{SITENAME}}',
+	'emailcapture-response-body' => 'Selamat sejahtera!
+
+Terima kasih kerana menunjukkan minat untuk membantu mempertingkatkan {{SITENAME}}.
+
+Sila luangkan sedikit masa untuk mengesahkan e-mel anda dengan mengklik pautan berikut:
+
+$1
+
+Anda juga boleh melawati:
+
+$2
+
+Dan isikan kod pengesahan yang berikut:
+
+$3
+
+Kami akan menghubungi anda sebentar lagi dengan cara-cara untuk anda mempertingkat mutu {{SITENAME}}.
+
+Jika bukan anda yang membuat permohonan ini, sila abaikan e-mel ini dan kami tidak akan menghantar apa-apa lagi kepada anda.',
+	'emailcapture-success' => 'Terima kasih!
+
+E-mel anda berjaya disahkan.',
+	'emailcapture-instructions' => 'Untuk mengesahkan alamat e-mel anda, isikan kod yang dihantar kepada anda melalui e-mel, kemudian klik "{{int:emailcapture-submit}}".',
+	'emailcapture-verify' => 'Kod pengesahan:',
+	'emailcapture-submit' => 'Sahkan alamat e-mel',
 );
 
 /** Dutch (Nederlands)
@@ -660,16 +689,22 @@ $messages['pl'] = array(
 	'emailcapture-desc' => 'Przechowywanie adresów e‐mailowych i umożliwianie użytkownikom sprawdzenie ich poprzez e‐mail',
 	'emailcapture-failure' => "Twój adres e‐mailowy '''nie''' został zweryfikowany.",
 	'emailcapture-response-subject' => '{{SITENAME}} – weryfikacja adresu e‐mail',
-	'emailcapture-response-body' => 'Potwierdź swój adres e‐mailowy klikając na link
+	'emailcapture-response-body' => 'Witaj!
+
+Dziękujemy za zainteresowanie udoskonalaniem {{GRAMMAR:D.lp|{{SITENAME}}}}.
+
+Poświęć chwilę na potwierdzenie swojego adres e‐mail – kliknij link
 $1
 
 Możesz również odwiedzić
 $2
 
-i wprowadzić kod weryfikacji
+i wprowadzić kod potwierdzający
 $3
 
-Dziękujemy za potwierdzenie adresu e‐mailowego.',
+Będziemy nadal współpracować, aby udoskonalić {{GRAMMAR:B.lp|{{SITENAME}}}}.
+
+Jeśli to nie Ty spowodowałeś wysłanie tego e‐maila, wystarczy że go zignorujesz – niczego więcej do Ciebie nie wyślemy.',
 	'emailcapture-success' => 'Dziękujemy!
 
 Twój adres e‐mailowy został zweryfikowany.',
@@ -877,6 +912,22 @@ Vaš e-poštni naslov je bil uspešno potrjen.',
  */
 $messages['sv'] = array(
 	'emailcapture' => 'E-postbekräftelse',
+	'emailcapture-response-body' => 'Hej!
+
+Tack för att ha uttryckt intresse av att hjälpa till att förbättra {{SITENAME}}.
+
+Var god ta en stund att bekräfta din e-post genom att klicka på länken nedan:
+$1
+
+Du kan också besöka:
+$2
+
+Och ange följande bekräftelsekod:
+$3
+
+Vi kommer att kontakta dig inom kort med hur du kan förbättra {{SITENAME}}.
+
+Om du inte påbörjade denna begäran, ignorera detta e-postmeddelande och vi kommer inte skicka någoting annat.',
 	'emailcapture-success' => 'Tack!
 
 Din e-post har bekräftats.',
