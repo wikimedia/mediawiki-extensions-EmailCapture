@@ -459,6 +459,17 @@ Alamat surel Anda berhasil diverifikasi.',
 	'emailcapture-submit' => 'Verifikasi alamat surel',
 );
 
+/** Georgian (ქართული)
+ * @author BRUTE
+ */
+$messages['ka'] = array(
+	'emailcapture-success' => 'გმადლობთ!
+
+თქვენი ი-მეილი წარმატებით დადასტურდა.',
+	'emailcapture-verify' => 'დამოწმების კოდი:',
+	'emailcapture-submit' => 'ი-მეილის დამოწმება',
+);
+
 /** Korean (한국어)
  * @author Kwj2772
  */
