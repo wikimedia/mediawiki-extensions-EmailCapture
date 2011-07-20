@@ -938,7 +938,7 @@ $3
 
 Vi kommer att kontakta dig inom kort med hur du kan förbättra {{SITENAME}}.
 
-Om du inte påbörjade denna begäran, ignorera detta e-postmeddelande och vi kommer inte skicka någoting annat.',
+Om du inte påbörjade denna begäran, ignorera detta e-postmeddelande och vi kommer inte skicka någonting annat.',
 	'emailcapture-success' => 'Tack!
 
 Din e-post har bekräftats.',
