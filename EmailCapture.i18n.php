@@ -725,27 +725,36 @@ Twój adres e‐mailowy został zweryfikowany.',
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'emailcapture' => 'Verìfica ëd corel',
-	'emailcapture-desc' => "Ciapa adrëssa ëd corel, e përmëtt a j'utent ëd verifichelo con corel",
-	'emailcapture-failure' => "Tò corel a l'é '''pa''' stàit verificà.",
+	'emailcapture' => 'Verìfica ëd pòsta eletrònica',
+	'emailcapture-desc' => "A ciapa dj'adrësse ëd pòsta eletrònica, e a përmët a j'utent ëd verificheje për pòsta eletrònica",
+	'emailcapture-failure' => "Soa adrëssa ëd pòsta eletrònica a l'é '''pa''' stàita verificà.",
 	'emailcapture-response-subject' => "Verìfica dl'adrëssa postal ëd {{SITENAME}}",
-	'emailcapture-response-body' => 'Verìfica toa adrëssaq ëd corel andasend daré a sto colegament:
+	'emailcapture-response-body' => "Cerea!
+
+Mersì për sò anteresse a giuté a amelioré {{SITENAME}}.
+
+Për piasì, ch'a pija un moment për confirmé soa adrëssa ëd pòsta eletrònica an sgnacand an sl'anliura sì-sota:
 $1
 
-It peule visité:
+A peul ëdcò visité:
 $2
 
-e anserì ël còdes ëd verìfica si sota:
+E buté ël ës còdes ëd verìfica:
 $3
 
-Mersì për avèj verificà toa adrëssa ëd corel.',
-	'emailcapture-success' => "Toa adrëssa ëd corel a l'é stàita verificà da bin.",
-	'emailcapture-instructions' => 'Për verifiché toa adrëssa ëd corel, anseriss ë còdes ch\'a l\'é stàte spedì e sgnaca "{{int:emailcapture-submit}}".',
+I la contatëroma prest për coma a peul giuté a amelioré {{SITENAME}}.
+
+Si chiel a l'ha pa ancaminà costa arcesta, për piasì ch'a lassa perde 's mëssagi e i mandëroma gnente dj'àutr.",
+	'emailcapture-success' => "Mersi!
+
+Soa adrëssa ëd pòsta eletrònica a l'é stàita verificà për da bin.",
+	'emailcapture-instructions' => "Për verifiché soa adrëssa ëd pòsta eletrònica, ch'a buta ël còdes ch'a l'é staje spedì e ch'a sgnaca \"{{int:emailcapture-submit}}\".",
 	'emailcapture-verify' => 'Còdes ëd verìfica:',
-	'emailcapture-submit' => 'Verìfica adrëssa ëd corel',
+	'emailcapture-submit' => "Ch'a verìfica l'adrëssa ëd pòsta eletrònica",
 );
 
 /** Portuguese (Português)
