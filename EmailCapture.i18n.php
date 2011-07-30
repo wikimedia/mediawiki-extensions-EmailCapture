@@ -514,6 +514,7 @@ Ding Adräß för de <i lang="en">e-mail</i> wood beschtäätesch.',
  */
 $messages['lb'] = array(
 	'emailcapture' => 'E-Mail-Iwwerpréifung',
+	'emailcapture-desc' => 'Mailadressen erfaassen, an de Benotzer erlabe fir ze per Mail ze validéieren',
 	'emailcapture-failure' => "Är E-Mail konnt '''net''' confirméiert ginn.",
 	'emailcapture-response-subject' => '{{SITENAME}} Mail-Confirmatioun',
 	'emailcapture-success' => 'Merci!
