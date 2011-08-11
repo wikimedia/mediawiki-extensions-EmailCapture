@@ -1043,6 +1043,7 @@ Nếu bạn không phải là người yêu cầu thông tin này, xin vui lòng
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
+ * @author PhiLiP
  * @author 阿pp
  */
 $messages['zh-hans'] = array(
@@ -1050,16 +1051,25 @@ $messages['zh-hans'] = array(
 	'emailcapture-desc' => '捕获电子邮件地址，并允许用户通过电子邮件确认他们',
 	'emailcapture-failure' => "您的电子邮件'''不'''是已验证。",
 	'emailcapture-response-subject' => '{{SITENAME}}邮箱地址确认',
-	'emailcapture-response-body' => '通过此链接验证邮箱地址：
+	'emailcapture-response-body' => '您好！
+
+谢谢您表示愿意帮助我们改善{{SITENAME}}。
+
+请花一点时间，点击下面的链接来确认您的电子邮件：
+
 $1
 
-或者也可以访问：
+您还可以访问：
+
 $2
 
-并输入以下验证码：
+然后输入下列确认码：
+
 $3
 
-感谢您验证邮箱地址。',
+我们会在短期内联系您，并向您介绍帮助我们改善{{SITENAME}}的方式。
+
+如果这项请求并非由您发起，请忽略这封电子邮件，我们不会再向您发送任何邮件。',
 	'emailcapture-success' => '谢谢！
 
 您的电子邮件已成功地确认。',
