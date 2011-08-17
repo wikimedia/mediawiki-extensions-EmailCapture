@@ -247,6 +247,33 @@ Deine E-Mail-Adresse wurde erfolgreich bestätigt.',
 	'emailcapture-submit' => 'E-Mail-Adresse bestätigen',
 );
 
+/** German (formal address) (‪Deutsch (Sie-Form)‬)
+ * @author Kghbln
+ */
+$messages['de-formal'] = array(
+	'emailcapture-failure' => "Ihre E-Mail-Adresse wurde '''nicht''' bestätigt.",
+	'emailcapture-response-body' => 'Hallo!
+
+Vielen Dank für Ihr Interesse an der Verbesserung von {{SITENAME}}.
+
+Bitte nehmen Sie sich einen Moment Zeit, Ihre E-Mail-Adresse zu bestätigen, indem Sie auf den folgenden Link klicken:
+$1
+
+Sie können auch die folgende Seite besuchen:
+$2
+
+Geben Sie dort den nachfolgenden Bestätigungscode ein:
+$3
+
+Wir melden uns in Kürze dazu, wie Sie helfen können, {{SITENAME}} zu verbessern.
+
+Sofern Sie diese Anfrage nicht ausgelöst haben, ignorieren einfach diese E-Mail. Wir werden Ihnen dann nichts mehr zusenden.',
+	'emailcapture-success' => 'Vielen Dank!
+
+Ihre E-Mail-Adresse wurde erfolgreich bestätigt.',
+	'emailcapture-instructions' => 'Um Ihre E-Mail-Adresse zu bestätigen, geben Sie bitte den Code ein, der Ihnen per E-Mail zuschickt wurde und klicken Sie anschließend auf „{{int:emailcapture-submit}}“.',
+);
+
 /** Esperanto (Esperanto)
  * @author Yekrats
  */
