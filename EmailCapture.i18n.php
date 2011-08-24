@@ -957,10 +957,12 @@ Vaš e-poštni naslov je bil uspešno potrjen.',
 );
 
 /** Swedish (Svenska)
+ * @author Lokal Profil
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'emailcapture' => 'E-postbekräftelse',
+	'emailcapture-failure' => "Din e-postadress blev '''inte''' bekräftad.",
 	'emailcapture-response-body' => 'Hej!
 
 Tack för att ha uttryckt intresse av att hjälpa till att förbättra {{SITENAME}}.
@@ -980,6 +982,7 @@ Om du inte påbörjade denna begäran, ignorera detta e-postmeddelande och vi ko
 	'emailcapture-success' => 'Tack!
 
 Din e-post har bekräftats.',
+	'emailcapture-instructions' => 'För att bekräfta din e-postadress, ange koden som du fick per e-post och klicka på "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Verifieringskod:',
 	'emailcapture-submit' => 'Verifiera e-postadress',
 );
