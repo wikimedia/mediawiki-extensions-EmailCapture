@@ -544,6 +544,22 @@ $messages['lb'] = array(
 	'emailcapture-desc' => 'Mailadressen erfaassen, an de Benotzer erlabe fir ze per Mail ze validéieren',
 	'emailcapture-failure' => "Är E-Mail konnt '''net''' confirméiert ginn.",
 	'emailcapture-response-subject' => '{{SITENAME}} Mail-Confirmatioun',
+	'emailcapture-response-body' => 'Bonjour! 
+
+Merci fir Ären Interessie fir {{SITENAME}} ze verbesseren.
+
+Huelt Iech w.e.g. een Ament Zäit fir Är Mailadress ze confirméieren, andeem Dir op dëse Link klickt:
+$1
+
+Dir kënnt och dës Säit besichen:
+$2
+
+Gitt do dëse Confirmatiouns-Code an:
+$3
+
+Mir mellen eis geschwënn, fir Iech ze soe, wéi Dir hëllefe kënnt fir {{SITENAME}} ze verbesseren.
+
+Wann Dir dës Ufro net ausgeléist hutt, ignoréiert dës Mail einfach. Mir schécken Iech dann och näischt méi.',
 	'emailcapture-success' => 'Merci!
 
 Är E-Mailadress konnt confirméiert ginn.',
