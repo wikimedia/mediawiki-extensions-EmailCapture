@@ -33,8 +33,8 @@ class ApiEmailCapture extends ApiBase {
 			// Send auto-response
 			global $wgEmailCaptureSendAutoResponse, $wgEmailCaptureAutoResponse;
 			$title = SpecialPage::getTitleFor( 'EmailCapture' );
-			$link = $title->getFullURL();
-			$fullLink = $title->getFullURL( array( 'verify' => $code ) );
+			$link = $title->getCanonicalURL();
+			$fullLink = $title->getCanonicalURL( array( 'verify' => $code ) );
 			if ( $wgEmailCaptureSendAutoResponse ) {
 				UserMailer::send(
 					new MailAddress( $params['email'] ),
