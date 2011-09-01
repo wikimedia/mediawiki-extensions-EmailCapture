@@ -57,6 +57,7 @@ $messages['qqq'] = array(
 
 /** Arabic (العربية)
  * @author Imksa
+ * @author Meno25
  * @author OsamaK
  */
 $messages['ar'] = array(
@@ -64,15 +65,21 @@ $messages['ar'] = array(
 	'emailcapture-desc' => 'التقاط عناوين البريد الإلكتروني، والسماح للمستخدمين بالتحقق منها عن طريق البريد الإلكتروني',
 	'emailcapture-failure' => "البريد الإلكتروني الخاص بك  '''' 'لا يمكن ''''' التحقق منه.",
 	'emailcapture-response-subject' => 'التحقق من عنوان البريد الإلكتروني {{SITENAME}}',
-	'emailcapture-response-body' => 'مرحباً !
-شكرا لك الاهتمامك في المساعدة على تحسين {{SITENAME}}.!ن!
+	'emailcapture-response-body' => 'مرحباً!
+
+شكرا لك الاهتمامك في المساعدة على تحسين {{SITENAME}}.
+
 الرجاء التأكد من البريد الإلكتروني الخاص بك بواسطة النقر فوق الارتباط الموجود أدناه:
-SAR4
+$1
+
 ويمكنك أيضا زيارة:
-SAR8
+$2
+
 قم بإدخال رمز التأكيد التالي:
-SAR11
+$3
+
 سنكون على اتصال قريب مع  كيفية المساعدة في تحسين {{SITENAME}}.
+
 إذا لم تكن مهتماً بهذا الطلب، الرجاء تجاهل هذا البريد الإلكتروني، ولن نرسل لك أي شيء آخر.',
 	'emailcapture-success' => 'شكراً
 تم تأكيد البريد الإلكتروني الخاص بك بنجاح.',
@@ -292,7 +299,9 @@ kaj enigi la jenan kontrolkodon:
 $3
 
 Dankon pro kontrolante vian retpoŝtadreson.',
-	'emailcapture-success' => 'Via retpoŝtadreso estis sukcese kontrolita.',
+	'emailcapture-success' => 'Dankegon!
+
+Via retpoŝtadreso estis sukcese kontrolita.',
 	'emailcapture-instructions' => 'Por kontroli vian retpoŝtadreson, enigi la kodo kiu estis retpoŝtita al vi kaj klaku butonon "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Kontrolkodo:',
 	'emailcapture-submit' => 'Konfirmi adreson de retpoŝto',
