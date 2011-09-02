@@ -314,6 +314,35 @@ $messages['es'] = array(
 	'emailcapture' => 'Verificación de correo electrónico',
 );
 
+/** Persian (فارسی)
+ * @author Mjbmr
+ */
+$messages['fa'] = array(
+	'emailcapture' => 'تأیید پست الکترونیکی',
+	'emailcapture-failure' => "پست الکترونیکی شما تأیید '''نشده''' است.",
+	'emailcapture-response-subject' => 'تأیید نشانی پست الکترونیکی {{SITENAME}}',
+	'emailcapture-response-body' => 'سلام!
+
+از شما برای ابراز علاقه در کمک به بهبود {{SITENAME}} تشکر می‌کنم.
+
+لطفاً لحظه‌ای را برای تأیید پست الکترونیکی خود با کلیک بر روی پیوند مقابل، وقت بگذارید:
+$1
+شما همچنین می‌توانید پیوند مقابل را باز کرده:
+$2
+
+و کد مقابل را درون آن وارد کنید:
+$3
+
+ما به زودی با شما برای چگونگی کمک به {{SITENAME}} تماس می‌گیریم.
+
+اگر شما این درخواست را نکرده‌اید، لطفاً این پست الکترونیکی را نادیده بگیرید و ما چیز دیگری برای شما ارسال نخواهیم کرد.',
+	'emailcapture-success' => 'از شما متشکرم!
+
+پست الکترونیکی شما با موفقیت تأیید شد.',
+	'emailcapture-verify' => 'کد تأیید:',
+	'emailcapture-submit' => 'تأیید پست الکترونیکی',
+);
+
 /** French (Français)
  * @author IAlex
  * @author Sherbrooke
@@ -575,6 +604,20 @@ Wann Dir dës Ufro net ausgeléist hutt, ignoréiert dës Mail einfach. Mir sch�
 	'emailcapture-instructions' => 'Fir d\'Mailadress ze confirméieren, gitt de Code an deen Dir per Mail geschéckt kritt hutt a klickt "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Iwwerpréifungs-Code:',
 	'emailcapture-submit' => 'E-Mail-Adress iwwerpréifen',
+);
+
+/** Lithuanian (Lietuvių)
+ * @author Eitvys200
+ */
+$messages['lt'] = array(
+	'emailcapture' => 'E-pašto patvirtinimas',
+	'emailcapture-response-subject' => '{{SITENAME}} el. pašto adreso patvirtinimas',
+	'emailcapture-success' => 'Ačiū!
+
+Jūsų e-paštas buvo sėkmingai patvirtintas.',
+	'emailcapture-instructions' => 'Norėdami patvirtinti savo elektroninio pašto adresą, įveskite kodą, kuris elektroniniu paštu buvo jums nusiųstas, ir paspauskite mygtuką "{{int: emailcapture-submit}}".',
+	'emailcapture-verify' => 'Patvirtinimo kodas:',
+	'emailcapture-submit' => 'Patvirtinti e-pašto adresą',
 );
 
 /** Macedonian (Македонски)
@@ -880,6 +923,29 @@ O seu e-mail foi confirmado.',
  * @author Minisarm
  */
 $messages['ro'] = array(
+	'emailcapture' => 'Verificarea adresei de e-mail',
+	'emailcapture-failure' => "Adresa dumneavoastră de e-mail '''nu''' a fost verificată.",
+	'emailcapture-response-subject' => 'Verificarea adresei de e-mail la {{SITENAME}}',
+	'emailcapture-response-body' => 'Bună ziua!
+
+Mulțumim pentru interesul arătat în a îmbunătăți {{SITENAME}}.
+
+Vă rugăm să rezervați un moment pentru confirmarea adresei de e-mail apăsând pe link-ul de mai jos:
+$1
+
+Puteți vizita de asemenea și:
+$2
+
+Și să introduceți următorul cod de confirmare:
+$3
+
+Vă vom contacta în curând despre cum puteți ajuta la îmbunătățirea {{SITENAME}}.
+
+Dacă nu dumneavoastră ați inițiat această cerere, vă rugăm să ignorați acest e-mail și nu vă vom mai trimite nimic altceva.',
+	'emailcapture-success' => 'Mulțumim!
+
+Adresa dumneavoastră de e-mail a fost confirmată cu succes.',
+	'emailcapture-instructions' => 'Pentru a verifica adresa de e-mail, introduceți codul care v-a fost trimis prin email și apăsați „{{int:emailcapture-submit}}”.',
 	'emailcapture-verify' => 'Cod de verificare:',
 	'emailcapture-submit' => 'Verifică adresa de e-mail',
 );
@@ -1062,6 +1128,16 @@ Matagumpay na natiyak ang e-liham mo.',
 	'emailcapture-instructions' => 'Upang mapatunayan ang tirahan mo ng e-liham, ipasok ang kodigong ipinadala sa iyo sa pamamagitan ng e-liham at pindutin ang "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Kodigo ng pagpapatotoo:',
 	'emailcapture-submit' => 'Patunayan ang tirahan ng e-liham',
+);
+
+/** Ukrainian (Українська)
+ * @author Dim Grits
+ */
+$messages['uk'] = array(
+	'emailcapture' => 'Перевірка адреси електронної пошти',
+	'emailcapture-failure' => "Ваша електронна адреса '''не була''' перевірена.",
+	'emailcapture-response-subject' => 'Перевірка адреси електронної пошти {{SITENAME}}',
+	'emailcapture-verify' => 'Код підтвердження:',
 );
 
 /** Vietnamese (Tiếng Việt)
