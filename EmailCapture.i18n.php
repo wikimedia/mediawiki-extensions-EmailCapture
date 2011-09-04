@@ -59,6 +59,7 @@ $messages['qqq'] = array(
  * @author Imksa
  * @author Meno25
  * @author OsamaK
+ * @author محمد الجداوي
  */
 $messages['ar'] = array(
 	'emailcapture' => 'التحقق من البريد الإلكتروني',
@@ -81,7 +82,7 @@ $3
 سنكون على اتصال قريب مع  كيفية المساعدة في تحسين {{SITENAME}}.
 
 إذا لم تكن مهتماً بهذا الطلب، الرجاء تجاهل هذا البريد الإلكتروني، ولن نرسل لك أي شيء آخر.',
-	'emailcapture-success' => 'شكراً
+	'emailcapture-success' => 'شكرًا
 تم تأكيد البريد الإلكتروني الخاص بك بنجاح.',
 	'emailcapture-instructions' => 'للتحقق من عنوان بريدك الإلكتروني  أدخل الكود الذي إرسال لك  بالبريد الإلكتروني ثم انقر فوق "{{التحقق من البريد الإلكتروني}}".',
 	'emailcapture-verify' => 'رمز التحقق:',
@@ -282,12 +283,17 @@ Ihre E-Mail-Adresse wurde erfolgreich bestätigt.',
 );
 
 /** Greek (Ελληνικά)
+ * @author Glavkos
  * @author ZaDiak
  */
 $messages['el'] = array(
 	'emailcapture' => 'Επαλήθευση ηλεκτρονικού ταχυδρομείου',
 	'emailcapture-failure' => "Το e-mail σας '''δεν''' επαληθεύτηκε.",
 	'emailcapture-response-subject' => '{{SITENAME}} επαλήθευση ηλεκτρονικής διεύθυνσης',
+	'emailcapture-success' => 'Ευχαριστούμε!
+
+Το e-mail σας έχει επιβεβαιωθεί με επιτυχία.',
+	'emailcapture-instructions' => 'Για να επαληθεύσετε τη διεύθυνση ηλεκτρονικού ταχυδρομείου σας, πληκτρολογήστε τον κωδικό που σας στάλθηκε  και κάντε κλικ στο "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Κωδικός επαλήθευσης:',
 	'emailcapture-submit' => 'Επιβεβαιώστε τη διεύθυνση ηλεκτρονικού ταχυδρομείου',
 );
@@ -362,6 +368,38 @@ $3
 	'emailcapture-submit' => 'تأیید پست الکترونیکی',
 );
 
+/** Finnish (Suomi)
+ * @author Olli
+ */
+$messages['fi'] = array(
+	'emailcapture' => 'Sähköpostin vahvistus',
+	'emailcapture-desc' => 'Kaappaa sähköpostiosoitteet, ja salli käyttäjien vahvistaa ne sähköpostilla',
+	'emailcapture-failure' => "Sähköpostiosoitettasi '''ei''' vahvistettu.",
+	'emailcapture-response-subject' => 'Sivuston {{SITENAME}} sähköpostiosoitteen vahvistus',
+	'emailcapture-response-body' => 'Hei!
+
+Kiitos, että osoitit kiinnostusta {{SITENAME}} kehittämiseen.
+
+Käytäthän hetken täyttääksesi kyselyn:
+$1
+
+Voit myös käydä:
+$2
+
+Ja syöttää seuraavan koodin:
+$3
+
+Otamme yhteyttä sinuun pian ja kerromme kuinka voit kehittää {{SITENAME}} sivustoa.
+
+Jos et lähettänyt tätä pyyntöä itse, hylkää viesti ja emme enää lähetä sinulle uutta viestiä.',
+	'emailcapture-success' => 'Kiitos!
+
+Sähköpostiosoitteesi vahvistettiin onnistuneesti.',
+	'emailcapture-instructions' => 'Vahvistaaksesi sähköpostiosoitteesi, syötä sinulle sähköpostilla lähetetty koodi ja napsauta "{{int:emailcapture-submit}}".',
+	'emailcapture-verify' => 'Vahvistuskoodi:',
+	'emailcapture-submit' => 'Vahvista sähköpostiosoite',
+);
+
 /** French (Français)
  * @author IAlex
  * @author Sherbrooke
@@ -401,8 +439,13 @@ Votre adresse de courriel a été vérifiée avec succès.',
  */
 $messages['frp'] = array(
 	'emailcapture' => 'Contrôlo d’adrèce èlèctronica',
+	'emailcapture-desc' => 'Capture des adrèces èlèctroniques et pués pèrmèt ux utilisators de les controlar per mèssageria èlèctronica.',
 	'emailcapture-failure' => "Voutra adrèce èlèctronica at '''pas''' étâ controlâ.",
 	'emailcapture-response-subject' => 'Contrôlo d’adrèce èlèctronica de {{SITENAME}}',
+	'emailcapture-success' => 'Grant-marci !
+
+Voutra adrèce èlèctronica at étâ controlâ avouéc reusséta.',
+	'emailcapture-instructions' => 'Por controlar voutra adrèce èlèctronica, buchiéd lo code que vos at étâ mandâ per mèssageria èlèctronica et pués clicâd dessus « {{int:emailcapture-submit}} ».',
 	'emailcapture-verify' => 'Code de contrôlo :',
 	'emailcapture-submit' => 'Controlar l’adrèce èlèctronica',
 );
@@ -947,9 +990,9 @@ $messages['ro'] = array(
 	'emailcapture-response-subject' => 'Verificarea adresei de e-mail la {{SITENAME}}',
 	'emailcapture-response-body' => 'Bună ziua!
 
-Mulțumim pentru interesul arătat în a îmbunătăți {{SITENAME}}.
+Vă mulțumim pentru interesul arătat față de procesul de îmbunătățire al proiectului {{SITENAME}}.
 
-Vă rugăm să rezervați un moment pentru confirmarea adresei de e-mail apăsând pe link-ul de mai jos:
+Vă rugăm să confirmați adresa de e-mail apăsând pe legătura de mai jos:
 $1
 
 Puteți vizita de asemenea și:
@@ -958,13 +1001,13 @@ $2
 Și să introduceți următorul cod de confirmare:
 $3
 
-Vă vom contacta în curând despre cum puteți ajuta la îmbunătățirea {{SITENAME}}.
+Vă vom contacta în curând în legătură cu modul în care vă puteți implica în procesul de îmbunătățire al proiectului {{SITENAME}}.
 
-Dacă nu dumneavoastră ați inițiat această cerere, vă rugăm să ignorați acest e-mail și nu vă vom mai trimite nimic altceva.',
+Dacă nu sunteți dumneavoastră persoana care a cerut aceste indicații, vă rugăm să ignorați acest e-mail; nu vă vom mai trimite alte mesaje.',
 	'emailcapture-success' => 'Mulțumim!
 
 Adresa dumneavoastră de e-mail a fost confirmată cu succes.',
-	'emailcapture-instructions' => 'Pentru a verifica adresa de e-mail, introduceți codul care v-a fost trimis prin email și apăsați „{{int:emailcapture-submit}}”.',
+	'emailcapture-instructions' => 'Pentru verificarea adresei de e-mail, introduceți codul care v-a fost transmis prin e-mail și apăsați „{{int:emailcapture-submit}}”.',
 	'emailcapture-verify' => 'Cod de verificare:',
 	'emailcapture-submit' => 'Verifică adresa de e-mail',
 );
@@ -1106,6 +1149,7 @@ Vaš e-poštni naslov je bil uspešno potrjen.',
 $messages['sv'] = array(
 	'emailcapture' => 'E-postbekräftelse',
 	'emailcapture-failure' => "Din e-postadress blev '''inte''' bekräftad.",
+	'emailcapture-response-subject' => 'Bekräftelse av e-postadress på {{SITENAME}}',
 	'emailcapture-response-body' => 'Hej!
 
 Tack för att ha uttryckt intresse av att hjälpa till att förbättra {{SITENAME}}.
@@ -1191,6 +1235,7 @@ $messages['uk'] = array(
 	'emailcapture-response-subject' => 'Перевірка адреси електронної пошти {{SITENAME}}',
 	'emailcapture-success' => 'Дякуємо!
 Ви підтвердили адресу власної електронної пошти.',
+	'emailcapture-instructions' => 'Щоб підтвердити адресу електронної пошти, введіть код надісланий вам електронним листом і натисніть кнопку "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Код підтвердження:',
 	'emailcapture-submit' => 'Підтвердити адресу електронної пошти',
 );
