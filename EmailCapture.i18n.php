@@ -332,9 +332,16 @@ Via retpoŝtadreso estis sukcese kontrolita.',
 
 /** Spanish (Español)
  * @author Fitoschido
+ * @author MetalBrasil
  */
 $messages['es'] = array(
 	'emailcapture' => 'Verificación de correo electrónico',
+	'emailcapture-failure' => "Tu e-mail fue'''no''' verificada.",
+	'emailcapture-response-subject' => '{{SITENAME}} dirección de correo electrónico de verificación',
+	'emailcapture-success' => '¡Muchas gracias!  Tu e-mail ha sido confirmado exitosamente.',
+	'emailcapture-instructions' => 'Para verificar su dirección de correo electrónico, escriba el código que fue enviado por correo electrónico a usted y haga clic en "{{int: emailcapture a presentar}}".',
+	'emailcapture-verify' => 'Código de verificación:',
+	'emailcapture-submit' => 'Verificar dirección de correo electrónico',
 );
 
 /** Persian (فارسی)
@@ -1016,8 +1023,13 @@ Adresa dumneavoastră de e-mail a fost confirmată cu succes.',
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'emailcapture' => "Verifeche de l'e-mail",
 	'emailcapture-failure' => "L'e-mail toje '''non''' g'ha state verificate.",
 	'emailcapture-response-subject' => "Verifeche de l'indirizze email pe {{SITENAME}}",
+	'emailcapture-success' => "Grazie!
+
+'U 'nderizze e-mail tune ha state confermate cu successe.",
+	'emailcapture-verify' => 'Codece de verifeche:',
 );
 
 /** Russian (Русский)
@@ -1307,5 +1319,40 @@ $3
 	'emailcapture-instructions' => '输入邮件的标明的验证码并点击"{{int:emailcapture-submit}}"以验证您的邮箱地址。',
 	'emailcapture-verify' => '验证码：',
 	'emailcapture-submit' => '验证电子邮件地址',
+);
+
+/** Traditional Chinese (‪中文(繁體)‬)
+ * @author Anakmalaysia
+ */
+$messages['zh-hant'] = array(
+	'emailcapture' => '電子郵件驗證',
+	'emailcapture-desc' => '捕獲電子郵件地址，並允許用戶通過電子郵件確認他們',
+	'emailcapture-failure' => "您的電子郵件'''尚未'''驗證。",
+	'emailcapture-response-subject' => '{{SITENAME}}郵箱地址確認',
+	'emailcapture-response-body' => '您好！
+
+謝謝您表示願意幫助我們改善{{SITENAME}}。
+
+請花一點時間，點擊下面的鏈接來確認您的電子郵件：
+
+$1
+
+您還可以訪問：
+
+$2
+
+然後輸入下列確認碼：
+
+$3
+
+我們會在短期內聯繫您，並向您介紹幫助我們改善{{SITENAME}}的方式。
+
+如果這項請求並非由您發起，請忽略這封電子郵件，我們不會再向您發送任何郵件。',
+	'emailcapture-success' => '謝謝！
+
+您的電子郵件已成功地確認。',
+	'emailcapture-instructions' => '為了驗證您的郵箱地址，輸入郵件的標明的驗證碼，然後點擊"{{int:emailcapture-submit}}"。',
+	'emailcapture-verify' => '驗證碼：',
+	'emailcapture-submit' => '驗證電子郵件地址',
 );
 
