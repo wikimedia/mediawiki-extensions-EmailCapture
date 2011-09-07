@@ -44,9 +44,18 @@ Your e-mail has been successfully confirmed.',
 /** Message documentation (Message documentation)
  * @author Kghbln
  * @author Purodha
+ * @author Yekrats
  */
 $messages['qqq'] = array(
-	'emailcapture-desc' => '{{desc}}',
+	'emailcapture' => 'The Email Capture extension will capture e-mail addresses, and allow users to verify them through e-mail. 
+For more information, see [[mw:Extension:EmailCapture]].',
+	'emailcapture-desc' => 'The Email Capture extension will capture e-mail addresses, and allow users to verify them through e-mail. 
+For more information, see [[mw:Extension:EmailCapture]].
+{{desc}}',
+	'emailcapture-response-subject' => 'The Email Capture extension will capture e-mail addresses, and allow users to verify them through e-mail. 
+For more information, see [[mw:Extension:EmailCapture]].
+This is the subject line of the email sent to users.
+{{Identical|SITENAME e-mail address confirmation}}',
 	'emailcapture-instructions' => 'Used on [[Special:EmailCapture]], see image.
 [[Image:TestWiki-Special-EmailCapture-L4H0.png|Screenshot of Special:EmailCapture|right|thumb]]',
 	'emailcapture-verify' => 'Used on [[Special:EmailCapture]], see image.
@@ -449,6 +458,22 @@ $messages['frp'] = array(
 	'emailcapture-desc' => 'Capture des adrèces èlèctroniques et pués pèrmèt ux utilisators de les controlar per mèssageria èlèctronica.',
 	'emailcapture-failure' => "Voutra adrèce èlèctronica at '''pas''' étâ controlâ.",
 	'emailcapture-response-subject' => 'Contrôlo d’adrèce èlèctronica de {{SITENAME}}',
+	'emailcapture-response-body' => 'Bonjorn !
+
+Grant-marci d’avêr èxprimâ voutron entèrèt por édiér a mèlyorar {{SITENAME}}.
+
+Volyéd prendre un moment por confirmar voutra adrèce èlèctronica en cliquent sur lo lim ce-desot :
+$1
+
+Vos pouede asse-ben visitar :
+$2
+
+et pués buchiér ceti code de confirmacion :
+$3
+
+Nos nos volens d’abôrd veriér vers vos avouéc la façon que vos pouede édiér a mèlyorar {{SITENAME}}.
+
+Se vos éd pas fêt cela demanda, volyéd ignorar ceti mèssâjo et pués nos vos manderens ren d’ôtro.',
 	'emailcapture-success' => 'Grant-marci !
 
 Voutra adrèce èlèctronica at étâ controlâ avouéc reusséta.',
