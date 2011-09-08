@@ -14,16 +14,28 @@ class SpecialEmailCapture extends SpecialPage {
 		$code = $wgRequest->getVal( 'verify' );
 		if ( $code !== null ) {
 			$dbw = wfGetDB( DB_MASTER );
-			$dbw->update(
+			$row = $dbw->selectRow(
 				'email_capture',
-				array( 'ec_verified' => 1 ),
+				array( 'ec_verified' ),
 				array( 'ec_code' => $code ),
 				__METHOD__
 			);
-			if ( $dbw->affectedRows() ) {
-				$wgOut->addWikiMsg( 'emailcapture-success' );
+			if ( $row && !$row->ec_verified ) {
+				$dbw->update(
+					'email_capture',
+					array( 'ec_verified' => 1 ),
+					array( 'ec_code' => $code ),
+					__METHOD__
+				);
+				if ( $dbw->affectedRows() ) {
+					$wgOut->addWikiMsg( 'emailcapture-success' );
+				} else {
+					$wgOut->addWikiMsg( 'emailcapture-failure' );
+				}
+			} else if ( $row && $row->ec_verified ) {
+				$wgOut->addWikiMsg( 'emailcapture-already-confirmed' );
 			} else {
-				$wgOut->addWikiMsg( 'emailcapture-failure' );
+				$wgOut->addWikiMsg( 'emailcapture-invalid-code' );
 			}
 		} else {
 			// Show simple form for submitting verification code
