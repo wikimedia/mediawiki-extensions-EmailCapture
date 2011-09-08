@@ -1055,6 +1055,7 @@ $messages['roa-tara'] = array(
 
 'U 'nderizze e-mail tune ha state confermate cu successe.",
 	'emailcapture-verify' => 'Codece de verifeche:',
+	'emailcapture-submit' => "Verifeche d'u 'ndirizze e-mail",
 );
 
 /** Russian (Русский)
