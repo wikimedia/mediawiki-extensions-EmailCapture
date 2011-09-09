@@ -138,11 +138,35 @@ $3
 
 /** Bulgarian (Български)
  * @author DCLXVI
+ * @author Spiritia
  */
 $messages['bg'] = array(
+	'emailcapture-failure' => "Вашият адрес на електронна поща '''не беше''' потвърден.",
+	'emailcapture-invalid-code' => 'Невалиден код за потвърждение.',
+	'emailcapture-already-confirmed' => 'Адресът ви за електронна поща вече е бил потвърден.',
+	'emailcapture-response-subject' => '{{SITENAME}}: Потвърждение на адрес за електронна поща',
+	'emailcapture-response-body' => 'Здравейте!
+
+Благодарим ви за изразения интерес да помогнете за подобряването на {{SITENAME}}.
+
+Моля, отделете малко време, за да потвърдите адреса си за електронна поща, като щракнете на връзката по-долу:
+$1
+
+Можете също така да посетите:
+$2
+
+и да въведете следния код за потвърждение:
+$3
+
+Скоро след потвърждението, ще се свържем с вас с насоки как можете да подобрите {{SITENAME}}.
+
+Ако не вие сте отправили заявката, моля, игнорирайте този имейл. Няма да получавате повече съобщения.',
 	'emailcapture-success' => 'Благодарности!
 
 Адресът за електронна поща беше потвърден успешно.',
+	'emailcapture-instructions' => 'За да потвърдите вашия адрес за електронна поща, въведете кода, който ви е бил изпратен, и щракнете върху "{{int:emailcapture-submit}}".',
+	'emailcapture-verify' => 'Код за потвърждение:',
+	'emailcapture-submit' => 'Потвърди имейл адреса',
 );
 
 /** Bengali (বাংলা)
@@ -241,6 +265,8 @@ $messages['de'] = array(
 	'emailcapture' => 'E-Mail-Bestätigung',
 	'emailcapture-desc' => 'Ermöglicht das automatische Aufgreifen von E-Mail-Adressen und deren Bestätigung durch deren Benutzer per E-Mail',
 	'emailcapture-failure' => "Deine E-Mail-Adresse wurde '''nicht''' bestätigt.",
+	'emailcapture-invalid-code' => 'Ungültiger Bestätigungscode.',
+	'emailcapture-already-confirmed' => 'Deine E-Mail-Adresse wurde bereits bestätigt.',
 	'emailcapture-response-subject' => '{{SITENAME}} E-Mail-Bestätigung',
 	'emailcapture-response-body' => 'Hallo!
 
@@ -459,6 +485,8 @@ $messages['frp'] = array(
 	'emailcapture' => 'Contrôlo d’adrèce èlèctronica',
 	'emailcapture-desc' => 'Capture des adrèces èlèctroniques et pués pèrmèt ux utilisators de les controlar per mèssageria èlèctronica.',
 	'emailcapture-failure' => "Voutra adrèce èlèctronica at '''pas''' étâ controlâ.",
+	'emailcapture-invalid-code' => 'Code de confirmacion fôx.',
+	'emailcapture-already-confirmed' => 'Voutra adrèce èlèctronica at ja étâ confirmâ.',
 	'emailcapture-response-subject' => 'Contrôlo d’adrèce èlèctronica de {{SITENAME}}',
 	'emailcapture-response-body' => 'Bonjorn !
 
@@ -491,6 +519,8 @@ $messages['gl'] = array(
 	'emailcapture' => 'Verificación do correo electrónico',
 	'emailcapture-desc' => 'Captura enderezos de correo electrónico e permite aos usuarios comprobalos a través do propio correo electrónico',
 	'emailcapture-failure' => "O seu correo electrónico '''non''' foi verificado.",
+	'emailcapture-invalid-code' => 'Código de confirmación incorrecto.',
+	'emailcapture-already-confirmed' => 'Xa se confirmou o seu enderezo de correo electrónico.',
 	'emailcapture-response-subject' => 'Verificación do enderezo de correo electrónico de {{SITENAME}}',
 	'emailcapture-response-body' => 'Ola!
 
@@ -925,6 +955,8 @@ $messages['pms'] = array(
 	'emailcapture' => 'Verìfica ëd pòsta eletrònica',
 	'emailcapture-desc' => "A ciapa dj'adrësse ëd pòsta eletrònica, e a përmët a j'utent ëd verificheje për pòsta eletrònica",
 	'emailcapture-failure' => "Soa adrëssa ëd pòsta eletrònica a l'é '''pa''' stàita verificà.",
+	'emailcapture-invalid-code' => 'Còdes ëd conferma pa bon.',
+	'emailcapture-already-confirmed' => "Soa adrëssa ëd pòsta eletrònica a l'é già stàita confermà.",
 	'emailcapture-response-subject' => "Verìfica dl'adrëssa postal ëd {{SITENAME}}",
 	'emailcapture-response-body' => "Cerea!
 
@@ -1157,6 +1189,8 @@ $messages['sl'] = array(
 	'emailcapture' => 'Preverjanje e-pošte',
 	'emailcapture-desc' => 'Zajame e-poštne naslove in omogoča uporabnikom, da jih preverijo preko e-pošte',
 	'emailcapture-failure' => "Vaš e-poštni naslov '''ni''' bil preverjen.",
+	'emailcapture-invalid-code' => 'Neveljavna potrditvena koda.',
+	'emailcapture-already-confirmed' => 'Vaš e-poštni naslov je že potrjen.',
 	'emailcapture-response-subject' => 'Preverjanje e-poštnega naslova {{SITENAME}}',
 	'emailcapture-response-body' => 'Pozdravljeni!
 
@@ -1272,6 +1306,7 @@ Matagumpay na natiyak ang e-liham mo.',
 $messages['uk'] = array(
 	'emailcapture' => 'Перевірка адреси електронної пошти',
 	'emailcapture-failure' => "Ваша електронна адреса '''не була''' перевірена.",
+	'emailcapture-already-confirmed' => 'Ваша адреса електронної пошти вже підтверджена.',
 	'emailcapture-response-subject' => 'Перевірка адреси електронної пошти {{SITENAME}}',
 	'emailcapture-success' => 'Дякуємо!
 Ви підтвердили адресу власної електронної пошти.',
