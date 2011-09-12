@@ -108,6 +108,8 @@ $messages['be-tarask'] = array(
 	'emailcapture' => 'Праверка электроннай пошты',
 	'emailcapture-desc' => 'Перахоплівае адрасы электроннай пошты, і дазваляе ўдзельнікам правяраць іх',
 	'emailcapture-failure' => "Ваш адрас электроннай пошты '''ня''' быў правераны.",
+	'emailcapture-invalid-code' => 'Няслушны код пацьверджаньня.',
+	'emailcapture-already-confirmed' => 'Ваш адрас электроннай пошты ўжо быў пацьверджаны.',
 	'emailcapture-response-subject' => 'Праверка адрасу электронную пошты для {{GRAMMAR:родны|{{SITENAME}}}}',
 	'emailcapture-response-body' => 'Вітаем!
 
