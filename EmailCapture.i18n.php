@@ -234,6 +234,8 @@ $messages['cs'] = array(
 	'emailcapture' => 'Ověření e-mailu',
 	'emailcapture-desc' => 'Uchovává e-mailové adresy a umožňuje uživatelům jejich ověření pomocí e-mailu',
 	'emailcapture-failure' => "Váš e-mail '''nebyl''' ověřen.",
+	'emailcapture-invalid-code' => 'Neplatný ověřovací kód.',
+	'emailcapture-already-confirmed' => 'Vaše e-mailová adresa již byla ověřena.',
 	'emailcapture-response-subject' => 'Potvrzení e-mailové adresy pro {{grammar:4sg|{{SITENAME}}}}',
 	'emailcapture-response-body' => 'Dobrý den!
 
@@ -1012,11 +1014,13 @@ Soa adrëssa ëd pòsta eletrònica a l'é stàita verificà për da bin.",
 
 /** Portuguese (Português)
  * @author Hamilton Abreu
+ * @author SandroHc
  */
 $messages['pt'] = array(
 	'emailcapture' => 'Verificação do correio electrónico',
 	'emailcapture-desc' => 'Capturar endereços de correio electrónico e permitir que os utilizadores os verifiquem através do próprio correio electrónico',
 	'emailcapture-failure' => "O seu correio electrónico '''não''' foi verificado.",
+	'emailcapture-already-confirmed' => 'O teu endereço de email  já foi confirmado.',
 	'emailcapture-response-subject' => 'Verificação do endereço de correio electrónico, da {{SITENAME}}',
 	'emailcapture-response-body' => 'Olá!
 
