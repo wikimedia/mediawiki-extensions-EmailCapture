@@ -811,6 +811,8 @@ $messages['ml'] = array(
 	'emailcapture' => 'ഇമെയിൽ പരിശോധന',
 	'emailcapture-desc' => 'ഇമെയിൽ സ്വയം എടുക്കുകയും ഉപയോക്താക്കളെ ഇമെയിൽ ഉപയോഗിച്ച് പരിശോധിക്കുകയും ചെയ്യുന്നു',
 	'emailcapture-failure' => "താങ്കളുടെ ഇമെയിൽ വിലാസം '''പരിശോധിച്ചിട്ടില്ല'''.",
+	'emailcapture-invalid-code' => 'സ്ഥിരീകരണ കോഡ് അസാധുവാണ്.',
+	'emailcapture-already-confirmed' => 'താങ്കളുടെ ഇമെയിൽ വിലാസം മുമ്പേ തന്നെ സ്ഥിരീകരിക്കപ്പെട്ടതാണ്.',
 	'emailcapture-response-subject' => '{{SITENAME}} സംരംഭത്തിലെ ഇമെയിൽ വിലാസ പരിശോധന',
 	'emailcapture-response-body' => 'നമസ്കാരം!
 
