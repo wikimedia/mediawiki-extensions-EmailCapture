@@ -33,8 +33,7 @@ $3
 
 We’ll be in touch shortly with how you can help improve {{SITENAME}}.
 
-If you didn’t initiate this request, please ignore this e-mail and we won’t send you anything else.
-',
+If you didn’t initiate this request, please ignore this e-mail and we won’t send you anything else.',
 	'emailcapture-success' => 'Thank you!
 
 Your e-mail has been successfully confirmed.',
