@@ -1409,6 +1409,7 @@ Nếu bạn không phải là người yêu cầu thông tin này, xin vui lòng
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
+ * @author Bencmq
  * @author Hydra
  * @author PhiLiP
  * @author 阿pp
@@ -1417,6 +1418,8 @@ $messages['zh-hans'] = array(
 	'emailcapture' => '电子邮件验证',
 	'emailcapture-desc' => '捕获电子邮件地址，并允许用户通过电子邮件确认他们',
 	'emailcapture-failure' => "您的电子邮件'''不'''是已验证。",
+	'emailcapture-invalid-code' => '验证码无效。',
+	'emailcapture-already-confirmed' => '您的电子邮箱地址已得到确认。',
 	'emailcapture-response-subject' => '{{SITENAME}}邮箱地址确认',
 	'emailcapture-response-body' => '您好！
 
