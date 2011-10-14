@@ -454,6 +454,7 @@ Sähköpostiosoitteesi vahvistettiin onnistuneesti.',
  * @author Hashar
  * @author IAlex
  * @author Sherbrooke
+ * @author Urhixidur
  * @author Wyz
  */
 $messages['fr'] = array(
@@ -463,9 +464,9 @@ $messages['fr'] = array(
 	'emailcapture-invalid-code' => 'Code de confirmation incorrect.',
 	'emailcapture-already-confirmed' => 'Votre adresse de courriel a déjà été confirmée.',
 	'emailcapture-response-subject' => "Vérification d'adresse de courriel de {{SITENAME}}",
-	'emailcapture-response-body' => "Bonjour,
+	'emailcapture-response-body' => 'Bonjour,
 
-Merci de démontrer votre intérêt à améliorer {{SITENAME}}.
+Merci de démontrer votre intérêt à améliorer le {{SITENAME}}.
 
 Vérifiez votre adresse de courriel en suivant le lien suivant :
 $1
@@ -476,9 +477,9 @@ $2
 et entrer le code de vérification suivant :
 $3
 
-Nous vous contacterons bientôt pour savoir comment vous pouvez aider à améliorer {{SITENAME}}.
+Nous vous contacterons bientôt pour savoir comment vous pouvez aider à améliorer le {{SITENAME}}.
 
-Si vous n'avez pas initié cette requête, prière d'ignorer ce courriel et nous ne vous enverrons plus rien d'autre.",
+Si vous n’avez pas entamé cette requête, vous n’avez qu’à ignorer ce courriel et nous ne vous enverrons plus rien d’autre.',
 	'emailcapture-success' => 'Merci !
 
 Votre adresse de courriel a été vérifiée avec succès.',
