@@ -1343,6 +1343,18 @@ Matagumpay na natiyak ang e-liham mo.',
 	'emailcapture-submit' => 'Patunayan ang tirahan ng e-liham',
 );
 
+/** Turkish (Türkçe)
+ * @author Karduelis
+ */
+$messages['tr'] = array(
+	'emailcapture-invalid-code' => 'Geçersiz onay kodu.',
+	'emailcapture-success' => 'Teşekkür ederiz!
+
+E-posta başarıyla onaylamıştır.',
+	'emailcapture-verify' => 'Doğrulama kodu:',
+	'emailcapture-submit' => 'E-posta adresini doğrulayın.',
+);
+
 /** Ukrainian (Українська)
  * @author Dim Grits
  */
