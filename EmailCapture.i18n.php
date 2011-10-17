@@ -66,6 +66,7 @@ This is the subject line of the email sent to users.
 );
 
 /** Arabic (العربية)
+ * @author AwamerT
  * @author Imksa
  * @author Meno25
  * @author OsamaK
@@ -75,6 +76,8 @@ $messages['ar'] = array(
 	'emailcapture' => 'التحقق من البريد الإلكتروني',
 	'emailcapture-desc' => 'التقاط عناوين البريد الإلكتروني، والسماح للمستخدمين بالتحقق منها عن طريق البريد الإلكتروني',
 	'emailcapture-failure' => "البريد الإلكتروني الخاص بك  '''' 'لا يمكن ''''' التحقق منه.",
+	'emailcapture-invalid-code' => 'رمز التفعيل غير صحيح.',
+	'emailcapture-already-confirmed' => 'تم تأكيد بريدك الإلكتروني.',
 	'emailcapture-response-subject' => 'التحقق من عنوان البريد الإلكتروني {{SITENAME}}',
 	'emailcapture-response-body' => 'مرحباً!
 
