@@ -390,6 +390,39 @@ $messages['es'] = array(
 	'emailcapture-submit' => 'Verificar dirección de correo electrónico',
 );
 
+/** Estonian (Eesti)
+ * @author Pikne
+ */
+$messages['et'] = array(
+	'emailcapture' => 'E-posti kinnitamine',
+	'emailcapture-failure' => "Sinu e-posti aadressi '''ei''' kinnitatud.",
+	'emailcapture-invalid-code' => 'Vigane kinnituskood.',
+	'emailcapture-already-confirmed' => 'Sinu e-posti aadress on juba kinnitatud.',
+	'emailcapture-response-subject' => '{{GRAMMAR:genitive|{{SITENAME}}}} e-posti aadressi kinnitus',
+	'emailcapture-response-body' => 'Tere!
+
+Aitäh, et tunned huvi {{GRAMMAR:genitive|{{SITENAME}}}} täiendamise vastu.
+
+Palun leia natuke aega, et kinnitada oma e-posti aadress. Selleks klõpsa järgmist linki:
+$1
+
+Samuti võid minna järgmisele leheküljele:
+$2
+
+Ja sisestada järgmise kinnituskoodi:
+$3
+
+Võtame sinuga peagi ühendust, et rääkida, kuidas saad {{GRAMMAR:partitive|{{SITENAME}}}} täiendada.
+
+Kui sa pole soovinud e-posti aadressi kinnitada, eira palun seda e-kirja ja me ei saada sulle enam midagi.',
+	'emailcapture-success' => 'Aitäh!
+
+Sinu e-posti aadress on edukalt kinnitatud.',
+	'emailcapture-instructions' => 'Et oma e-posti aadress kinnitada, sisesta e-kirjatsi saadud kood ja klõpsa "{{int:emailcapture-submit}}".',
+	'emailcapture-verify' => 'Kinnituskood:',
+	'emailcapture-submit' => 'Kinnita e-posti aadress',
+);
+
 /** Persian (فارسی)
  * @author Mjbmr
  */
