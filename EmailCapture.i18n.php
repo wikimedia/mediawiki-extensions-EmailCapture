@@ -592,6 +592,14 @@ O seu enderezo de correo electrónico verificouse correctamente.',
 	'emailcapture-submit' => 'Verificar o enderezo de correo electrónico',
 );
 
+/** Swiss German (Alemannisch)
+ * @author Als-Chlämens
+ */
+$messages['gsw'] = array(
+	'emailcapture-verify' => 'Bstätigungscode:',
+	'emailcapture-submit' => 'E-Mail-Adräss bstätige',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  */
