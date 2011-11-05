@@ -634,6 +634,13 @@ $3
 	'emailcapture-submit' => 'לאמת כתובת דוא״ל',
 );
 
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'emailcapture-already-confirmed' => 'Twoja e-mejlowa adresa bu hižo wobkrućena.',
+);
+
 /** Hungarian (Magyar)
  * @author Dani
  */
