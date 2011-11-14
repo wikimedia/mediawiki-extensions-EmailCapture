@@ -781,6 +781,7 @@ $messages['lb'] = array(
 	'emailcapture' => 'E-Mail-Iwwerpréifung',
 	'emailcapture-desc' => 'Mailadressen erfaassen, an de Benotzer erlabe fir ze per Mail ze validéieren',
 	'emailcapture-failure' => "Är E-Mail konnt '''net''' confirméiert ginn.",
+	'emailcapture-invalid-code' => 'Net valabele Confirmatiounscode.',
 	'emailcapture-already-confirmed' => 'Är E-Mailadress gouf scho confirméiert.',
 	'emailcapture-response-subject' => '{{SITENAME}} Mail-Confirmatioun',
 	'emailcapture-response-body' => 'Bonjour! 
