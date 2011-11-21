@@ -1105,11 +1105,14 @@ O seu correio electrónico foi confirmado.',
 
 /** Brazilian Portuguese (Português do Brasil)
  * @author Giro720
+ * @author Pedroca cerebral
  */
 $messages['pt-br'] = array(
 	'emailcapture' => 'Verificação do e-mail',
 	'emailcapture-desc' => 'Capturar endereços de e-mail e permitir que os usuários os verifiquem através do próprio e-mail',
 	'emailcapture-failure' => "O seu e-mail '''não''' foi verificado.",
+	'emailcapture-invalid-code' => 'Código de confirmação inválido.',
+	'emailcapture-already-confirmed' => 'Seu endereço de email já foi confirmado.',
 	'emailcapture-response-subject' => 'Verificação do endereço de e-mail, da {{SITENAME}}',
 	'emailcapture-response-body' => 'Olá!
 
