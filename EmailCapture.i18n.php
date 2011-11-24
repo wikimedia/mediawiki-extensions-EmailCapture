@@ -1320,6 +1320,7 @@ Vaš e-poštni naslov je bil uspešno potrjen.',
  */
 $messages['sv'] = array(
 	'emailcapture' => 'E-postbekräftelse',
+	'emailcapture-desc' => 'Samlar in e-postadresser och låter användare kontrollera dem via e-post',
 	'emailcapture-failure' => "Din e-postadress blev '''inte''' bekräftad.",
 	'emailcapture-invalid-code' => 'Ogiltig bekräftelsekod.',
 	'emailcapture-already-confirmed' => 'Din e-postadress har redan blivit bekräftad.',
