@@ -32,7 +32,7 @@ class SpecialEmailCapture extends SpecialPage {
 				} else {
 					$wgOut->addWikiMsg( 'emailcapture-failure' );
 				}
-			} else if ( $row && $row->ec_verified ) {
+			} elseif ( $row && $row->ec_verified ) {
 				$wgOut->addWikiMsg( 'emailcapture-already-confirmed' );
 			} else {
 				$wgOut->addWikiMsg( 'emailcapture-invalid-code' );
