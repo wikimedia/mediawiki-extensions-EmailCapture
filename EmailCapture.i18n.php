@@ -192,6 +192,8 @@ $messages['br'] = array(
 	'emailcapture' => 'Gwiriañ ar postel',
 	'emailcapture-desc' => "Pakañ a ra chomlec'hioù postel ha talvezout a ra d'an implijerien da wiriañ anezho dre bostel",
 	'emailcapture-failure' => "'''N'eo ket bet''' gwiriekaet ho chomlec'h postel.",
+	'emailcapture-invalid-code' => 'Kod kadarnaat direizh',
+	'emailcapture-already-confirmed' => "Kadarnaet eo bet ho chomlec'h postel c'hoazh.",
 	'emailcapture-response-subject' => "Gwiriadenn chomlec'h postel evit {{SITENAME}}",
 	'emailcapture-response-body' => "Demat deoc'h !
 
