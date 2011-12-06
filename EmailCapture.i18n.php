@@ -640,7 +640,18 @@ $3
  * @author Michawiki
  */
 $messages['hsb'] = array(
+	'emailcapture' => 'E-mejlowe přepruwowanje',
+	'emailcapture-desc' => 'Zmóžnja popadnjenje e-mejlowych adresow a dowola wužiwarjam je přez e-mejl přepruwować',
+	'emailcapture-failure' => "Twoja e-mejl '''nje'''je so přepruwowała.",
+	'emailcapture-invalid-code' => 'Njepłaćiwy wobkrućenski kod.',
 	'emailcapture-already-confirmed' => 'Twoja e-mejlowa adresa bu hižo wobkrućena.',
+	'emailcapture-response-subject' => '{{SITENAME}} – přepruwowanje e-mejloweje adresy',
+	'emailcapture-success' => 'Wulki dźak!
+
+Waša e-mejl je so wuspěšnje wobkrućiła.',
+	'emailcapture-instructions' => 'Zo by swoju e-mejlowu adresu wobkrućił, zapodajće kod, kotryž je so ći přez e-mejl připósłał a klikń na "{{int:emailcapture-submit}}".',
+	'emailcapture-verify' => 'Wobkrućenski kod:',
+	'emailcapture-submit' => 'E-mejlowu adresu wobkrućić',
 );
 
 /** Hungarian (Magyar)
