@@ -646,6 +646,22 @@ $messages['hsb'] = array(
 	'emailcapture-invalid-code' => 'Njepłaćiwy wobkrućenski kod.',
 	'emailcapture-already-confirmed' => 'Twoja e-mejlowa adresa bu hižo wobkrućena.',
 	'emailcapture-response-subject' => '{{SITENAME}} – přepruwowanje e-mejloweje adresy',
+	'emailcapture-response-body' => 'Halo!
+
+Wulki dźak za twój zajim {{GRAMMAR:akuzatiw|{{SITENAME}}}} polěpšić.
+
+Prošu bjer sej wokomik časa, zo by swoju e-mejl přez kliknjenje na slědowacy wotkaz wobkrućił:
+$1
+
+Móžeš tež slědowacu stronu wopytać:
+$2
+
+Zapodaj potom slědowacy wobkrućenski kod:
+$3
+
+Stajimy so za krótki čas z tobu do zwiska, zo bychmy ći zdźělili, kak móžeš pomhać, {{GRAMMAR:akuzatiw|{{SITENAME}}}} polěpšić.
+
+Jeli njejsy tute naprašowanje pósłał, ignoruj prošu tutu e-mejl a njepósćelemy ći ničo wjace.',
 	'emailcapture-success' => 'Wulki dźak!
 
 Waša e-mejl je so wuspěšnje wobkrućiła.',
