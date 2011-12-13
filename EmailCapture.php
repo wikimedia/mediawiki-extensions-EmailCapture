@@ -31,7 +31,7 @@ $wgExtensionCredits['other'][] = array(
 	'name' => 'EmailCapture',
 	'author' => 'Trevor Parscal',
 	'version' => '0.3.0',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:EmailCapture',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:EmailCapture',
 	'descriptionmsg' => 'emailcapture-desc',
 );
 
