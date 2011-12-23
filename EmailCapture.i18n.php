@@ -744,6 +744,15 @@ Alamat surel Anda berhasil diverifikasi.',
 	'emailcapture-submit' => 'Verifikasi alamat surel',
 );
 
+/** Italian (Italiano)
+ * @author Aushulz
+ */
+$messages['it'] = array(
+	'emailcapture-success' => 'Grazie!
+
+La e-mail è stata confermata con successo.',
+);
+
 /** Japanese (日本語)
  * @author Schu
  */
