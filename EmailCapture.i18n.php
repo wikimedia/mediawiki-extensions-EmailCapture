@@ -1016,7 +1016,7 @@ Je e-mailadres is bevestigd.',
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Sjurhamre
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'emailcapture' => 'E-postbekreftelse',
 	'emailcapture-desc' => 'Samler inn e-postadresser, og lar brukere bekrefte dem via e-post',
 	'emailcapture-failure' => "E-postadressen din ble '''ikke''' bekreftet",
