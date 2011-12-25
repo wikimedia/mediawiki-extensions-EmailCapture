@@ -329,6 +329,7 @@ Ihre E-Mail-Adresse wurde erfolgreich bestätigt.',
 );
 
 /** Greek (Ελληνικά)
+ * @author AK
  * @author Glavkos
  * @author ZaDiak
  */
@@ -336,6 +337,25 @@ $messages['el'] = array(
 	'emailcapture' => 'Επαλήθευση ηλεκτρονικού ταχυδρομείου',
 	'emailcapture-failure' => "Το e-mail σας '''δεν''' επαληθεύτηκε.",
 	'emailcapture-response-subject' => '{{SITENAME}} επαλήθευση ηλεκτρονικής διεύθυνσης',
+	'emailcapture-response-body' => 'Γεια σας!
+
+Ευχαριστούμε που δείξατε ενδιαφέρον στη βελτίωση της Βικπέδιας.
+
+Παρακαλώ αφιερώστε λίγο χρόνο για να επιβεβαιώσετε την διεύθυνση ηλεκτρονικού ταχυδρομείου σας πατώντας τον παρακάτω σύνδεσμο: 
+
+$1
+
+Μπορείτε επίσης να επισκεφτείτε:
+
+$2
+
+Και πληκτρολογήστε τον ακόλουθο κωδικό επιβεβαίωσης:
+
+$3
+
+Θα επικοινωνήσουμε μαζί σας σύντομα για το πώς μπορείτε να βοηθήσετε στη βελτίωση της Βικιπέδιας.
+
+Εάν δεν ξεκινήσατε εσείς αυτό το αίτημα, παρακαλώ αγνοήστε αυτό το μήνυμα και δε θα σας στείλουμε τίποτα άλλο.',
 	'emailcapture-success' => 'Ευχαριστούμε!
 
 Το e-mail σας έχει επιβεβαιωθεί με επιτυχία.',
@@ -457,12 +477,15 @@ $3
 );
 
 /** Finnish (Suomi)
+ * @author Nedergard
  * @author Olli
  */
 $messages['fi'] = array(
 	'emailcapture' => 'Sähköpostin vahvistus',
 	'emailcapture-desc' => 'Kaappaa sähköpostiosoitteet, ja salli käyttäjien vahvistaa ne sähköpostilla',
 	'emailcapture-failure' => "Sähköpostiosoitettasi '''ei''' vahvistettu.",
+	'emailcapture-invalid-code' => 'Virheellinen varmistuskoodi.',
+	'emailcapture-already-confirmed' => 'Sähköpostiosoitteesi on jo varmennettu.',
 	'emailcapture-response-subject' => 'Sivuston {{SITENAME}} sähköpostiosoitteen vahvistus',
 	'emailcapture-response-body' => 'Hei!
 
@@ -746,11 +769,32 @@ Alamat surel Anda berhasil diverifikasi.',
 
 /** Italian (Italiano)
  * @author Aushulz
+ * @author F. Cosoleto
  */
 $messages['it'] = array(
+	'emailcapture' => 'Verifica email',
+	'emailcapture-failure' => "L'email '''non''' è stata verificata.",
+	'emailcapture-invalid-code' => 'Codice di conferma non valido.',
+	'emailcapture-already-confirmed' => "L'indirizzo email è già stato confermato.",
+	'emailcapture-response-subject' => "{{SITENAME}}: conferma dell'indirizzo email",
+	'emailcapture-response-body' => "Ciao e grazie per l'interesse mostrato nel contribuire a migliorare {{SITENAME}}.
+
+Per favore, conferma il tuo indirizzo email cliccando sul collegamento sottostante:
+$1
+
+Si può anche visitare:
+$2
+
+e inserire il seguente codice di conferma:
+$3
+
+Nel caso non fossi stato tu ad attivare questa richiesta, ti preghiamo d'ignorare questa email e non se ne riceveranno altre da parte nostra.",
 	'emailcapture-success' => 'Grazie!
 
 La e-mail è stata confermata con successo.',
+	'emailcapture-instructions' => 'Per verificare il tuo indirizzo e-mail, inserire il codice che ti è stato inviato tramite posta elettronica e cliccare su "{{int:emailcapture-presentare}}".',
+	'emailcapture-verify' => 'Codice di verifica:',
+	'emailcapture-submit' => 'Verifica indirizzo email',
 );
 
 /** Japanese (日本語)
@@ -968,6 +1012,30 @@ E-mel anda berjaya disahkan.',
 	'emailcapture-submit' => 'Sahkan alamat e-mel',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Sjurhamre
+ */
+$messages['nb'] = array(
+	'emailcapture' => 'E-postbekreftelse',
+	'emailcapture-desc' => 'Samler inn e-postadresser, og lar brukere bekrefte dem via e-post',
+	'emailcapture-failure' => "E-postadressen din ble '''ikke''' bekreftet",
+	'emailcapture-response-subject' => 'E-postbekreftelse fra {{SITENAME}}',
+	'emailcapture-response-body' => 'Bekreft e-postadressen din ved å følge lenken under:
+$1
+
+Eventuelt kan du besøke:
+$2
+
+Og skrive inn følgende bekreftelseskode:
+$3
+
+Takk for at du bekrefter e-postadressen din.',
+	'emailcapture-success' => 'E-postadressen din har blitt bekreftet.',
+	'emailcapture-instructions' => 'For å bekrefte e-postadressen din, skriver du inn koden du fikk på e-post, og klikker "{{int:emailcapture-submit}}".',
+	'emailcapture-verify' => 'Bekreftelseskode:',
+	'emailcapture-submit' => 'Bekreft e-postadresse',
+);
+
 /** Dutch (Nederlands)
  * @author McDutchie
  * @author SPQRobin
@@ -1013,28 +1081,11 @@ $messages['nl-informal'] = array(
 Je e-mailadres is bevestigd.',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Sjurhamre
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Ansumang
  */
-$messages['nb'] = array(
-	'emailcapture' => 'E-postbekreftelse',
-	'emailcapture-desc' => 'Samler inn e-postadresser, og lar brukere bekrefte dem via e-post',
-	'emailcapture-failure' => "E-postadressen din ble '''ikke''' bekreftet",
-	'emailcapture-response-subject' => 'E-postbekreftelse fra {{SITENAME}}',
-	'emailcapture-response-body' => 'Bekreft e-postadressen din ved å følge lenken under:
-$1
-
-Eventuelt kan du besøke:
-$2
-
-Og skrive inn følgende bekreftelseskode:
-$3
-
-Takk for at du bekrefter e-postadressen din.',
-	'emailcapture-success' => 'E-postadressen din har blitt bekreftet.',
-	'emailcapture-instructions' => 'For å bekrefte e-postadressen din, skriver du inn koden du fikk på e-post, og klikker "{{int:emailcapture-submit}}".',
-	'emailcapture-verify' => 'Bekreftelseskode:',
-	'emailcapture-submit' => 'Bekreft e-postadresse',
+$messages['or'] = array(
+	'emailcapture' => 'ଇ-ମେଲ ଜାଞ୍ଚ',
 );
 
 /** Polish (Polski)
