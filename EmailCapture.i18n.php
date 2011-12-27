@@ -400,11 +400,14 @@ Via retpoŝtadreso estis sukcese kontrolita.',
 
 /** Spanish (Español)
  * @author Fitoschido
+ * @author Imre
  * @author MetalBrasil
  */
 $messages['es'] = array(
 	'emailcapture' => 'Verificación de correo electrónico',
 	'emailcapture-failure' => "Tu e-mail fue'''no''' verificada.",
+	'emailcapture-invalid-code' => 'El código de validación no es válido.',
+	'emailcapture-already-confirmed' => 'Tu dirección de correo electrónico ya ha sido confirmada.',
 	'emailcapture-response-subject' => '{{SITENAME}} dirección de correo electrónico de verificación',
 	'emailcapture-success' => '¡Muchas gracias!  Tu e-mail ha sido confirmado exitosamente.',
 	'emailcapture-instructions' => 'Para verificar su dirección de correo electrónico, escriba el código que fue enviado por correo electrónico a usted y haga clic en "{{int: emailcapture a presentar}}".',
@@ -1265,6 +1268,7 @@ Adresa dumneavoastră de e-mail a fost confirmată cu succes.',
 $messages['roa-tara'] = array(
 	'emailcapture' => "Verifeche de l'e-mail",
 	'emailcapture-failure' => "L'e-mail toje '''non''' g'ha state verificate.",
+	'emailcapture-invalid-code' => 'Codece de conferme invalide.',
 	'emailcapture-response-subject' => "Verifeche de l'indirizze email pe {{SITENAME}}",
 	'emailcapture-success' => "Grazie!
 
@@ -1341,6 +1345,15 @@ $3
 	'emailcapture-instructions' => 'Жебы сьте овірили свою імейлову адресу, уведьте код, котрый вам пришов імейлом, і кликните на „{{int:emailcapture-submit}}“.',
 	'emailcapture-verify' => 'Овірёвачій код:',
 	'emailcapture-submit' => 'Овірити імейлову адресу',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'emailcapture-success' => 'ස්තුතියි!
+
+ඔබේ විද්‍යුත්-තැපැල් ලිපිනය සාර්ථකව තහවුරු කරන ලදී.',
 );
 
 /** Slovak (Slovenčina)
