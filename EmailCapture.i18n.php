@@ -402,13 +402,34 @@ Via retpoŝtadreso estis sukcese kontrolita.',
  * @author Fitoschido
  * @author Imre
  * @author MetalBrasil
+ * @author Platonides
  */
 $messages['es'] = array(
 	'emailcapture' => 'Verificación de correo electrónico',
+	'emailcapture-desc' => 'Obtiene direcciones de e-mail y permite a los usuaros confirmarlas',
 	'emailcapture-failure' => "Tu e-mail fue'''no''' verificada.",
 	'emailcapture-invalid-code' => 'El código de validación no es válido.',
 	'emailcapture-already-confirmed' => 'Tu dirección de correo electrónico ya ha sido confirmada.',
 	'emailcapture-response-subject' => '{{SITENAME}} dirección de correo electrónico de verificación',
+	'emailcapture-response-body' => '¡Hola!
+
+Gracias por tu interés en ayudar a mejorar {{SITENAME}}.
+
+Por favor, dedica un momento a confirmar tu correo electrónico haciendo clic en el siguiente enlace:
+$1
+
+Alternativamente, puedes visitar:
+$2
+
+E introducir el siguiente código de confirmación:
+$3
+
+Nos pondremos en contacto contigo con información para para ayudarte a mejorar {{SITENAME}}.
+
+Si no realizaste esta solicitud, por favor ignora este correo y no te enviaremos más información.
+
+Gracias por tu atención, con nuestros mejores deseos,
+El equipo de {{SITENAME}}.',
 	'emailcapture-success' => '¡Muchas gracias!  Tu e-mail ha sido confirmado exitosamente.',
 	'emailcapture-instructions' => 'Para verificar su dirección de correo electrónico, escriba el código que fue enviado por correo electrónico a usted y haga clic en "{{int: emailcapture a presentar}}".',
 	'emailcapture-verify' => 'Código de verificación:',
@@ -1351,9 +1372,15 @@ $3
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'emailcapture' => 'විද්‍යුත්-තැපැල් තහවුරුකිරීම',
+	'emailcapture-invalid-code' => 'වලංගු නොවන තහවුරු කිරීමේ කේතය.',
+	'emailcapture-already-confirmed' => 'ඔබගේ විද්‍යුත්-තැපැල් ලිපිනය දැනටමත් තහවුරුකොට ඇත.',
+	'emailcapture-response-subject' => '{{SITENAME}} විද්‍යුත්-තැපැල් ලිපිනය තහවුරුකිරීම',
 	'emailcapture-success' => 'ස්තුතියි!
 
 ඔබේ විද්‍යුත්-තැපැල් ලිපිනය සාර්ථකව තහවුරු කරන ලදී.',
+	'emailcapture-verify' => 'තහවුරු කිරීමේ කේතය:',
+	'emailcapture-submit' => 'විද්‍යුත් තැපැල් ලිපිනය තහවුරු කරන්න',
 );
 
 /** Slovak (Slovenčina)
