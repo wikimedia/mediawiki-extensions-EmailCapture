@@ -719,8 +719,18 @@ Waša e-mejl je so wuspěšnje wobkrućiła.',
 
 /** Hungarian (Magyar)
  * @author Dani
+ * @author Dj
  */
 $messages['hu'] = array(
+	'emailcapture' => 'E-mail ellenőrzése',
+	'emailcapture-desc' => 'Rögzíti az email címeket és lehetőséget biztosít az ellenőrzésükre',
+	'emailcapture-failure' => "Az e-mail címed ellenőrzése '''nem''' sikerült.",
+	'emailcapture-invalid-code' => 'Érvénytelen ellenőrzőkód.',
+	'emailcapture-already-confirmed' => 'Az e-mail címed már ellenőrzésre került.',
+	'emailcapture-response-subject' => '{{SITENAME}} e-mail cím megerősítés',
+	'emailcapture-success' => 'Köszönjük!
+
+Az e-mail címed sikeresen ellenőrzésre került.',
 	'emailcapture-verify' => 'Ellenőrző kód:',
 	'emailcapture-submit' => 'E-mail cím megerősítése',
 );
