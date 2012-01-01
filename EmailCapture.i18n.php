@@ -683,6 +683,13 @@ $3
 	'emailcapture-submit' => 'לאמת כתובת דוא״ל',
 );
 
+/** Hindi (हिन्दी)
+ * @author Ansumang
+ */
+$messages['hi'] = array(
+	'emailcapture' => 'ई-मेल सत्यापन',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
@@ -1301,6 +1308,22 @@ $messages['roa-tara'] = array(
 	'emailcapture-failure' => "L'e-mail toje '''non''' g'ha state verificate.",
 	'emailcapture-invalid-code' => 'Codece de conferme invalide.',
 	'emailcapture-response-subject' => "Verifeche de l'indirizze email pe {{SITENAME}}",
+	'emailcapture-response-body' => "Cià!
+
+Grazie purcé è avute inderesse a dà 'na màne pe migliorà {{SITENAME}}.
+
+Pe piacere pigghiate 'nu mumende pe confermà 'a mail toje cazzanne 'u collegamende aqquà sotte:
+$1
+
+Tu puè pure 'ndrucà:
+$2
+
+E sckaffe 'u seguende codece de conferme:
+$3
+
+Rumanime in condatte e te decime cumme ne puè dà 'na mane pe migliorà {{SITENAME}}.
+
+Ce tu non g'è mannate sta richieste, pe piacere no sce penzanne a sta e-mail e nuje no te manname cchiù ninde.",
 	'emailcapture-success' => "Grazie!
 
 'U 'nderizze e-mail tune ha state confermate cu successe.",
@@ -1383,9 +1406,29 @@ $3
  */
 $messages['si'] = array(
 	'emailcapture' => 'විද්‍යුත්-තැපැල් තහවුරුකිරීම',
+	'emailcapture-failure' => "ඔබේ ඊ-තැපෑල තහවුරු කොට '''නොමැත'''.",
 	'emailcapture-invalid-code' => 'වලංගු නොවන තහවුරු කිරීමේ කේතය.',
 	'emailcapture-already-confirmed' => 'ඔබගේ විද්‍යුත්-තැපැල් ලිපිනය දැනටමත් තහවුරුකොට ඇත.',
 	'emailcapture-response-subject' => '{{SITENAME}} විද්‍යුත්-තැපැල් ලිපිනය තහවුරුකිරීම',
+	'emailcapture-response-body' => 'කොහොමද!
+
+{{SITENAME}} වැඩිදියුණු කිරීම සඳහා උපකාර කිරීමට කැමැත්ත ප්‍රකාශ කළාට ස්තුතියි.
+
+කරුණාකර පහත දැක්වෙන සබැඳිය මත ක්ලික් කිරීම මඟින් ඔබේ විද්‍යුත් තැපැල් ලිපිනය තහවුරු කිරීම සඳහා මොහොතක් ගත කරන්න: 
+
+$1
+
+ඔබට මෙයටද යා හැක:
+
+$2
+
+ඉන්පසු පහත දැක්වෙන තහවුරු කිරීමේ කේතය යොදන්න:
+
+$3
+
+ඔබට {{SITENAME}} වැඩිදියුණු කල හැක්කේ කෙසේදැයි දන්වමින් අපි ඔබව විගසින් දැනුවත් කරන්නෙමු.
+
+ඔබ විසින් මෙම අයැදුම ඇතුළත් කලේ නැතිනම්, කරුණාකර මෙම පණිවුඩය නොසලකන්න ඉන්පසු අපි ඔබට වෙන මොනවත් එවන්නේ නැහැ.',
 	'emailcapture-success' => 'ස්තුතියි!
 
 ඔබේ විද්‍යුත්-තැපැල් ලිපිනය සාර්ථකව තහවුරු කරන ලදී.',
