@@ -65,6 +65,16 @@ This is the subject line of the email sent to users.
 [[Image:TestWiki-Special-EmailCapture-L4H0.png|Screenshot of Special:EmailCapture|right|thumb]]',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['af'] = array(
+	'emailcapture' => 'E-pos verifiëring',
+	'emailcapture-invalid-code' => 'Ongeldige bevestigingskode.',
+	'emailcapture-already-confirmed' => 'Jou e-posadres is reeds bevestig.',
+	'emailcapture-submit' => 'Verifieer e-pos adres',
+);
+
 /** Arabic (العربية)
  * @author AwamerT
  * @author Imksa
@@ -688,6 +698,32 @@ $3
  */
 $messages['hi'] = array(
 	'emailcapture' => 'ई-मेल सत्यापन',
+	'emailcapture-desc' => 'ई-मेल पते पर कब्जा करें, और सदस्यों को उनके ई-मेल द्वारा सत्यापित करने की अनुमति दें',
+	'emailcapture-failure' => "आपकी ई-मेल सत्यापन '''नहीं''' हुई है ।",
+	'emailcapture-invalid-code' => 'अमान्य पुष्टिकरण कोड ।',
+	'emailcapture-already-confirmed' => 'आपका ई-मेल पता पहले से ही पुष्टि की गई है।',
+	'emailcapture-response-subject' => '{{SITENAME}} ई-मेल पता सत्यापन',
+	'emailcapture-response-body' => 'नमस्कार!
+
+{{SITENAME}} को बेहतर बनाने के लिए मदद करने में रुचि व्यक्त करने के लिए धन्यवाद ।
+
+कृपया नीचे दिए गए लिंक पर क्लिक करके अपने ई-मेल की पुष्टि करें:
+$1
+
+आप ये भी देख सकते हैं:
+$2
+
+और निम्न पुष्टिकरण कोड प्रविष्ट करें:
+$3
+
+हम शीघ्र ही {{SITENAME}} सुधार के लिए कैसे आप मदद कर सकते हैं ये जानकारी देंगे ।
+यदि आप इस अनुरोध को आरंभ नहीं किया है, कृपया इस ई-मेल पर ध्यान न दें और हम और कुछ नहीं भेजेंगे ।',
+	'emailcapture-success' => 'धन्यवाद!
+
+आपके ई-मेल सफलतापूर्वक पुष्टि की गई है।',
+	'emailcapture-instructions' => 'आपके ई-मेल पते को सत्यापित करने के लिए, कोड निवेश करें जो आपको ई-मेल किया गया था और क्लिक करें "{{int:emailcapture-submit}}"।',
+	'emailcapture-verify' => 'सत्यापन कोड:',
+	'emailcapture-submit' => 'ई-मेल पते जाँच करें',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
