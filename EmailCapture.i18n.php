@@ -70,8 +70,13 @@ This is the subject line of the email sent to users.
  */
 $messages['af'] = array(
 	'emailcapture' => 'E-pos verifiëring',
+	'emailcapture-desc' => 'Capture e-pos adresse en gebruikers toelaat om hulle te verifieer via e-pos',
 	'emailcapture-invalid-code' => 'Ongeldige bevestigingskode.',
 	'emailcapture-already-confirmed' => 'Jou e-posadres is reeds bevestig.',
+	'emailcapture-success' => 'Dankie!
+
+Jou e-pos is suksesvol bevestig.',
+	'emailcapture-verify' => 'Verifikasie kode:',
 	'emailcapture-submit' => 'Verifieer e-pos adres',
 );
 
