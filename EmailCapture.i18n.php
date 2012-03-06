@@ -486,11 +486,14 @@ Sinu e-posti aadress on edukalt kinnitatud.',
 
 /** Persian (فارسی)
  * @author Mjbmr
+ * @author ZxxZxxZ
  */
 $messages['fa'] = array(
 	'emailcapture' => 'تأیید پست الکترونیکی',
 	'emailcapture-desc' => 'ثبت نشانی های پست الکترونیکی، و به کاربران اجازه می‌دهد که آن‌ها از طریق پست الکترونیکی تأیید کنند',
 	'emailcapture-failure' => "پست الکترونیکی شما تأیید '''نشده''' است.",
+	'emailcapture-invalid-code' => 'كد تصدیق نامعتبر.',
+	'emailcapture-already-confirmed' => 'نشانی پست الکترونیکی شما قبلاً تأیید شده‌است.',
 	'emailcapture-response-subject' => 'تأیید نشانی پست الکترونیکی {{SITENAME}}',
 	'emailcapture-response-body' => 'سلام!
 
