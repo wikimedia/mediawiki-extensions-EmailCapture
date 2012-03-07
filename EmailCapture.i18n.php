@@ -891,8 +891,10 @@ $messages['ja'] = array(
 
 /** Georgian (ქართული)
  * @author BRUTE
+ * @author David1010
  */
 $messages['ka'] = array(
+	'emailcapture' => 'ელ.ფოსტის მისამართის დადასტურება',
 	'emailcapture-success' => 'გმადლობთ!
 
 თქვენი ი-მეილი წარმატებით დადასტურდა.',
