@@ -1630,10 +1630,15 @@ Matagumpay na natiyak ang e-liham mo.',
 );
 
 /** Turkish (Türkçe)
+ * @author Bilalokms
  * @author Karduelis
  */
 $messages['tr'] = array(
+	'emailcapture' => 'E-posta doğrulama',
+	'emailcapture-failure' => 'E-postanız doğrulanmadı.',
 	'emailcapture-invalid-code' => 'Geçersiz onay kodu.',
+	'emailcapture-already-confirmed' => 'E-posta adresiniz zaten doğrulanmış.',
+	'emailcapture-response-subject' => '{{SITENAME}} e-posta adresi doğrulaması',
 	'emailcapture-success' => 'Teşekkür ederiz!
 
 E-posta başarıyla onaylamıştır.',
