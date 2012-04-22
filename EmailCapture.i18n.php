@@ -884,9 +884,17 @@ La e-mail è stata confermata con successo.',
 
 /** Japanese (日本語)
  * @author Schu
+ * @author Shirayuki
  */
 $messages['ja'] = array(
-	'emailcapture' => '電子メールの検証',
+	'emailcapture' => 'メールの検証',
+	'emailcapture-invalid-code' => '確認コードが正しくありません。',
+	'emailcapture-success' => 'ありがとうございます！
+
+あなたのメールアドレスを確認しました。',
+	'emailcapture-instructions' => 'あなたのメールアドレスを検証するには、メールでお送りしたコードを入力して「{{int:emailcapture-submit}}」をクリックしてください。',
+	'emailcapture-verify' => '検証コード：',
+	'emailcapture-submit' => 'メールアドレスを検証',
 );
 
 /** Georgian (ქართული)
