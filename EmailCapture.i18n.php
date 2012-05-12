@@ -596,7 +596,7 @@ Votre adresse de courriel a été vérifiée avec succès.',
  */
 $messages['frp'] = array(
 	'emailcapture' => 'Contrôlo d’adrèce èlèctronica',
-	'emailcapture-desc' => 'Capture des adrèces èlèctroniques et pués pèrmèt ux utilisators de les controlar per mèssageria èlèctronica.',
+	'emailcapture-desc' => 'Capture des adrèces èlèctroniques et pués pèrmèt ux usanciérs de les controlar per mèssageria èlèctronica.',
 	'emailcapture-failure' => "Voutra adrèce èlèctronica at '''pas''' étâ controlâ.",
 	'emailcapture-invalid-code' => 'Code de confirmacion fôx.',
 	'emailcapture-already-confirmed' => 'Voutra adrèce èlèctronica at ja étâ confirmâ.',
