@@ -854,10 +854,12 @@ Alamat surel Anda berhasil diverifikasi.',
 
 /** Italian (Italiano)
  * @author Aushulz
+ * @author Beta16
  * @author F. Cosoleto
  */
 $messages['it'] = array(
 	'emailcapture' => 'Verifica email',
+	'emailcapture-desc' => 'Cattura gli indirizzi e-mail e consente di verificarli tramite posta elettronica',
 	'emailcapture-failure' => "L'email '''non''' è stata verificata.",
 	'emailcapture-invalid-code' => 'Codice di conferma non valido.',
 	'emailcapture-already-confirmed' => "L'indirizzo email è già stato confermato.",
