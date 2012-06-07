@@ -889,8 +889,12 @@ La e-mail è stata confermata con successo.',
  * @author Shirayuki
  */
 $messages['ja'] = array(
-	'emailcapture' => 'メールの検証',
+	'emailcapture' => 'メールアドレスの検証',
+	'emailcapture-desc' => 'メールアドレスを取得し、利用者がメールアドレスをメールで検証できるようにする',
+	'emailcapture-failure' => "あなたのメールアドレスは検証されて'''いません'''。",
 	'emailcapture-invalid-code' => '確認コードが正しくありません。',
+	'emailcapture-already-confirmed' => 'あなたのメールアドレスは既に確認されました。',
+	'emailcapture-response-subject' => '{{SITENAME}} メールアドレス検証',
 	'emailcapture-success' => 'ありがとうございます！
 
 あなたのメールアドレスを確認しました。',
