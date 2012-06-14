@@ -155,7 +155,7 @@ $3
 	'emailcapture-submit' => 'Праверыць адрас электроннай пошты',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  * @author Spiritia
  */
@@ -200,7 +200,7 @@ $messages['bn'] = array(
 	'emailcapture-submit' => 'ই-মেইল ঠিকানা নিশ্চিতকরণ',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -234,7 +234,7 @@ Gwiriet eo bet ho chomlec'h postel ervat.",
 	'emailcapture-submit' => "Gwiriekaat ar chomlec'h postel",
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -246,7 +246,7 @@ Vaš e-mail je uspješno potvrđen.',
 	'emailcapture-verify' => 'Kod za potvrdu:',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Mormegil
  */
 $messages['cs'] = array(
@@ -413,7 +413,7 @@ Via retpoŝtadreso estis sukcese kontrolita.',
 	'emailcapture-submit' => 'Konfirmi adreson de retpoŝto',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Fitoschido
  * @author Imre
  * @author MetalBrasil
@@ -451,7 +451,7 @@ El equipo de {{SITENAME}}.',
 	'emailcapture-submit' => 'Verificar dirección de correo electrónico',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Pikne
  */
 $messages['et'] = array(
@@ -518,7 +518,7 @@ $3
 	'emailcapture-submit' => 'تأیید پست الکترونیکی',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Nedergard
  * @author Olli
  */
@@ -553,7 +553,7 @@ Sähköpostiosoitteesi vahvistettiin onnistuneesti.',
 	'emailcapture-submit' => 'Vahvista sähköpostiosoite',
 );
 
-/** French (Français)
+/** French (français)
  * @author Hashar
  * @author IAlex
  * @author Sherbrooke
@@ -591,7 +591,7 @@ Votre adresse de courriel a été vérifiée avec succès.',
 	'emailcapture-submit' => "Vérifiez l'adresse de courriel",
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -768,7 +768,7 @@ Waša e-mejl je so wuspěšnje wobkrućiła.',
 	'emailcapture-submit' => 'E-mejlowu adresu wobkrućić',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Dj
  */
@@ -786,7 +786,7 @@ Az e-mail címed sikeresen ellenőrzésre került.',
 	'emailcapture-submit' => 'E-mail cím megerősítése',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -852,7 +852,7 @@ Alamat surel Anda berhasil diverifikasi.',
 	'emailcapture-submit' => 'Verifikasi alamat surel',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Aushulz
  * @author Beta16
  * @author F. Cosoleto
@@ -994,7 +994,7 @@ Wann Dir dës Ufro net ausgeléist hutt, ignoréiert dës Mail einfach. Mir sch�
 	'emailcapture-submit' => 'E-Mail-Adress iwwerpréifen',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Eitvys200
  */
 $messages['lt'] = array(
@@ -1008,7 +1008,7 @@ Jūsų e-paštas buvo sėkmingai patvirtintas.',
 	'emailcapture-submit' => 'Patvirtinti e-pašto adresą',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -1192,7 +1192,7 @@ $messages['or'] = array(
 	'emailcapture' => 'ଇ-ମେଲ ଜାଞ୍ଚ',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  * @author Woytecr
  */
@@ -1262,7 +1262,7 @@ Soa adrëssa ëd pòsta eletrònica a l'é stàita verificà për da bin.",
 	'emailcapture-submit' => "Ch'a verìfica l'adrëssa ëd pòsta eletrònica",
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author SandroHc
  */
@@ -1296,7 +1296,7 @@ O seu correio electrónico foi confirmado.',
 	'emailcapture-submit' => 'Verificar endereço',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Giro720
  * @author Pedroca cerebral
  */
@@ -1331,7 +1331,7 @@ O seu e-mail foi confirmado.',
 	'emailcapture-submit' => 'Verificar endereço de e-mail',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Firilacroco
  * @author Minisarm
  */
@@ -1363,7 +1363,7 @@ Adresa dumneavoastră de e-mail a fost confirmată cu succes.',
 	'emailcapture-submit' => 'Verifică adresa de e-mail',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1394,7 +1394,7 @@ Ce tu non g'è mannate sta richieste, pe piacere no sce penzanne a sta e-mail e 
 	'emailcapture-submit' => "Verifeche d'u 'ndirizze e-mail",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Dim Grits
  * @author Александр Сигачёв
  */
@@ -1499,7 +1499,7 @@ $3
 	'emailcapture-submit' => 'විද්‍යුත් තැපැල් ලිපිනය තහවුරු කරන්න',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -1524,7 +1524,7 @@ $3
 	'emailcapture-submit' => 'Overiť e-mailovú adresu',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -1558,7 +1558,7 @@ Vaš e-poštni naslov je bil uspešno potrjen.',
 	'emailcapture-submit' => 'Preveri e-poštni naslov',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Diupwijk
  * @author Lokal Profil
  * @author WikiPhoenix
@@ -1663,7 +1663,7 @@ E-posta başarıyla onaylamıştır.',
 	'emailcapture-submit' => 'E-posta adresini doğrulayın.',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Dim Grits
  */
 $messages['uk'] = array(
@@ -1730,7 +1730,7 @@ Nếu bạn không phải là người yêu cầu thông tin này, xin vui lòng
 	'emailcapture-submit' => 'Xác minh địa chỉ thư điện tử',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Bencmq
  * @author Hydra
  * @author PhiLiP
@@ -1770,7 +1770,7 @@ $3
 	'emailcapture-submit' => '验证电子邮件地址',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Anakmalaysia
  * @author Waihorace
  */
