@@ -418,11 +418,12 @@ Via retpoŝtadreso estis sukcese kontrolita.',
  * @author Imre
  * @author MetalBrasil
  * @author Platonides
+ * @author Vivaelcelta
  */
 $messages['es'] = array(
 	'emailcapture' => 'Verificación de correo electrónico',
-	'emailcapture-desc' => 'Obtiene direcciones de e-mail y permite a los usuaros confirmarlas',
-	'emailcapture-failure' => "Tu e-mail fue'''no''' verificada.",
+	'emailcapture-desc' => 'Obtiene direcciones de correo electrónico y permite a los usuarios confirmarlas',
+	'emailcapture-failure' => "Tu correo electrónico '''no''' fue verificada.",
 	'emailcapture-invalid-code' => 'El código de validación no es válido.',
 	'emailcapture-already-confirmed' => 'Tu dirección de correo electrónico ya ha sido confirmada.',
 	'emailcapture-response-subject' => '{{SITENAME}} dirección de correo electrónico de verificación',
@@ -445,7 +446,7 @@ Si no realizaste esta solicitud, por favor ignora este correo y no te enviaremos
 
 Gracias por tu atención, con nuestros mejores deseos,
 El equipo de {{SITENAME}}.',
-	'emailcapture-success' => '¡Muchas gracias!  Tu e-mail ha sido confirmado exitosamente.',
+	'emailcapture-success' => '¡Muchas gracias!  Tu correo electrónico ha sido confirmado exitosamente.',
 	'emailcapture-instructions' => 'Para verificar su dirección de correo electrónico, escriba el código que fue enviado por correo electrónico a usted y haga clic en "{{int: emailcapture a presentar}}".',
 	'emailcapture-verify' => 'Código de verificación:',
 	'emailcapture-submit' => 'Verificar dirección de correo electrónico',
