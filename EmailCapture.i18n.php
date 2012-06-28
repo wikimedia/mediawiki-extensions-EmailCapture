@@ -922,9 +922,37 @@ $messages['ka'] = array(
 
 /** Korean (한국어)
  * @author Kwj2772
+ * @author 아라
  */
 $messages['ko'] = array(
 	'emailcapture' => '이메일 인증',
+	'emailcapture-desc' => '이메일 주소를 포착하고 사용자가 이메일을 통해 이를 인증하도록 허용',
+	'emailcapture-failure' => "당신의 이메일은 인증되지 '''않았습니다'''.",
+	'emailcapture-invalid-code' => '인증 코드가 잘못됐습니다.',
+	'emailcapture-already-confirmed' => '그 주소는 이미 인증되었습니다.',
+	'emailcapture-response-subject' => '{{SITENAME}} 이메일 주소 인증',
+	'emailcapture-response-body' => '안녕하세요!
+
+{{SITENAME}} 개선하는 것을 돕는 데 관심을 보여주어서 감사합니다.
+
+잠시 시간을 내어 아래의 링크를 클릭하여 이메일을 확인해 주십시오:
+$1
+
+다음 웹사이트를 방문할 수도 있습니다:
+$2
+
+그리고 다음 확인 코드를 입력하십시오:
+$3
+
+곧 {{SITENAME}} 개선을 어떻게 도울지와 관련해 연락하겠습니다.
+
+이 요청을 하지 않았다면 이 메일을 무시하세요. 그러면 그 밖의 어떤 것도 보내지 않을 것입니다.',
+	'emailcapture-success' => '감사합니다!
+
+당신의 이메일이 성공적으로 인증되었습니다.',
+	'emailcapture-instructions' => '이메일 주소를 확인하려면 당신에게 온 이메일 코드를 입력하고 {{int:emailcapture-submit}}을 클릭하세요.',
+	'emailcapture-verify' => '인증 코드:',
+	'emailcapture-submit' => '이메일 주소 인증',
 );
 
 /** Colognian (Ripoarisch)
