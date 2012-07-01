@@ -117,7 +117,7 @@ $3
 	'emailcapture-submit' => 'تحقق من عنوان البريد الإلكتروني',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -626,7 +626,7 @@ Voutra adrèce èlèctronica at étâ controlâ avouéc reusséta.',
 	'emailcapture-submit' => 'Controlar l’adrèce èlèctronica',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -735,7 +735,7 @@ $3
 	'emailcapture-submit' => 'ई-मेल पते जाँच करें',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -1458,7 +1458,7 @@ $3
 	'emailcapture-submit' => 'Подтвердить адрес электронной почты',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
