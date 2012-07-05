@@ -1657,16 +1657,25 @@ $messages['tl'] = array(
 	'emailcapture' => 'Pagpapatunay ng e-liham',
 	'emailcapture-desc' => 'Hulihin ang mga tirahan ng e-liham, at payagan ang mga tagagamit na patunayan sila sa pamamagitan ng e-liham',
 	'emailcapture-failure' => "'''Hindi''' pa napapatunayan ang e-liham mo.",
+	'emailcapture-invalid-code' => 'Hindi katanggap-tanggap na kodigo ng pagtitiyak.',
+	'emailcapture-already-confirmed' => 'Natiyak na ang tirahan ng e-liham mo.',
 	'emailcapture-response-subject' => 'Pagpapatunay ng E-liham ng {{SITENAME}}',
-	'emailcapture-response-body' => 'Upang mapatunayang ang tirahan mo ng e-liham, sundan ang kawing na ito:
+	'emailcapture-response-body' => 'Kumusta!
+
+Salamat sa pagpapahayag mo ng kagustuhan sa pagtulong sa pagpapainam ng {{SITENAME}}.
+
+Paki magbigay ng isang sandali upang tiyakin ang e-liham mo sa pamamagitan ng pagpindot sa kawing na nasa ibaba:
 $1
 
-Maaari mo ring dalawin ang:
+Maaari ka ring dumalaw sa:
 $2
-at ipasok ang sumusundo na kodigo ng pagpapatunay:
+
+At ipasok ang sumsunod na kodigo ng kumpirmasyon:
 $3
 
-Salamat sa pagpapatotoo ng tirahan mo ng e-liham.',
+Makikipag-ugnayan kami sa loob ng ilang saglit sa kung paano ka makakatulong sa pagpapainam ng {{SITENAME}}.
+
+Kung hindi ikaw ang nagpasimula ng kahilingang ito, paki huwag na lamang pansinin ang e-liham na ito at hindi na kami magpapadala nang iba pa.',
 	'emailcapture-success' => 'Salamat!
 
 Matagumpay na natiyak ang e-liham mo.',
