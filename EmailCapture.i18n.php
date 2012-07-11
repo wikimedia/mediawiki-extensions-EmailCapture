@@ -1145,13 +1145,16 @@ E-mel anda berjaya disahkan.',
 	'emailcapture-submit' => 'Sahkan alamat e-mel',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
+ * @author Event
  * @author Sjurhamre
  */
 $messages['nb'] = array(
 	'emailcapture' => 'E-postbekreftelse',
 	'emailcapture-desc' => 'Samler inn e-postadresser, og lar brukere bekrefte dem via e-post',
 	'emailcapture-failure' => "E-postadressen din ble '''ikke''' bekreftet",
+	'emailcapture-invalid-code' => 'Ugyldig bekreftelseskode.',
+	'emailcapture-already-confirmed' => 'Din e-post-adresse har allerede blir bekreftet.',
 	'emailcapture-response-subject' => 'E-postbekreftelse fra {{SITENAME}}',
 	'emailcapture-response-body' => 'Bekreft e-postadressen din ved å følge lenken under:
 $1
