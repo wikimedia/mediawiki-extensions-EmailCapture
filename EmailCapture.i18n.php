@@ -343,6 +343,13 @@ Ihre E-Mail-Adresse wurde erfolgreich bestätigt.',
 	'emailcapture-instructions' => 'Um Ihre E-Mail-Adresse zu bestätigen, geben Sie bitte den Code ein, der Ihnen per E-Mail zuschickt wurde und klicken Sie anschließend auf „{{int:emailcapture-submit}}“.',
 );
 
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'emailcapture-already-confirmed' => 'Twója e-mailowa adresa jo južo wobkšuśona.',
+);
+
 /** Greek (Ελληνικά)
  * @author AK
  * @author Glavkos
@@ -1302,7 +1309,8 @@ $messages['pt'] = array(
 	'emailcapture' => 'Verificação do correio electrónico',
 	'emailcapture-desc' => 'Capturar endereços de correio electrónico e permitir que os utilizadores os verifiquem através do próprio correio electrónico',
 	'emailcapture-failure' => "O seu correio electrónico '''não''' foi verificado.",
-	'emailcapture-already-confirmed' => 'O teu endereço de email  já foi confirmado.',
+	'emailcapture-invalid-code' => 'Código de confirmação inválido.',
+	'emailcapture-already-confirmed' => 'O seu endereço de correio electrónico já foi confirmado.',
 	'emailcapture-response-subject' => 'Verificação do endereço de correio electrónico, da {{SITENAME}}',
 	'emailcapture-response-body' => 'Olá!
 
@@ -1323,7 +1331,7 @@ Se não iniciou este pedido, ignore esta mensagem e não voltará a ser contacta
 	'emailcapture-success' => 'Obrigado!
 
 O seu correio electrónico foi confirmado.',
-	'emailcapture-instructions' => 'Para verificar o seu endereço de correio electrónico, introduza o código que lhe foi enviado por correio electrónico e clique "{{int:emailcapture-submit}}".',
+	'emailcapture-instructions' => 'Para verificar o seu endereço de correio electrónico, introduza o código que lhe foi enviado para o correio electrónico e clique "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Código de verificação:',
 	'emailcapture-submit' => 'Verificar endereço',
 );
