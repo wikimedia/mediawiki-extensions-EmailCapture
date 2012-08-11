@@ -81,6 +81,7 @@ Jou e-pos is suksesvol bevestig.',
 );
 
 /** Arabic (العربية)
+ * @author Avocato
  * @author AwamerT
  * @author Imksa
  * @author Meno25
@@ -970,7 +971,7 @@ $messages['ksh'] = array(
 	'emailcapture-desc' => 'Schnabb en Adräß för de <i lang="en">e-mail</i> un lohß de Metmaacher se övver en <i lang="en">e-mail</i> beschtäätejje.',
 	'emailcapture-failure' => "Ding <i lang=\"en\">e-mail</i> wood '''nit''' beschtätesch",
 	'emailcapture-invalid-code' => 'Dä Schlößelkood för et Beschtääteje schtemmp nit.',
-	'emailcapture-already-confirmed' => 'Ding Addräß fö de <i lang="en">e-mail<i> es ald bestätisch jewääse.',
+	'emailcapture-already-confirmed' => 'Ding Addräß fö de <i lang="en">e-mail</i> es ald beschtäätesch jewääse.',
 	'emailcapture-response-subject' => '{{ucfirst:{{GRAMMAR:Genitiv ier feminine|{{SITENAME}}}}}} Beschtätejung för Adräße vun de <i lang="en">e-mail</i>',
 	'emailcapture-response-body' => 'Mer bedangke uns för Ding Enträße, {{GRAMMAR:Akkusativ|{{SITENAME}}}} bäßer ze maache.
 
