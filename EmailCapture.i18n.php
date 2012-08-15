@@ -918,6 +918,7 @@ $messages['ja'] = array(
  */
 $messages['ka'] = array(
 	'emailcapture' => 'ელ.ფოსტის მისამართის დადასტურება',
+	'emailcapture-failure' => "თქვენი ელ. ფოსტა '''არ''' დადასტურებულა.",
 	'emailcapture-invalid-code' => 'არასწორი დადასტურების კოდი.',
 	'emailcapture-already-confirmed' => 'თქვენი ელ. ფოსტის მისამართი დადასტურებულია.',
 	'emailcapture-response-subject' => '{{SITENAME}} ელ. ფოსტის მისამართის შემოწმება',
