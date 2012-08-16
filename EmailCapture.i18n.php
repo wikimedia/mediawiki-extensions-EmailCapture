@@ -912,6 +912,40 @@ $messages['ja'] = array(
 	'emailcapture-submit' => 'メールアドレスを検証',
 );
 
+/** Javanese (Basa Jawa)
+ * @author NoiX180
+ */
+$messages['jv'] = array(
+	'emailcapture' => 'Vèrifikasi layang èlèktronik',
+	'emailcapture-desc' => 'Cathet alamat layang èlèktronik, lan lilakaké panganggo mèrifikasi liwat layang èlèktronik',
+	'emailcapture-failure' => "Layang èlèktronik Sampéyan '''durung''' divèrifikasi.",
+	'emailcapture-invalid-code' => 'Kodhe pepesthèn ora sah.',
+	'emailcapture-already-confirmed' => 'Alamat layang èlèktronik Sampéyan wis dipesthèkaké.',
+	'emailcapture-response-subject' => 'Vèrifikasi alamat layang èlèktronik {{SITENAME}}',
+	'emailcapture-response-body' => 'Halo!
+
+Matur nuwun sampun ngèwangi mbenahi {{SITENAME}}.
+
+Mangga entèni sadhéla kanggo mestèkaké layang èlèktronik Sampéyan mawa ngeklik pranala ing ngisor:
+$1
+
+Sampéyan uga bisa mara ing:
+$2
+
+Lan nglebokaké kodhé konfirmasi:
+$3
+
+Awak dhéwé bakal kahubung sakwisé kuwi lan nerangaké carané supaya Sampéyan bisa ngéwangi mbenahi {{SITENAME}}.
+
+Yèn Sampéyan ora ngajokaké iki, benaké waé layang èlèktronik iki lan awak dhéwé ora bakal ngirimi Sampéyan manèh.',
+	'emailcapture-success' => 'Matur nuwun!
+
+Layang èlèktronik Sampéyan suksès dipesthèkaké.',
+	'emailcapture-instructions' => 'Kanggo vèrifikasi alamat layang èlèktronik Sampéyan, lebokaké kodhé sing dikirimaké maring Sampéyan lan klik "{{int:emailcapture-submit}}".',
+	'emailcapture-verify' => 'Kodhé vèrifikasi:',
+	'emailcapture-submit' => 'Verifikasi alamat layang èlèktronik',
+);
+
 /** Georgian (ქართული)
  * @author BRUTE
  * @author David1010
@@ -1152,6 +1186,24 @@ E-mel anda berjaya disahkan.',
 	'emailcapture-instructions' => 'Untuk mengesahkan alamat e-mel anda, isikan kod yang dihantar kepada anda melalui e-mel, kemudian klik "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Kod pengesahan:',
 	'emailcapture-submit' => 'Sahkan alamat e-mel',
+);
+
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'emailcapture' => 'Verifika tal-posta elettronika',
+	'emailcapture-desc' => 'Taqbad l-indirizzi elettroniċi u tħalli l-utenti jivverifikawhom permezz tal-posta elettronika',
+	'emailcapture-failure' => "L-indirizz elettroniku '''ma ġiex''' verifikat.",
+	'emailcapture-invalid-code' => "Kodiċi ta' konferma ħażin.",
+	'emailcapture-already-confirmed' => 'L-indirizz tal-posta elettronika tiegħek diġà ġie kkonfermat.',
+	'emailcapture-response-subject' => '{{SITENAME}}: konferma tal-indirizz elettroniku',
+	'emailcapture-success' => "Grazzi!
+
+L-indirizz elettroniku tiegħek ġie kkonfermat b'suċċess.",
+	'emailcapture-instructions' => 'Sabiex tivverifika l-indirizz elettroniku, daħħal il-kodiċi li ntbagħtlek u klikkja fuq "{{int:emailcapture-submit}}".',
+	'emailcapture-verify' => "Kodiċi ta' verifika:",
+	'emailcapture-submit' => 'Ivverifika l-indrizz elettroniku',
 );
 
 /** Norwegian Bokmål (‪norsk (bokmål)‬)
