@@ -1837,6 +1837,17 @@ $3
 	'emailcapture-submit' => 'Підтвердити адресу електронної пошти',
 );
 
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'emailcapture' => 'ای میل کی تصدیق',
+	'emailcapture-invalid-code' => 'باطل کی تصدیق کوڈ.',
+	'emailcapture-already-confirmed' => 'تصدیق اپنا ای میل پتہ ہے پہلے سے ہی کیا گیا ہے کی.',
+	'emailcapture-verify' => 'توثیقی کوڈ:',
+	'emailcapture-submit' => 'ای میل ایڈریس کی تصدیق کریں',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */
