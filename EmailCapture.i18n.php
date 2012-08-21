@@ -595,7 +595,7 @@ Si vous n’avez pas entamé cette requête, vous n’avez qu’à ignorer ce co
 	'emailcapture-success' => 'Merci !
 
 Votre adresse de courriel a été vérifiée avec succès.',
-	'emailcapture-instructions' => 'Pour vérifier votre adresse de courriel, entrez le code qui vous a été envoyé par courriel et cliquez sur « {{int:emailcapture-soumettre}} ».',
+	'emailcapture-instructions' => 'Pour vérifier votre adresse de courriel, entrez le code qui vous a été envoyé par courriel et cliquez sur « {{int:emailcapture-submit}} ».',
 	'emailcapture-verify' => 'Code de vérification :',
 	'emailcapture-submit' => "Vérifiez l'adresse de courriel",
 );
