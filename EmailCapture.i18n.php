@@ -348,7 +348,34 @@ Ihre E-Mail-Adresse wurde erfolgreich bestätigt.',
  * @author Michawiki
  */
 $messages['dsb'] = array(
+	'emailcapture' => 'E-mailowe wobkšuśenje',
+	'emailcapture-desc' => 'Zmóžnja pópadnjenje e-mailowych adresow a dowólujo wužywarjam je pśez e-mail wobkšuśił',
+	'emailcapture-failure' => "Twója e-mailowa adresa '''nje'''jo se wobkšuśiła.",
+	'emailcapture-invalid-code' => 'Njepłaśiwy wobkšuśeński kod.',
 	'emailcapture-already-confirmed' => 'Twója e-mailowa adresa jo južo wobkšuśona.',
+	'emailcapture-response-subject' => '{{SITENAME}} - wobkšuśenje e-mailoweje adrese',
+	'emailcapture-response-body' => 'Halo!
+
+Wjeliki źěk za twój zajm {{GRAMMAR:akuzatiw|{{SITENAME}}}} polěpšyś.
+
+Pšosym bjeŕ se wokognuśe casa, aby swóju e-mail pśez kliknjenje na slědujucy wótkaz wobkšuśił:
+$1
+
+Móžoš teke k slědujucemu bokoju woglědaś:
+$2
+
+Zapódaj pón slědujucy wobkśuśeński kod:
+$3
+
+Stajijomy se za krotki cas z tobu do zwiska, aby my śi k wěsći dali, kak móžoš pomagaś, {{GRAMMAR:akuzatiw|{{SITENAME}}}} polěpšyś.
+
+Jolic njejsy toś to napšašowanje pósłał, ignorěruj pšosym toś tu e-mejl a njepósćelomy śi nic wěcej.',
+	'emailcapture-success' => 'Wjeliki źěk!
+
+Twója e-mailowa adresa jo se wuspěšnje wobkšuśiła.',
+	'emailcapture-instructions' => 'Aby swóju e-mailowu adresu wobkšuśił, zapódaj kod, kótaryž jo se śi pśez e-mail pśipósłał a klikni na "{{int:emailcapture-submit}}".',
+	'emailcapture-verify' => 'Wobkšuśeński kod:',
+	'emailcapture-submit' => 'E-mailowu adresu wobkšuśiś',
 );
 
 /** Greek (Ελληνικά)
