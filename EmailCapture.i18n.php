@@ -344,6 +344,13 @@ Ihre E-Mail-Adresse wurde erfolgreich bestätigt.',
 	'emailcapture-instructions' => 'Um Ihre E-Mail-Adresse zu bestätigen, geben Sie bitte den Code ein, der Ihnen per E-Mail zuschickt wurde und klicken Sie anschließend auf „{{int:emailcapture-submit}}“.',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'emailcapture-verify' => 'Kodê araşt kerdışi:',
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
