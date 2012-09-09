@@ -1389,6 +1389,22 @@ Soa adrëssa ëd pòsta eletrònica a l'é stàita verificà për da bin.",
 	'emailcapture-submit' => "Ch'a verìfica l'adrëssa ëd pòsta eletrònica",
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'emailcapture' => 'د برېښليک تاييد',
+	'emailcapture-failure' => "ستاسې برېښليک پته تاييد '''نه شوه'''.",
+	'emailcapture-invalid-code' => 'ناسم تاييد کوډ',
+	'emailcapture-already-confirmed' => 'له پخوا نه ستاسې برېښليک پته تاييد شوې.',
+	'emailcapture-response-subject' => 'د {{SITENAME}} د برېښليک پتې تاييد',
+	'emailcapture-success' => 'له تاسو مننه!
+
+ستاسې برېښليک په برياليتوب سره تاييد شو.',
+	'emailcapture-verify' => 'تاييد کوډ:',
+	'emailcapture-submit' => 'برېښليک پته تاييد کړۍ',
+);
+
 /** Portuguese (português)
  * @author Hamilton Abreu
  * @author SandroHc
