@@ -348,7 +348,9 @@ Ihre E-Mail-Adresse wurde erfolgreich bestätigt.',
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
+	'emailcapture' => 'E-posta araştkerden',
 	'emailcapture-verify' => 'Kodê araşt kerdışi:',
+	'emailcapture-submit' => 'E-posta adresiyê xoaraşt kerê',
 );
 
 /** Lower Sorbian (dolnoserbski)
