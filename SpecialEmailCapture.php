@@ -1,17 +1,14 @@
 <?php
 
 class SpecialEmailCapture extends SpecialPage {
-
 	public function __construct() {
 		parent::__construct( 'EmailCapture', 'emailcapture' );
 	}
 
 	public function execute( $par ) {
-		global $wgOut, $wgRequest;
-
 		$this->setHeaders();
 
-		$code = $wgRequest->getVal( 'verify' );
+		$code = $this->getRequest()->getVal( 'verify' );
 		if ( $code !== null ) {
 			$dbw = wfGetDB( DB_MASTER );
 			$row = $dbw->selectRow(
@@ -28,14 +25,14 @@ class SpecialEmailCapture extends SpecialPage {
 					__METHOD__
 				);
 				if ( $dbw->affectedRows() ) {
-					$wgOut->addWikiMsg( 'emailcapture-success' );
+					$this->getOutput()->addWikiMsg( 'emailcapture-success' );
 				} else {
-					$wgOut->addWikiMsg( 'emailcapture-failure' );
+					$this->getOutput()->addWikiMsg( 'emailcapture-failure' );
 				}
 			} elseif ( $row && $row->ec_verified ) {
-				$wgOut->addWikiMsg( 'emailcapture-already-confirmed' );
+				$this->getOutput()->addWikiMsg( 'emailcapture-already-confirmed' );
 			} else {
-				$wgOut->addWikiMsg( 'emailcapture-invalid-code' );
+				$this->getOutput()->addWikiMsg( 'emailcapture-invalid-code' );
 			}
 		} else {
 			// Show simple form for submitting verification code
@@ -43,16 +40,16 @@ class SpecialEmailCapture extends SpecialPage {
 				'action' => $this->getTitle()->getFullUrl(),
 				'method' => 'post'
 			) );
-			$o .= Html::element( 'p', array(), wfMsg( 'emailcapture-instructions' ) );
+			$o .= Html::element( 'p', array(), $this->msg( 'emailcapture-instructions' )->text() );
 			$o .= Html::openElement( 'blockquote' );
 			$o .= Html::element( 'label', array( 'for' => 'emailcapture-verify' ),
-				wfMsg( 'emailcapture-verify' ) ) . ' ';
+				$this->msg( 'emailcapture-verify' )->text() ) . ' ';
 			$o .= Html::input( 'verify', '', 'text',
 				array( 'id' => 'emailcapture-verify', 'size' => 32 ) ) . ' ';
-			$o .= Html::input( 'submit', wfMsg( 'emailcapture-submit' ), 'submit' );
+			$o .= Html::input( 'submit', $this->msg( 'emailcapture-submit' )->text(), 'submit' );
 			$o .= Html::closeElement( 'blockquote' );
 			$o .= Html::closeElement( 'form' );
-			$wgOut->addHtml( $o );
+			$this->getOutput()->addHtml( $o );
 		}
 	}
 }

@@ -16,7 +16,7 @@ class EmailCaptureHooks {
 			$updater->addExtensionUpdate( array(
 				'addTable',
 				'email_capture',
-				dirname( __FILE__ ) . '/sql/CreateEmailCaptureTable.sql',
+				__DIR__ . '/sql/CreateEmailCaptureTable.sql',
 				true
 			) );
 		}

@@ -36,7 +36,7 @@ $wgExtensionCredits['other'][] = array(
 );
 
 /* Setup */
-$dir = dirname( __FILE__ ) . '/';
+$dir = __DIR__ . '/';
 $wgExtensionMessagesFiles['EmailCapture'] = $dir . 'EmailCapture.i18n.php';
 $wgExtensionMessagesFiles['EmailCaptureAlias'] = $dir . 'EmailCapture.alias.php';
 // API
