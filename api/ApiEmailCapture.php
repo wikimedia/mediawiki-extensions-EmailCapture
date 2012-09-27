@@ -9,7 +9,7 @@ class ApiEmailCapture extends ApiBase {
 		$params = $this->extractRequestParams();
 
 		// Validation
-		if ( !User::isValidEmailAddr( $params['email'] ) ) {
+		if ( !Sanitizer::validateEmail( $params['email'] ) ) {
 			$this->dieUsage( 'The email address does not appear to be valid', 'invalidemail' );
 		}
 
@@ -42,8 +42,8 @@ class ApiEmailCapture extends ApiBase {
 						$wgEmailCaptureAutoResponse['from'],
 						$wgEmailCaptureAutoResponse['from-name']
 					),
-					wfMsg( $wgEmailCaptureAutoResponse['subject-msg'] ),
-					wfMsg( $wgEmailCaptureAutoResponse['body-msg'], $fullLink, $link, $code ),
+					$this->msg( $wgEmailCaptureAutoResponse['subject-msg'] )->text(),
+					$this->msg( $wgEmailCaptureAutoResponse['body-msg'], $fullLink, $link, $code )->text(),
 					$wgEmailCaptureAutoResponse['reply-to'],
 					$wgEmailCaptureAutoResponse['content-type']
 				);
