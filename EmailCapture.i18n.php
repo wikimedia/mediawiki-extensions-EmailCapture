@@ -118,7 +118,7 @@ $3
 	'emailcapture-submit' => 'تحقق من عنوان البريد الإلكتروني',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -317,7 +317,29 @@ Deine E-Mail-Adresse wurde erfolgreich bestätigt.',
 	'emailcapture-submit' => 'E-Mail-Adresse bestätigen',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** Swiss High German (Schweizer Hochdeutsch)
+ * @author Filzstift
+ */
+$messages['de-ch'] = array(
+	'emailcapture-response-body' => 'Hallo!
+
+Vielen Dank für dein Interesse an der Verbesserung von {{SITENAME}}.
+
+Bitte nimm dir einen Moment Zeit, deine E-Mail-Adresse zu bestätigen, indem du auf den folgenden Link klickst:
+$1
+
+Du kannst auch die folgende Seite besuchen:
+$2
+
+Gib dort den nachfolgenden Bestätigungscode ein:
+$3
+
+Wir melden uns in Kürze dazu, wie du helfen kannst, {{SITENAME}} zu verbessern.
+
+Sofern du diese Anfrage nicht ausgelöst hast, ignoriere einfach dieses E-Mail. Wir werden dir dann nichts mehr zusenden.',
+);
+
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Kghbln
  */
 $messages['de-formal'] = array(
@@ -1242,7 +1264,7 @@ L-indirizz elettroniku tiegħek ġie kkonfermat b'suċċess.",
 	'emailcapture-submit' => 'Ivverifika l-indrizz elettroniku',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Event
  * @author Sjurhamre
  */
@@ -1305,7 +1327,7 @@ Uw e-mailadres is bevestigd.',
 	'emailcapture-submit' => 'E-mailadres bevestigen',
 );
 
-/** ‪Nederlands (informeel)‬ (‪Nederlands (informeel)‬)
+/** Nederlands (informeel)‎ (Nederlands (informeel)‎)
  * @author Siebrand
  */
 $messages['nl-informal'] = array(
@@ -1934,7 +1956,7 @@ Nếu bạn không phải là người yêu cầu thông tin này, xin vui lòng
 	'emailcapture-submit' => 'Xác minh địa chỉ thư điện tử',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Bencmq
  * @author Hydra
  * @author PhiLiP
@@ -1974,7 +1996,7 @@ $3
 	'emailcapture-submit' => '验证电子邮件地址',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Anakmalaysia
  * @author Waihorace
  */
