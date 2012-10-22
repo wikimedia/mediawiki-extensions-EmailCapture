@@ -196,7 +196,7 @@ $3
 $messages['bn'] = array(
 	'emailcapture' => 'ই-মেইল নিশ্চিতকরণ',
 	'emailcapture-response-subject' => '{{SITENAME}} সাইটের ই-মেইল ঠিকানা নিশ্চিতকরণ',
-	'emailcapture-success' => 'আপনার ই-মেইল ঠিকানা সফলভাবে পরীক্ষিত হয়েছিলো।',
+	'emailcapture-success' => 'আপনার ই-মেইল ঠিকানা সফলভাবে পরীক্ষিত হয়েছিলো।', # Fuzzy
 	'emailcapture-verify' => 'নিশ্চিতকরণ কোড:',
 	'emailcapture-submit' => 'ই-মেইল ঠিকানা নিশ্চিতকরণ',
 );
@@ -1284,8 +1284,8 @@ $2
 Og skrive inn følgende bekreftelseskode:
 $3
 
-Takk for at du bekrefter e-postadressen din.',
-	'emailcapture-success' => 'E-postadressen din har blitt bekreftet.',
+Takk for at du bekrefter e-postadressen din.', # Fuzzy
+	'emailcapture-success' => 'E-postadressen din har blitt bekreftet.', # Fuzzy
 	'emailcapture-instructions' => 'For å bekrefte e-postadressen din, skriver du inn koden du fikk på e-post, og klikker "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Bekreftelseskode:',
 	'emailcapture-submit' => 'Bekreft e-postadresse',
@@ -1672,7 +1672,7 @@ $3
  * @author Helix84
  */
 $messages['sk'] = array(
-	'emailcapture' => 'Zachytenie emailovej adresy',
+	'emailcapture' => 'Zachytenie emailovej adresy', # Fuzzy
 	'emailcapture-desc' => 'Zachytiť emailovú adresu a umožniť používateľom overenie pomocou emailu',
 	'emailcapture-failure' => "Váš e-mail '''nebol''' overený.",
 	'emailcapture-response-subject' => 'Potvrdenie emailovej adresy pre {{GRAMMAR:akuzatív|{{SITENAME}}}}',
@@ -1686,8 +1686,8 @@ $2
 a zadať nasledovný overovací kód:
 $3
 
-Ďakujeme za overenie vašej emailovej adresy.',
-	'emailcapture-success' => 'Vaša emailová adresa bola úspešne overená.',
+Ďakujeme za overenie vašej emailovej adresy.', # Fuzzy
+	'emailcapture-success' => 'Vaša emailová adresa bola úspešne overená.', # Fuzzy
 	'emailcapture-instructions' => 'Ak chcete overiť svoju emailovú adresu, zadajte kód, ktorý vám bol zaslaný emailom a kliknite na „{{int:emailcapture-submit}}“.',
 	'emailcapture-verify' => 'Overovací kód:',
 	'emailcapture-submit' => 'Overiť e-mailovú adresu',
@@ -1818,7 +1818,7 @@ $2
 కింది ధృవీకరణ కోడును ఇవ్వవచ్చు:
 $3
 
-మీ ఈమెయిలు అడ్రసును ధృవీకరించినందుకు నెనరులు.',
+మీ ఈమెయిలు అడ్రసును ధృవీకరించినందుకు నెనరులు.', # Fuzzy
 	'emailcapture-success' => 'ధన్యవాదాలు!
 
 మీ ఈమెయిలు చిరునామా నిర్ధారితమైంది.',
@@ -2033,4 +2033,3 @@ $3
 	'emailcapture-verify' => '驗證碼：',
 	'emailcapture-submit' => '驗證電子郵件地址',
 );
-
