@@ -962,7 +962,7 @@ $messages['ja'] = array(
 	'emailcapture-invalid-code' => '確認コードが正しくありません。',
 	'emailcapture-already-confirmed' => 'あなたのメールアドレスは既に確認されました。',
 	'emailcapture-response-subject' => '{{SITENAME}} メールアドレス検証',
-	'emailcapture-success' => 'ありがとうございます！
+	'emailcapture-success' => 'ありがとうございます!
 
 あなたのメールアドレスを確認しました。',
 	'emailcapture-instructions' => 'あなたのメールアドレスを検証するには、メールでお送りしたコードを入力して「{{int:emailcapture-submit}}」をクリックしてください。',
