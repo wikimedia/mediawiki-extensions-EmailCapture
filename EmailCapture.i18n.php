@@ -45,14 +45,14 @@ Your e-mail has been successfully confirmed.',
 /** Message documentation (Message documentation)
  * @author Kghbln
  * @author Purodha
+ * @author Shirayuki
  * @author Yekrats
  */
 $messages['qqq'] = array(
 	'emailcapture' => 'The Email Capture extension will capture e-mail addresses, and allow users to verify them through e-mail. 
 For more information, see [[mw:Extension:EmailCapture]].',
-	'emailcapture-desc' => 'The Email Capture extension will capture e-mail addresses, and allow users to verify them through e-mail. 
-For more information, see [[mw:Extension:EmailCapture]].
-{{desc}}',
+	'emailcapture-desc' => '{{desc|name=Email Capture|url=http://www.mediawiki.org/wiki/Extension:EmailCapture}}
+The Email Capture extension will capture e-mail addresses, and allow users to verify them through e-mail.',
 	'emailcapture-response-subject' => 'The Email Capture extension will capture e-mail addresses, and allow users to verify them through e-mail. 
 For more information, see [[mw:Extension:EmailCapture]].
 This is the subject line of the email sent to users.
