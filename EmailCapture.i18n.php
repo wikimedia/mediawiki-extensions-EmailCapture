@@ -888,12 +888,15 @@ Tu adresse de e-mail ha essite confirmate con successo.',
 );
 
 /** Indonesian (Bahasa Indonesia)
+ * @author Farras
  * @author IvanLanin
  */
 $messages['id'] = array(
 	'emailcapture' => 'Verifikasi surel',
 	'emailcapture-desc' => 'Merekam alamat surel dan memungkinkan pengguna untuk melakukan verifikasi melalui surel',
 	'emailcapture-failure' => "Surel Anda '''belum'' terverifikasi.",
+	'emailcapture-invalid-code' => 'Kode konfirmasi salah.',
+	'emailcapture-already-confirmed' => 'Alamat surel Anda telah dikonfirmasi.',
 	'emailcapture-response-subject' => 'Verifikasi alamat surel {{SITENAME}}',
 	'emailcapture-response-body' => 'Halo!
 
