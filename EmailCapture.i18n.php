@@ -1673,6 +1673,7 @@ $3
 
 /** Slovak (slovenčina)
  * @author Helix84
+ * @author Kusavica
  */
 $messages['sk'] = array(
 	'emailcapture' => 'Zachytenie emailovej adresy', # Fuzzy
@@ -1690,7 +1691,9 @@ a zadať nasledovný overovací kód:
 $3
 
 Ďakujeme za overenie vašej emailovej adresy.', # Fuzzy
-	'emailcapture-success' => 'Vaša emailová adresa bola úspešne overená.', # Fuzzy
+	'emailcapture-success' => 'Vďaka!
+
+Vaša emailová adresa bola úspešne overená.',
 	'emailcapture-instructions' => 'Ak chcete overiť svoju emailovú adresu, zadajte kód, ktorý vám bol zaslaný emailom a kliknite na „{{int:emailcapture-submit}}“.',
 	'emailcapture-verify' => 'Overovací kód:',
 	'emailcapture-submit' => 'Overiť e-mailovú adresu',
