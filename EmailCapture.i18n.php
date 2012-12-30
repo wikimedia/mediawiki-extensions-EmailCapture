@@ -1310,10 +1310,10 @@ $messages['nl'] = array(
 
 Bedankt voor uw interesse in het verbeteren van {{SITENAME}}.
 
-Volg deze verwijzing om uw e-mailadres te bevestigen:
+Volg deze koppeling om uw e-mailadres te bevestigen:
 $1
 
-U kunt ook deze verwijzing volgen:
+U kunt ook deze koppeling volgen:
 $2
 
 En daar de volgende bevestigingscode invoeren:
@@ -1334,9 +1334,28 @@ Uw e-mailadres is bevestigd.',
  * @author Siebrand
  */
 $messages['nl-informal'] = array(
+	'emailcapture-failure' => "Je e-mailadres is '''niet''' bevestigd.",
+	'emailcapture-already-confirmed' => 'Je e-mailadres is al bevestigd.',
+	'emailcapture-response-body' => 'Hoi!
+
+Bedankt voor je interesse in het verbeteren van {{SITENAME}}.
+
+Volg deze koppeling om je e-mailadres te bevestigen:
+$1
+
+Je kunt ook deze koppeling volgen:
+$2
+
+En daar de volgende bevestigingscode invoeren:
+$3
+
+We nemen binnenkort contact met je op over hoe u kunt helpen {{SITENAME}} te verbeteren.
+
+Als je niet hebt gevraagd om dit bericht, negeer deze e-mail dan en dan krijg je geen e-mail meer van ons.',
 	'emailcapture-success' => 'Bedankt!
 
 Je e-mailadres is bevestigd.',
+	'emailcapture-instructions' => 'Voer de code uit je e-mail in om je e-mailadres te bevestigen en klik daarna op "{{int:emailcapture-submit}}".',
 );
 
 /** Oriya (ଓଡ଼ିଆ)
