@@ -417,6 +417,7 @@ Twója e-mailowa adresa jo se wuspěšnje wobkšuśiła.',
 $messages['el'] = array(
 	'emailcapture' => 'Επαλήθευση ηλεκτρονικού ταχυδρομείου',
 	'emailcapture-failure' => "Το e-mail σας '''δεν''' επαληθεύτηκε.",
+	'emailcapture-invalid-code' => 'Μη έγκυρος κωδικός επιβεβαίωσης.',
 	'emailcapture-response-subject' => '{{SITENAME}} επαλήθευση ηλεκτρονικής διεύθυνσης',
 	'emailcapture-response-body' => 'Γεια σας!
 
