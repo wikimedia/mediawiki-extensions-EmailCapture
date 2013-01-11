@@ -1032,7 +1032,7 @@ $messages['ka'] = array(
 $messages['ko'] = array(
 	'emailcapture' => '이메일 인증',
 	'emailcapture-desc' => '이메일 주소를 포착하고 사용자가 이메일을 통해 이를 인증하도록 허용',
-	'emailcapture-failure' => "당신의 이메일은 인증되지 '''않았습니다'''.",
+	'emailcapture-failure' => "이메일은 인증되지 '''않았습니다'''.",
 	'emailcapture-invalid-code' => '인증 코드가 잘못됐습니다.',
 	'emailcapture-already-confirmed' => '그 주소는 이미 인증되었습니다.',
 	'emailcapture-response-subject' => '{{SITENAME}} 이메일 주소 인증',
@@ -1054,7 +1054,7 @@ $3
 이 요청을 하지 않았다면 이 메일을 무시하세요. 그러면 그 밖의 어떤 것도 보내지 않을 것입니다.',
 	'emailcapture-success' => '감사합니다!
 
-당신의 이메일이 성공적으로 인증되었습니다.',
+이메일이 성공적으로 인증되었습니다.',
 	'emailcapture-instructions' => '이메일 주소를 확인하려면 당신에게 온 이메일 코드를 입력하고 {{int:emailcapture-submit}}을 클릭하세요.',
 	'emailcapture-verify' => '인증 코드:',
 	'emailcapture-submit' => '이메일 주소 인증',
@@ -1560,8 +1560,10 @@ Adresa dumneavoastră de e-mail a fost confirmată cu succes.',
  */
 $messages['roa-tara'] = array(
 	'emailcapture' => "Verifeche de l'e-mail",
+	'emailcapture-desc' => "Pigghie le indirizze e-mail e permette a l'utinde de verificarle ausanne 'a mail probbie",
 	'emailcapture-failure' => "L'e-mail toje '''non''' g'ha state verificate.",
 	'emailcapture-invalid-code' => 'Codece de conferme invalide.',
+	'emailcapture-already-confirmed' => "L'indirizze e-mail tune ha state ggià confermate.",
 	'emailcapture-response-subject' => "Verifeche de l'indirizze email pe {{SITENAME}}",
 	'emailcapture-response-body' => "Cià!
 
@@ -1582,6 +1584,7 @@ Ce tu non g'è mannate sta richieste, pe piacere no sce penzanne a sta e-mail e 
 	'emailcapture-success' => "Grazie!
 
 'U 'nderizze e-mail tune ha state confermate cu successe.",
+	'emailcapture-instructions' => "Pe verificà l'indirizze mail tune, mitte 'u codece ca t'ha state mannate pe poste e cazze \"{{int:emailcapture-submit}}\".",
 	'emailcapture-verify' => 'Codece de verifeche:',
 	'emailcapture-submit' => "Verifeche d'u 'ndirizze e-mail",
 );
