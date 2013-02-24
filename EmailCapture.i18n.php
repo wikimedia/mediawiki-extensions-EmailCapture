@@ -1004,7 +1004,7 @@ $messages['ja'] = array(
 
 あなたのメールアドレスを確認しました。',
 	'emailcapture-instructions' => 'あなたのメールアドレスを検証するには、メールでお送りしたコードを入力して「{{int:emailcapture-submit}}」をクリックしてください。',
-	'emailcapture-verify' => '検証コード：',
+	'emailcapture-verify' => '検証コード:',
 	'emailcapture-submit' => 'メールアドレスを検証',
 );
 
