@@ -12,17 +12,17 @@ $messages = array();
  * @author Trevor Parscal
  */
 $messages['en'] = array(
-	'emailcapture' => 'E-mail verification',
-	'emailcapture-desc' => 'Capture e-mail addresses, and allow users to verify them through e-mail',
-	'emailcapture-failure' => "Your e-mail was '''not''' verified.",
+	'emailcapture' => 'Email verification',
+	'emailcapture-desc' => 'Capture email addresses, and allow users to verify them through email',
+	'emailcapture-failure' => "Your email was '''not''' verified.",
 	'emailcapture-invalid-code' => 'Invalid confirmation code.',
-	'emailcapture-already-confirmed' => 'Your e-mail address has already been confirmed.',
-	'emailcapture-response-subject' => '{{SITENAME}} e-mail address verification',
+	'emailcapture-already-confirmed' => 'Your email address has already been confirmed.',
+	'emailcapture-response-subject' => '{{SITENAME}} email address verification',
 	'emailcapture-response-body' => 'Hello!
 
 Thank you for expressing interest in helping to improve {{SITENAME}}.
 
-Please take a moment to confirm your e-mail by clicking on the link below:
+Please take a moment to confirm your email by clicking on the link below:
 $1
 
 You may also visit:
@@ -33,13 +33,13 @@ $3
 
 We’ll be in touch shortly with how you can help improve {{SITENAME}}.
 
-If you didn’t initiate this request, please ignore this e-mail and we won’t send you anything else.',
+If you didn’t initiate this request, please ignore this email and we won’t send you anything else.',
 	'emailcapture-success' => 'Thank you!
 
-Your e-mail has been successfully confirmed.',
-	'emailcapture-instructions' => 'To verify your e-mail address, enter the code that was e-mailed to you and click "{{int:emailcapture-submit}}".',
+Your email has been successfully confirmed.',
+	'emailcapture-instructions' => 'To verify your email address, enter the code that was emailed to you and click "{{int:emailcapture-submit}}".',
 	'emailcapture-verify' => 'Verification code:',
-	'emailcapture-submit' => 'Verify e-mail address',
+	'emailcapture-submit' => 'Verify email address',
 );
 
 /** Message documentation (Message documentation)
