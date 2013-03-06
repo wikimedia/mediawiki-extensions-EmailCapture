@@ -480,6 +480,28 @@ $3
 	'emailcapture-submit' => 'Επιβεβαιώστε τη διεύθυνση ηλεκτρονικού ταχυδρομείου',
 );
 
+/** British English (British English)
+ * @author Thehelpfulone
+ */
+$messages['en-gb'] = array(
+	'emailcapture-response-body' => "Hello!
+
+Thank you for expressing interest in helping to improve {{SITENAME}}.
+
+Please take a moment to confirm your email by clicking on the link below:
+$1
+
+You may also visit:
+$2
+
+And enter the following confirmation code:
+$3
+
+We'll be in touch shortly with how you can help improve {{SITENAME}}.
+
+If you didn't initiate this request, please ignore this email and we won't send you anything else.",
+);
+
 /** Esperanto (Esperanto)
  * @author Yekrats
  */
