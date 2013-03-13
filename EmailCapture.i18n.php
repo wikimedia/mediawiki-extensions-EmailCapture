@@ -118,6 +118,40 @@ $3
 	'emailcapture-submit' => 'تحقق من عنوان البريد الإلكتروني',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'emailcapture' => 'Comprobación del corréu electrónicu',
+	'emailcapture-desc' => 'Recueye direiciones de corréu electrónicu, y permite que los usuarios les comprueben per corréu electrónicu',
+	'emailcapture-failure' => "El so corréu electrónicu '''nun''' se comprobó.",
+	'emailcapture-invalid-code' => 'Códigu de confirmación inválidu.',
+	'emailcapture-already-confirmed' => 'La so direición de corréu yá se confirmó.',
+	'emailcapture-response-subject' => 'Cmprobación de la direición de corréu de {{SITENAME}}',
+	'emailcapture-response-body' => "¡Hola!
+
+Gracies por espresar interés n'ayudar a ameyorar {{SITENAME}}.
+
+Por favor, dedique un momentu a confirmar el so corréu electrónicu calcando nel enllaz siguiente:
+$1
+
+Tamién pue visitar:
+$2
+
+Y escribir el siguiente códigu de confirmación:
+$3
+
+Pondremonos pronto en contactu con información de cómo pue ayudar a ameyorar {{SITENAME}}.
+
+Si vusté nun fizo esta solicitú, por favor escaeza esti corréu y nun unviaremos más nada.",
+	'emailcapture-success' => 'Gracies!
+
+La so direición de corréu electrónicu comprobose correutamente.',
+	'emailcapture-instructions' => 'Pa comprobar la so direición de corréu electrónicu, escriba\'l códigu que se-y unvió per corréu y calque "{{int: emailcapture-submit}}".',
+	'emailcapture-verify' => 'Códigu de comprobación:',
+	'emailcapture-submit' => 'Comprobar la direición de corréu electrónicu',
+);
+
 /** South Azerbaijani (تورکجه)
  * @author Mousa
  */
