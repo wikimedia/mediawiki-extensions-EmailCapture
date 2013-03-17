@@ -55,8 +55,21 @@ For more information, see [[mw:Extension:EmailCapture]].',
 The Email Capture extension will capture e-mail addresses, and allow users to verify them through e-mail.',
 	'emailcapture-response-subject' => 'The Email Capture extension will capture e-mail addresses, and allow users to verify them through e-mail. 
 For more information, see [[mw:Extension:EmailCapture]].
+
 This is the subject line of the email sent to users.
+
+The body for this subject is:
+* {{msg-mw|Emailcapture-response-body|notext=1}}
 {{Identical|SITENAME e-mail address confirmation}}',
+	'emailcapture-response-body' => 'Body of an e-mail sent to a user.
+
+Parameters:
+* $1 – URL of the confirmation link
+* $2 – URL to type in the confirmation code manually
+* $3 – Confirmation code for the user to type in
+
+The subject for this body is:
+* {{msg-mw|emailcapture-response-subject}}',
 	'emailcapture-instructions' => 'Used on [[Special:EmailCapture]], see image.
 [[Image:TestWiki-Special-EmailCapture-L4H0.png|Screenshot of Special:EmailCapture|right|thumb]]',
 	'emailcapture-verify' => 'Used on [[Special:EmailCapture]], see image.
