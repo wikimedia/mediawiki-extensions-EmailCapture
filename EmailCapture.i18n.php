@@ -53,6 +53,12 @@ $messages['qqq'] = array(
 For more information, see [[mw:Extension:EmailCapture]].',
 	'emailcapture-desc' => '{{desc|name=Email Capture|url=http://www.mediawiki.org/wiki/Extension:EmailCapture}}
 The Email Capture extension will capture e-mail addresses, and allow users to verify them through e-mail.',
+	'emailcapture-failure' => 'Used as failure message in [[Special:EmailCapture]].
+
+See also:
+* {{msg-mw|Emailcapture-success}}',
+	'emailcapture-invalid-code' => 'Used as error message in [[Special:EmailCapture]].',
+	'emailcapture-already-confirmed' => 'Used in [[Special:EmailCapture]].',
 	'emailcapture-response-subject' => 'The Email Capture extension will capture e-mail addresses, and allow users to verify them through e-mail. 
 For more information, see [[mw:Extension:EmailCapture]].
 
@@ -70,6 +76,10 @@ Parameters:
 
 The subject for this body is:
 * {{msg-mw|emailcapture-response-subject}}',
+	'emailcapture-success' => 'Used as success message in [[Special:EmailCapture]].
+
+See also:
+* {{msg-mw|Emailcapture-failure}}',
 	'emailcapture-instructions' => 'Used on [[Special:EmailCapture]], see image.
 [[Image:TestWiki-Special-EmailCapture-L4H0.png|Screenshot of Special:EmailCapture|right|thumb]]',
 	'emailcapture-verify' => 'Used on [[Special:EmailCapture]], see image.
