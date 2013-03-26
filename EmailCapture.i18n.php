@@ -49,7 +49,8 @@ Your email has been successfully confirmed.',
  * @author Yekrats
  */
 $messages['qqq'] = array(
-	'emailcapture' => 'The Email Capture extension will capture e-mail addresses, and allow users to verify them through e-mail. 
+	'emailcapture' => '{{doc-special|EmailCapture|unlisted=1}}
+The Email Capture extension will capture e-mail addresses, and allow users to verify them through e-mail. 
 For more information, see [[mw:Extension:EmailCapture]].',
 	'emailcapture-desc' => '{{desc|name=Email Capture|url=http://www.mediawiki.org/wiki/Extension:EmailCapture}}
 The Email Capture extension will capture e-mail addresses, and allow users to verify them through e-mail.',
