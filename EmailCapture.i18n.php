@@ -374,6 +374,7 @@ Váš e-mail byl úspěšně potvrzen.',
 );
 
 /** German (Deutsch)
+ * @author Geitost
  * @author Kghbln
  * @author MF-Warburg
  * @author Metalhead64
@@ -404,13 +405,14 @@ Sofern du diese Anfrage nicht ausgelöst hast, ignoriere einfach diese E-Mail. W
 	'emailcapture-success' => 'Vielen Dank!
 
 Deine E-Mail-Adresse wurde erfolgreich bestätigt.',
-	'emailcapture-instructions' => 'Um deine E-Mail-Adresse zu bestätigen, gib bitte den Code ein, der dir per E-Mail zuschickt wurde und klicke anschließend auf „{{int:emailcapture-submit}}“.',
+	'emailcapture-instructions' => 'Um deine E-Mail-Adresse zu bestätigen, gib bitte den Code ein, der dir per E-Mail zuschickt wurde, und klicke anschließend auf „{{int:emailcapture-submit}}“.',
 	'emailcapture-verify' => 'Bestätigungscode:',
 	'emailcapture-submit' => 'E-Mail-Adresse bestätigen',
 );
 
 /** Swiss High German (Schweizer Hochdeutsch)
  * @author Filzstift
+ * @author Geitost
  */
 $messages['de-ch'] = array(
 	'emailcapture-response-body' => 'Hallo!
@@ -429,9 +431,11 @@ $3
 Wir melden uns in Kürze dazu, wie du helfen kannst, {{SITENAME}} zu verbessern.
 
 Sofern du diese Anfrage nicht ausgelöst hast, ignoriere einfach dieses E-Mail. Wir werden dir dann nichts mehr zusenden.',
+	'emailcapture-instructions' => 'Um deine E-Mail-Adresse zu bestätigen, gib bitte den Code ein, der dir per E-Mail zuschickt wurde, und klicke anschließend auf «{{int:emailcapture-submit}}».',
 );
 
 /** German (formal address) (Deutsch (Sie-Form)‎)
+ * @author Geitost
  * @author Kghbln
  */
 $messages['de-formal'] = array(
@@ -455,7 +459,7 @@ Sofern Sie diese Anfrage nicht ausgelöst haben, ignorieren einfach diese E-Mail
 	'emailcapture-success' => 'Vielen Dank!
 
 Ihre E-Mail-Adresse wurde erfolgreich bestätigt.',
-	'emailcapture-instructions' => 'Um Ihre E-Mail-Adresse zu bestätigen, geben Sie bitte den Code ein, der Ihnen per E-Mail zuschickt wurde und klicken Sie anschließend auf „{{int:emailcapture-submit}}“.',
+	'emailcapture-instructions' => 'Um Ihre E-Mail-Adresse zu bestätigen, geben Sie bitte den Code ein, der Ihnen per E-Mail zuschickt wurde, und klicken Sie anschließend auf „{{int:emailcapture-submit}}“.',
 );
 
 /** Zazaki (Zazaki)
