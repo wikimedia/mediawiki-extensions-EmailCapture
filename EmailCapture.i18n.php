@@ -1386,7 +1386,7 @@ L-indirizz elettroniku tiegħek ġie kkonfermat b'suċċess.",
 	'emailcapture-submit' => 'Ivverifika l-indrizz elettroniku',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Event
  * @author Sjurhamre
  */
@@ -1477,7 +1477,7 @@ Je e-mailadres is bevestigd.',
 	'emailcapture-instructions' => 'Voer de code uit je e-mail in om je e-mailadres te bevestigen en klik daarna op "{{int:emailcapture-submit}}".',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  */
 $messages['or'] = array(
