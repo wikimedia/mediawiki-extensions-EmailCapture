@@ -1646,8 +1646,10 @@ O seu e-mail foi confirmado.',
  */
 $messages['ro'] = array(
 	'emailcapture' => 'Verificarea adresei de e-mail',
+	'emailcapture-desc' => 'Adună adrese de e-mail și permite utilizatorilor să le verifice prin e-mail',
 	'emailcapture-failure' => "Adresa dumneavoastră de e-mail '''nu''' a fost verificată.",
 	'emailcapture-invalid-code' => 'Cod de confirmare incorect.',
+	'emailcapture-already-confirmed' => 'Adresa dumneavoastră de e-mail a fost deja confirmată.',
 	'emailcapture-response-subject' => 'Verificarea adresei de e-mail la {{SITENAME}}',
 	'emailcapture-response-body' => 'Bună ziua!
 
