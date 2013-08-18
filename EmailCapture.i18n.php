@@ -1149,7 +1149,7 @@ $messages['ka'] = array(
  */
 $messages['ko'] = array(
 	'emailcapture' => '이메일 인증',
-	'emailcapture-desc' => '이메일 주소를 포착하고 사용자가 이메일을 통해 이를 인증하도록 허용',
+	'emailcapture-desc' => '이메일 주소를 포착하고 사용자가 이메일을 통해 이를 인증할 수 있습니다',
 	'emailcapture-failure' => "이메일은 인증되지 '''않았습니다'''.",
 	'emailcapture-invalid-code' => '인증 코드가 잘못됐습니다.',
 	'emailcapture-already-confirmed' => '그 주소는 이미 인증되었습니다.',
