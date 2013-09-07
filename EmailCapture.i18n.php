@@ -50,17 +50,19 @@ Your email has been successfully confirmed.',
  */
 $messages['qqq'] = array(
 	'emailcapture' => '{{doc-special|EmailCapture|unlisted=1}}
-The Email Capture extension will capture e-mail addresses, and allow users to verify them through e-mail. 
+The Email Capture extension will capture email addresses, and allow users to verify them through email. 
+
 For more information, see [[mw:Extension:EmailCapture]].',
 	'emailcapture-desc' => '{{desc|name=Email Capture|url=http://www.mediawiki.org/wiki/Extension:EmailCapture}}
-The Email Capture extension will capture e-mail addresses, and allow users to verify them through e-mail.',
+The Email Capture extension will capture email addresses, and allow users to verify them through email.',
 	'emailcapture-failure' => 'Used as failure message in [[Special:EmailCapture]].
 
 See also:
 * {{msg-mw|Emailcapture-success}}',
 	'emailcapture-invalid-code' => 'Used as error message in [[Special:EmailCapture]].',
 	'emailcapture-already-confirmed' => 'Used in [[Special:EmailCapture]].',
-	'emailcapture-response-subject' => 'The Email Capture extension will capture e-mail addresses, and allow users to verify them through e-mail. 
+	'emailcapture-response-subject' => 'The Email Capture extension will capture email addresses, and allow users to verify them through email. 
+
 For more information, see [[mw:Extension:EmailCapture]].
 
 This is the subject line of the email sent to users.
