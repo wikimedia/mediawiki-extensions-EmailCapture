@@ -84,10 +84,14 @@ The subject for this body is:
 See also:
 * {{msg-mw|Emailcapture-failure}}',
 	'emailcapture-instructions' => 'Used on [[Special:EmailCapture]], see image.
-[[Image:TestWiki-Special-EmailCapture-L4H0.png|Screenshot of Special:EmailCapture|right|thumb]]',
+[[Image:TestWiki-Special-EmailCapture-L4H0.png|Screenshot of Special:EmailCapture|right|thumb]]
+
+Refers to {{msg-mw|Emailcapture-submit}}.',
 	'emailcapture-verify' => 'Used on [[Special:EmailCapture]], see image.
 [[Image:TestWiki-Special-EmailCapture-L4H0.png|Screenshot of Special:EmailCapture|right|thumb]]',
 	'emailcapture-submit' => 'Used on [[Special:EmailCapture]], see image.
+
+Used as label for the Submit button.
 [[Image:TestWiki-Special-EmailCapture-L4H0.png|Screenshot of Special:EmailCapture|right|thumb]]',
 );
 
