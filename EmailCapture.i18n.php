@@ -2090,7 +2090,7 @@ $messages['vi'] = array(
 	'emailcapture-response-subject' => 'Xác minh địa chỉ thư điện tử tại {{SITENAME}}',
 	'emailcapture-response-body' => 'Xin chào!
 
-Cám ơn bạn đã bày tỏ quan tâm về việc giúp cải tiến {{SITENAME}}.
+Cảm ơn bạn đã bày tỏ quan tâm về việc giúp cải tiến {{SITENAME}}.
 
 Xin vui lòng xác nhận địa chỉ thư điện tử của bạn qua liên kết này:
 $1
@@ -2104,7 +2104,7 @@ $3
 Chúng tôi sẽ sớm liên lạc với bạn với thông tin về giúp cải tiến {{SITENAME}}.
 
 Nếu bạn không phải là người yêu cầu thông tin này, xin vui lòng kệ thông điệp này và chúng tôi sẽ không gửi cho bạn bất cứ gì nữa.',
-	'emailcapture-success' => 'Cám ơn!
+	'emailcapture-success' => 'Cảm ơn!
 
 Địa chỉ thư điện tử của bạn đã được xác minh thành công.',
 	'emailcapture-instructions' => 'Để xác minh địa chỉ thư điện tử của bạn, hãy nhập mã trong thư điện tử đã được gửi cho bạn và bấm nút “{{int:emailcapture-submit}}”.',
