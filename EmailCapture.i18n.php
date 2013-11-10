@@ -926,6 +926,15 @@ $3
 	'emailcapture-submit' => 'ई-मेल पते जाँच करें',
 );
 
+/** Croatian (hrvatski)
+ * @author Roberta F.
+ */
+$messages['hr'] = array(
+	'emailcapture-success' => 'Hvala Vam!
+
+Vaša adresa e-pošte uspješno je potvrđena.',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
