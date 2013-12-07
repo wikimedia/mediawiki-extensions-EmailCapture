@@ -345,7 +345,7 @@ Vaš e-mail je uspješno potvrđen.',
 	'emailcapture-verify' => 'Kod za potvrdu:',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Mormegil
  */
 $messages['cs'] = array(
