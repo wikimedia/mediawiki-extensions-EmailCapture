@@ -37,7 +37,7 @@ class SpecialEmailCapture extends SpecialPage {
 		} else {
 			// Show simple form for submitting verification code
 			$o = Html::openElement( 'form', array(
-				'action' => $this->getTitle()->getFullUrl(),
+				'action' => $this->getPageTitle()->getFullUrl(),
 				'method' => 'post'
 			) );
 			$o .= Html::element( 'p', array(), $this->msg( 'emailcapture-instructions' )->text() );
