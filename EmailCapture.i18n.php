@@ -289,12 +289,15 @@ $3
 );
 
 /** Bengali (বাংলা)
+ * @author Aftab1995
  * @author Wikitanvir
  */
 $messages['bn'] = array(
 	'emailcapture' => 'ই-মেইল নিশ্চিতকরণ',
 	'emailcapture-response-subject' => '{{SITENAME}} সাইটের ই-মেইল ঠিকানা নিশ্চিতকরণ',
-	'emailcapture-success' => 'আপনার ই-মেইল ঠিকানা সফলভাবে পরীক্ষিত হয়েছিলো।', # Fuzzy
+	'emailcapture-success' => 'আপনাকে ধন্যবাদ!
+
+আপনার ইমেল সফলভাবে নিশ্চিত করা হয়েছে।',
 	'emailcapture-verify' => 'নিশ্চিতকরণ কোড:',
 	'emailcapture-submit' => 'ই-মেইল ঠিকানা নিশ্চিতকরণ',
 );
