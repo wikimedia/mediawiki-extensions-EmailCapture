@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bilalokms",
+            "Karduelis"
+        ]
+    },
+    "emailcapture": "E-posta doğrulama",
+    "emailcapture-failure": "E-postanız doğrulanmadı.",
+    "emailcapture-invalid-code": "Geçersiz onay kodu.",
+    "emailcapture-already-confirmed": "E-posta adresiniz zaten doğrulanmış.",
+    "emailcapture-response-subject": "{{SITENAME}} e-posta adresi doğrulaması",
+    "emailcapture-success": "Teşekkür ederiz!\n\nE-posta başarıyla onaylamıştır.",
+    "emailcapture-verify": "Doğrulama kodu:",
+    "emailcapture-submit": "E-posta adresini doğrulayın."
+}

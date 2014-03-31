@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "CERminator"
+        ]
+    },
+    "emailcapture": "Potvrda putem e-maila",
+    "emailcapture-failure": "Vaš e-mail '''nije''' potvrđen.",
+    "emailcapture-success": "Hvala vam!\n\nVaš e-mail je uspješno potvrđen.",
+    "emailcapture-verify": "Kod za potvrdu:"
+}

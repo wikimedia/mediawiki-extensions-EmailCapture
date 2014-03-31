@@ -4,7 +4,6 @@
  *
  * @file
  * @ingroup Extensions
- * @version 0.3.0
  * @author Trevor Parscal <trevor@wikimedia.org>
  * @license GPL v2 or later
  * @link http://www.mediawiki.org/wiki/Extension:EmailCapture Documentation
@@ -30,13 +29,14 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'EmailCapture',
 	'author' => 'Trevor Parscal',
-	'version' => '0.3.0',
+	'version' => '0.4.0',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:EmailCapture',
 	'descriptionmsg' => 'emailcapture-desc',
 );
 
 /* Setup */
 $dir = __DIR__ . '/';
+$wgMessagesDirs['EmailCapture'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['EmailCapture'] = $dir . 'EmailCapture.i18n.php';
 $wgExtensionMessagesFiles['EmailCaptureAlias'] = $dir . 'EmailCapture.alias.php';
 // API
