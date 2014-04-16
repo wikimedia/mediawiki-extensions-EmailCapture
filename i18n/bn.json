@@ -1,13 +1,13 @@
 {
-    "@metadata": {
-        "authors": [
-            "Aftab1995",
-            "Wikitanvir"
-        ]
-    },
-    "emailcapture": "ই-মেইল নিশ্চিতকরণ",
-    "emailcapture-response-subject": "{{SITENAME}} সাইটের ই-মেইল ঠিকানা নিশ্চিতকরণ",
-    "emailcapture-success": "আপনাকে ধন্যবাদ!\n\nআপনার ইমেল সফলভাবে নিশ্চিত করা হয়েছে।",
-    "emailcapture-verify": "নিশ্চিতকরণ কোড:",
-    "emailcapture-submit": "ই-মেইল ঠিকানা নিশ্চিতকরণ"
+	"@metadata": {
+		"authors": [
+			"Aftab1995",
+			"Wikitanvir"
+		]
+	},
+	"emailcapture": "ই-মেইল নিশ্চিতকরণ",
+	"emailcapture-response-subject": "{{SITENAME}} সাইটের ই-মেইল ঠিকানা নিশ্চিতকরণ",
+	"emailcapture-success": "আপনাকে ধন্যবাদ!\n\nআপনার ইমেল সফলভাবে নিশ্চিত করা হয়েছে।",
+	"emailcapture-verify": "নিশ্চিতকরণ কোড:",
+	"emailcapture-submit": "ই-মেইল ঠিকানা নিশ্চিতকরণ"
 }

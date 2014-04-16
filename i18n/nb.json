@@ -1,19 +1,19 @@
 {
-    "@metadata": {
-        "authors": [
-            "Event",
-            "Sjurhamre"
-        ]
-    },
-    "emailcapture": "E-postbekreftelse",
-    "emailcapture-desc": "Samler inn e-postadresser, og lar brukere bekrefte dem via e-post",
-    "emailcapture-failure": "E-postadressen din ble '''ikke''' bekreftet",
-    "emailcapture-invalid-code": "Ugyldig bekreftelseskode.",
-    "emailcapture-already-confirmed": "Din e-post-adresse har allerede blir bekreftet.",
-    "emailcapture-response-subject": "E-postbekreftelse fra {{SITENAME}}",
-    "emailcapture-response-body": "Bekreft e-postadressen din ved å følge lenken under:\n$1\n\nEventuelt kan du besøke:\n$2\n\nOg skrive inn følgende bekreftelseskode:\n$3\n\nTakk for at du bekrefter e-postadressen din.",
-    "emailcapture-success": "E-postadressen din har blitt bekreftet.",
-    "emailcapture-instructions": "For å bekrefte e-postadressen din, skriver du inn koden du fikk på e-post, og klikker \"{{int:emailcapture-submit}}\".",
-    "emailcapture-verify": "Bekreftelseskode:",
-    "emailcapture-submit": "Bekreft e-postadresse"
+	"@metadata": {
+		"authors": [
+			"Event",
+			"Sjurhamre"
+		]
+	},
+	"emailcapture": "E-postbekreftelse",
+	"emailcapture-desc": "Samler inn e-postadresser, og lar brukere bekrefte dem via e-post",
+	"emailcapture-failure": "E-postadressen din ble '''ikke''' bekreftet",
+	"emailcapture-invalid-code": "Ugyldig bekreftelseskode.",
+	"emailcapture-already-confirmed": "Din e-post-adresse har allerede blir bekreftet.",
+	"emailcapture-response-subject": "E-postbekreftelse fra {{SITENAME}}",
+	"emailcapture-response-body": "Bekreft e-postadressen din ved å følge lenken under:\n$1\n\nEventuelt kan du besøke:\n$2\n\nOg skrive inn følgende bekreftelseskode:\n$3\n\nTakk for at du bekrefter e-postadressen din.",
+	"emailcapture-success": "E-postadressen din har blitt bekreftet.",
+	"emailcapture-instructions": "For å bekrefte e-postadressen din, skriver du inn koden du fikk på e-post, og klikker \"{{int:emailcapture-submit}}\".",
+	"emailcapture-verify": "Bekreftelseskode:",
+	"emailcapture-submit": "Bekreft e-postadresse"
 }

@@ -1,20 +1,20 @@
 {
-    "@metadata": {
-        "authors": [
-            "Aushulz",
-            "Beta16",
-            "F. Cosoleto"
-        ]
-    },
-    "emailcapture": "Verifica email",
-    "emailcapture-desc": "Cattura gli indirizzi e-mail e consente di verificarli tramite posta elettronica",
-    "emailcapture-failure": "L'email '''non''' è stata verificata.",
-    "emailcapture-invalid-code": "Codice di conferma non valido.",
-    "emailcapture-already-confirmed": "L'indirizzo email è già stato confermato.",
-    "emailcapture-response-subject": "{{SITENAME}}: conferma dell'indirizzo email",
-    "emailcapture-response-body": "Ciao e grazie per l'interesse mostrato nel contribuire a migliorare {{SITENAME}}.\n\nPer favore, conferma il tuo indirizzo email cliccando sul collegamento sottostante:\n$1\n\nSi può anche visitare:\n$2\n\ne inserire il seguente codice di conferma:\n$3\n\nNel caso non fossi stato tu ad attivare questa richiesta, ti preghiamo d'ignorare questa email e non se ne riceveranno altre da parte nostra.",
-    "emailcapture-success": "Grazie!\n\nLa e-mail è stata confermata con successo.",
-    "emailcapture-instructions": "Per verificare il tuo indirizzo e-mail, inserire il codice che ti è stato inviato tramite posta elettronica e cliccare su \"{{int:emailcapture-presentare}}\".",
-    "emailcapture-verify": "Codice di verifica:",
-    "emailcapture-submit": "Verifica indirizzo email"
+	"@metadata": {
+		"authors": [
+			"Aushulz",
+			"Beta16",
+			"F. Cosoleto"
+		]
+	},
+	"emailcapture": "Verifica email",
+	"emailcapture-desc": "Cattura gli indirizzi e-mail e consente di verificarli tramite posta elettronica",
+	"emailcapture-failure": "L'email '''non''' è stata verificata.",
+	"emailcapture-invalid-code": "Codice di conferma non valido.",
+	"emailcapture-already-confirmed": "L'indirizzo email è già stato confermato.",
+	"emailcapture-response-subject": "{{SITENAME}}: conferma dell'indirizzo email",
+	"emailcapture-response-body": "Ciao e grazie per l'interesse mostrato nel contribuire a migliorare {{SITENAME}}.\n\nPer favore, conferma il tuo indirizzo email cliccando sul collegamento sottostante:\n$1\n\nSi può anche visitare:\n$2\n\ne inserire il seguente codice di conferma:\n$3\n\nNel caso non fossi stato tu ad attivare questa richiesta, ti preghiamo d'ignorare questa email e non se ne riceveranno altre da parte nostra.",
+	"emailcapture-success": "Grazie!\n\nLa e-mail è stata confermata con successo.",
+	"emailcapture-instructions": "Per verificare il tuo indirizzo e-mail, inserire il codice che ti è stato inviato tramite posta elettronica e cliccare su \"{{int:emailcapture-presentare}}\".",
+	"emailcapture-verify": "Codice di verifica:",
+	"emailcapture-submit": "Verifica indirizzo email"
 }
