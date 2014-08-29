@@ -88,15 +88,6 @@ class ApiEmailCapture extends ApiBase {
 		return true;
 	}
 
-	public function getPossibleErrors() {
-		return array_merge( parent::getPossibleErrors(), array(
-			array(
-				'code' => 'invalidemail',
-				'info' => 'The email address does not appear to be valid'
-			),
-		) );
-	}
-
 	public function getExamples() {
 		return array(
 			'api.php?action=emailcapture'
