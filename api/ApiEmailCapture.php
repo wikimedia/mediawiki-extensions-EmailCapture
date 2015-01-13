@@ -93,8 +93,4 @@ class ApiEmailCapture extends ApiBase {
 			'api.php?action=emailcapture'
 		);
 	}
-
-	public function getVersion() {
-		return __CLASS__ . ': $Id$';
-	}
 }
