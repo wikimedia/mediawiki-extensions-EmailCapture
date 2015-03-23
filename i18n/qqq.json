@@ -4,11 +4,12 @@
 			"Kghbln",
 			"Purodha",
 			"Shirayuki",
-			"Yekrats"
+			"Yekrats",
+			"Umherirrender"
 		]
 	},
 	"emailcapture": "{{doc-special|EmailCapture|unlisted=1}}\nThe Email Capture extension will capture email addresses, and allow users to verify them through email. \n\nFor more information, see [[mw:Extension:EmailCapture]].",
-	"emailcapture-desc": "{{desc|name=Email Capture|url=http://www.mediawiki.org/wiki/Extension:EmailCapture}}\nThe Email Capture extension will capture email addresses, and allow users to verify them through email.",
+	"emailcapture-desc": "{{desc|name=Email Capture|url=https://www.mediawiki.org/wiki/Extension:EmailCapture}}\nThe Email Capture extension will capture email addresses, and allow users to verify them through email.",
 	"emailcapture-failure": "Used as failure message in [[Special:EmailCapture]].\n\nSee also:\n* {{msg-mw|Emailcapture-success}}",
 	"emailcapture-invalid-code": "Used as error message in [[Special:EmailCapture]].",
 	"emailcapture-already-confirmed": "Used in [[Special:EmailCapture]].",
