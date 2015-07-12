@@ -5,7 +5,8 @@
 			"Imre",
 			"MetalBrasil",
 			"Platonides",
-			"Vivaelcelta"
+			"Vivaelcelta",
+			"Macofe"
 		]
 	},
 	"emailcapture": "Verificación de correo electrónico",
@@ -13,10 +14,10 @@
 	"emailcapture-failure": "Tu correo electrónico '''no''' fue verificada.",
 	"emailcapture-invalid-code": "El código de validación no es válido.",
 	"emailcapture-already-confirmed": "Tu dirección de correo electrónico ya ha sido confirmada.",
-	"emailcapture-response-subject": "{{SITENAME}} dirección de correo electrónico de verificación",
+	"emailcapture-response-subject": "Verificación de dirección correo electrónico de {{SITENAME}}",
 	"emailcapture-response-body": "¡Hola!\n\nGracias por tu interés en ayudar a mejorar {{SITENAME}}.\n\nPor favor, dedica un momento a confirmar tu correo electrónico haciendo clic en el siguiente enlace:\n$1\n\nAlternativamente, puedes visitar:\n$2\n\nE introducir el siguiente código de confirmación:\n$3\n\nNos pondremos en contacto contigo con información para para ayudarte a mejorar {{SITENAME}}.\n\nSi no realizaste esta solicitud, por favor ignora este correo y no te enviaremos más información.\n\nGracias por tu atención, con nuestros mejores deseos,\nEl equipo de {{SITENAME}}.",
 	"emailcapture-success": "¡Muchas gracias!  Tu correo electrónico ha sido confirmado exitosamente.",
-	"emailcapture-instructions": "Para verificar su dirección de correo electrónico, escriba el código que fue enviado por correo electrónico a usted y haga clic en \"{{int: emailcapture a presentar}}\".",
+	"emailcapture-instructions": "Para verificar tu dirección de correo electrónico, escribe el código que te fue enviado por correo electrónico y haz clic en {{int:emailcapture-submit}}\".",
 	"emailcapture-verify": "Código de verificación:",
 	"emailcapture-submit": "Verificar dirección de correo electrónico"
 }
