@@ -5,6 +5,10 @@ class SpecialEmailCapture extends SpecialPage {
 		parent::__construct( 'EmailCapture', 'emailcapture' );
 	}
 
+	public function doesWrites() {
+		return true;
+	}
+
 	public function execute( $par ) {
 		$this->setHeaders();
 
