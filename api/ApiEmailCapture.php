@@ -44,8 +44,10 @@ class ApiEmailCapture extends ApiBase {
 					),
 					$this->msg( $wgEmailCaptureAutoResponse['subject-msg'] )->text(),
 					$this->msg( $wgEmailCaptureAutoResponse['body-msg'], $fullLink, $link, $code )->text(),
-					$wgEmailCaptureAutoResponse['reply-to'],
-					$wgEmailCaptureAutoResponse['content-type']
+					array(
+						'replyTo' => $wgEmailCaptureAutoResponse['reply-to'],
+						'contentType' => $wgEmailCaptureAutoResponse['content-type']
+					)
 				);
 			}
 			$r = array( 'result' => 'Success' );
