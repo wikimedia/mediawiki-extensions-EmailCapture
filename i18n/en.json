@@ -14,5 +14,8 @@
 	"emailcapture-success": "Thank you!\n\nYour email has been successfully confirmed.",
 	"emailcapture-instructions": "To verify your email address, enter the code that was emailed to you and click \"{{int:emailcapture-submit}}\".",
 	"emailcapture-verify": "Verification code:",
-	"emailcapture-submit": "Verify email address"
+	"emailcapture-submit": "Verify email address",
+	"apihelp-emailcapture-description": "Capture email addresses",
+	"apihelp-emailcapture-param-email": "Email address to capture",
+	"apihelp-emailcapture-param-info": "Extra information to log, usually JSON encoded structured information"
 }
