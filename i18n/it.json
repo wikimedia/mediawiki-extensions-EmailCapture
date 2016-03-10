@@ -3,7 +3,8 @@
 		"authors": [
 			"Aushulz",
 			"Beta16",
-			"F. Cosoleto"
+			"F. Cosoleto",
+			"Federico Mugnaini"
 		]
 	},
 	"emailcapture": "Verifica email",
@@ -12,9 +13,10 @@
 	"emailcapture-invalid-code": "Codice di conferma non valido.",
 	"emailcapture-already-confirmed": "L'indirizzo email è già stato confermato.",
 	"emailcapture-response-subject": "{{SITENAME}}: conferma dell'indirizzo email",
-	"emailcapture-response-body": "Ciao e grazie per l'interesse mostrato nel contribuire a migliorare {{SITENAME}}.\n\nPer favore, conferma il tuo indirizzo email cliccando sul collegamento sottostante:\n$1\n\nSi può anche visitare:\n$2\n\ne inserire il seguente codice di conferma:\n$3\n\nNel caso non fossi stato tu ad attivare questa richiesta, ti preghiamo d'ignorare questa email e non se ne riceveranno altre da parte nostra.",
+	"emailcapture-response-body": "Ciao e grazie per l'interesse mostrato nel contribuire a migliorare {{SITENAME}}.\n\nPer favore, conferma il tuo indirizzo di posta elettronica cliccando sul collegamento sottostante:\n$1\n\nSi può anche visitare:\n$2\n\ne inserire il seguente codice di conferma:\n$3\n\nCi metteremo in contatto a breve con come si può aiutare a migliorare {{SITENAME}}.\n\nNel caso non fossi stato tu ad attivare questa richiesta, ti preghiamo d'ignorare questa email e non ne riceverai altre da parte nostra.",
 	"emailcapture-success": "Grazie!\n\nIl tuo indirizzo di posta elettronica è stato confermato.",
 	"emailcapture-instructions": "Per verificare il tuo indirizzo e-mail, inserire il codice che ti è stato inviato tramite posta elettronica e cliccare su \"{{int:emailcapture-presentare}}\".",
 	"emailcapture-verify": "Codice di verifica:",
-	"emailcapture-submit": "Verifica indirizzo email"
+	"emailcapture-submit": "Verifica indirizzo email",
+	"apihelp-emailcapture-param-info": "Informazioni aggiuntive di registro, di solito JSON è codificato in informazioni strutturate"
 }
