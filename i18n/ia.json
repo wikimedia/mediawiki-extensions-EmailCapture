@@ -14,5 +14,6 @@
 	"emailcapture-success": "Gratias!\n\nTu adresse de e-mail ha essite confirmate con successo.",
 	"emailcapture-instructions": "Pro verificar tu adresse de e-mail, entra le codice que te esseva inviate in e-mail, e clicca super \"{{int:emailcapture-submit}}\".",
 	"emailcapture-verify": "Codice de verification:",
-	"emailcapture-submit": "Verificar adresse de e-mail"
+	"emailcapture-submit": "Verificar adresse de e-mail",
+	"apihelp-emailcapture-param-info": "Information additional a registrar, usualmente structurate in codice JSON"
 }
