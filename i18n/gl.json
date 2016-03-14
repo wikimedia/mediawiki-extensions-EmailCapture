@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Banjo"
 		]
 	},
 	"emailcapture": "Verificación do correo electrónico",
@@ -11,8 +12,11 @@
 	"emailcapture-already-confirmed": "Xa se confirmou o seu enderezo de correo electrónico.",
 	"emailcapture-response-subject": "Verificación do enderezo de correo electrónico de {{SITENAME}}",
 	"emailcapture-response-body": "Ola!\n\nGrazas por expresar interese en axudar a mellorar {{SITENAME}}.\n\nTome un momento para confirmar o seu correo electrónico premendo na ligazón que hai a continuación: \n$1\n\nTamén pode visitar:\n$2\n\nE inserir o seguinte código de confirmación:\n$3\n\nPoñerémonos en contacto con vostede para informarlle sobre como axudar a mellorar {{SITENAME}}.\n\nSe vostede non fixo esta petición, ignore esta mensaxe e non lle enviaremos máis nada.",
-	"emailcapture-success": "Grazas!\n\nO seu enderezo de correo electrónico verificouse correctamente.",
-	"emailcapture-instructions": "Para verificar o seu enderezo de correo electrónico, introduza o código que se lle enviou e prema en \"{{int:emailcapture-submit}}\".",
+	"emailcapture-success": "Grazas!\n\nO seu enderezo de correo electrónico foi confirmado.",
+	"emailcapture-instructions": "Para verificar o seu enderezo de correo electrónico, introduza o código que se lle enviou ó correo e prema en \"{{int:emailcapture-submit}}\".",
 	"emailcapture-verify": "Código de verificación:",
-	"emailcapture-submit": "Verificar o enderezo de correo electrónico"
+	"emailcapture-submit": "Verificar o enderezo de correo electrónico",
+	"apihelp-emailcapture-description": "Capturar enderezos de correo electrónico",
+	"apihelp-emailcapture-param-email": "Enderezos de correo electrónico a capturar",
+	"apihelp-emailcapture-param-info": "Información adicional a rexitrar, habitualmente información JSON estruturada e codificada"
 }
