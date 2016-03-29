@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Dim Grits",
-			"Александр Сигачёв"
+			"Александр Сигачёв",
+			"Okras"
 		]
 	},
 	"emailcapture": "Подтверждение адреса электронной почты",
@@ -15,5 +16,8 @@
 	"emailcapture-success": "Спасибо!\n\nВаш адрес электронной почты был подтверждён.",
 	"emailcapture-instructions": "Для подтверждения вашего адреса электронной почты, введите код, который был вам отправлен, и нажмите кнопку «{{int:emailcapture-submit}}».",
 	"emailcapture-verify": "Код подтверждения:",
-	"emailcapture-submit": "Подтвердить адрес электронной почты"
+	"emailcapture-submit": "Подтвердить адрес электронной почты",
+	"apihelp-emailcapture-description": "Захват адресов электронной почты",
+	"apihelp-emailcapture-param-email": "Адрес электронной почты для захвата",
+	"apihelp-emailcapture-param-info": "Дополнительная информация для журнала, как правило, структурированная информация в JSON-формате"
 }
