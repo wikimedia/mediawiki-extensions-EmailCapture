@@ -6,11 +6,11 @@
 		]
 	},
 	"emailcapture": "ელ.ფოსტის მისამართის დადასტურება",
-	"emailcapture-failure": "თქვენი ელ. ფოსტა '''არ''' დადასტურებულა.",
+	"emailcapture-failure": "თქვენი ელ. ფოსტა '''ვერ''' დადასტურდა.",
 	"emailcapture-invalid-code": "არასწორი დადასტურების კოდი.",
 	"emailcapture-already-confirmed": "თქვენი ელ. ფოსტის მისამართი დადასტურებულია.",
 	"emailcapture-response-subject": "{{SITENAME}} ელ. ფოსტის მისამართის შემოწმება",
-	"emailcapture-success": "გმადლობთ!\n\nთქვენი ი-მეილი წარმატებით დადასტურდა.",
+	"emailcapture-success": "გმადლობთ!\n\nთქვენი ელ. ფოსტა დადასტურებულია.",
 	"emailcapture-verify": "დამოწმების კოდი:",
 	"emailcapture-submit": "ი-მეილის დამოწმება"
 }
