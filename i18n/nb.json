@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Event",
-			"Sjurhamre"
+			"Sjurhamre",
+			"Jon Harald Søby"
 		]
 	},
 	"emailcapture": "E-postbekreftelse",
@@ -11,9 +12,12 @@
 	"emailcapture-invalid-code": "Ugyldig bekreftelseskode.",
 	"emailcapture-already-confirmed": "Din e-post-adresse har allerede blir bekreftet.",
 	"emailcapture-response-subject": "E-postbekreftelse fra {{SITENAME}}",
-	"emailcapture-response-body": "Bekreft e-postadressen din ved å følge lenken under:\n$1\n\nEventuelt kan du besøke:\n$2\n\nOg skrive inn følgende bekreftelseskode:\n$3\n\nTakk for at du bekrefter e-postadressen din.",
-	"emailcapture-success": "E-postadressen din har blitt bekreftet.",
+	"emailcapture-response-body": "Hallo!\n\nTakk for din interesse med å forbedre {{SITENAME}}.\n\nVennligst bruk litt tid på å bekrefte epostadressa di ved å klikke på lenka nedenfor:\n$1\n\nDu kan også besøke:\n$2\n\nOg skrive inn følgende bekreftelseskode:\n$3\n\nVi kommer straks tilbake med mer info om hvordan du kan bidra til å forbedre {{SITENAME}}.\n\nOm du ikke startet denne forespørselen er det bare å ignorere denne eposten, så vil vi ikke sende deg noe mer.",
+	"emailcapture-success": "Takk!\n\nEpostadressa di har blitt bekreftet.",
 	"emailcapture-instructions": "For å bekrefte e-postadressen din, skriver du inn koden du fikk på e-post, og klikker \"{{int:emailcapture-submit}}\".",
 	"emailcapture-verify": "Bekreftelseskode:",
-	"emailcapture-submit": "Bekreft e-postadresse"
+	"emailcapture-submit": "Bekreft e-postadresse",
+	"apihelp-emailcapture-description": "Grip epostadresser",
+	"apihelp-emailcapture-param-email": "Epostadresser som skal gripes",
+	"apihelp-emailcapture-param-info": "Ekstra informasjon som skal logges, vanligvis strukturert informasjon i JSON-format"
 }
