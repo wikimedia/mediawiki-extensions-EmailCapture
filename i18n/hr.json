@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Roberta F."
+			"Roberta F.",
+			"MaGa"
 		]
 	},
-	"emailcapture-success": "Hvala Vam!\n\nVaša adresa e-pošte uspješno je potvrđena."
+	"emailcapture-success": "Hvala Vam!\n\nVaše adrese e-pošte uspješno su potvrđene."
 }
