@@ -16,5 +16,6 @@
 	"emailcapture-success": "Дзякуем!\n\nВаш адрас электроннай пошты быў правераны.",
 	"emailcapture-instructions": "Каб праверыць Ваш адрас электроннай пошты, увядзіце код, які быў Вам дасланы па электроннай пошце і націсьніце кнопку «{{int:emailcapture-submit}}».",
 	"emailcapture-verify": "Код праверкі:",
-	"emailcapture-submit": "Праверыць адрас электроннай пошты"
+	"emailcapture-submit": "Праверыць адрас электроннай пошты",
+	"apihelp-emailcapture-description": "Перахопліваньне адрасоў электроннай пошты"
 }
