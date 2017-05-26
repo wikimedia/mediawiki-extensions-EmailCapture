@@ -16,6 +16,7 @@
 	"emailcapture-verify": "Verification code:",
 	"emailcapture-submit": "Verify email address",
 	"apihelp-emailcapture-description": "Capture email addresses",
+	"apihelp-emailcapture-summary": "Capture email addresses",
 	"apihelp-emailcapture-param-email": "Email address to capture",
 	"apihelp-emailcapture-param-info": "Extra information to log, usually JSON encoded structured information"
 }
