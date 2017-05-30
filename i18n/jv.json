@@ -4,15 +4,15 @@
 			"NoiX180"
 		]
 	},
-	"emailcapture": "Vèrifikasi layang èlèktronik",
-	"emailcapture-desc": "Cathet alamat layang èlèktronik, lan lilakaké panganggo mèrifikasi liwat layang èlèktronik",
-	"emailcapture-failure": "Layang èlèktronik Sampéyan '''durung''' divèrifikasi.",
+	"emailcapture": "Vèrifikasi layang-èl",
+	"emailcapture-desc": "Cathet alamat layang-èl, lan idinaké panganggo mèrifikasi lumantar layang-èl",
+	"emailcapture-failure": "Alamat layang-èlé panjenengan '''durung''' divèrifikasi.",
 	"emailcapture-invalid-code": "Kodhe pepesthèn ora sah.",
-	"emailcapture-already-confirmed": "Alamat layang èlèktronik Sampéyan wis dipesthèkaké.",
-	"emailcapture-response-subject": "Vèrifikasi alamat layang èlèktronik {{SITENAME}}",
-	"emailcapture-response-body": "Halo!\n\nMatur nuwun sampun ngèwangi mbenahi {{SITENAME}}.\n\nMangga entèni sadhéla kanggo mestèkaké layang èlèktronik Sampéyan mawa ngeklik pranala ing ngisor:\n$1\n\nSampéyan uga bisa mara ing:\n$2\n\nLan nglebokaké kodhé konfirmasi:\n$3\n\nAwak dhéwé bakal kahubung sakwisé kuwi lan nerangaké carané supaya Sampéyan bisa ngéwangi mbenahi {{SITENAME}}.\n\nYèn Sampéyan ora ngajokaké iki, benaké waé layang èlèktronik iki lan awak dhéwé ora bakal ngirimi Sampéyan manèh.",
-	"emailcapture-success": "Matur nuwun!\n\nLayang èlèktronik Sampéyan suksès dipesthèkaké.",
-	"emailcapture-instructions": "Kanggo vèrifikasi alamat layang èlèktronik Sampéyan, lebokaké kodhé sing dikirimaké maring Sampéyan lan klik \"{{int:emailcapture-submit}}\".",
+	"emailcapture-already-confirmed": "Alamat layang-èlé panjenengan wis dikonfirmasi.",
+	"emailcapture-response-subject": "Vèrifikasi alamat layang-èl {{SITENAME}}",
+	"emailcapture-response-body": "Halo!\n\nMatur nuwun wis awèh kawigatèn kanthi ndandani {{SITENAME}}.\n\nMangga awèh kalodhangan sadhéla kanggo ngonfirmasi alamat layang-èlé panjenengan kanthi ngeklik pranala ingisor iki:\n$1\n\nPanjenengan uga bisa nyang:\n$2\n\nBanjur isèkaké kodhe konfirmasi ngisor iki:\n$3\n\nAwak dhéwé bakal gagé sesambungan ngenani carané panjenengan bisa ngéwangi ndandani {{SITENAME}}.\n\nYèn panjenengan ora nyuwun iki, lirwakaké waé layang-èl iki lan awak dhéwé ora bakal ngirimi panjenengan apa-apa manèh.",
+	"emailcapture-success": "Matur nuwun!\n\nAlamat layang-èlé panjenengan kasil dikonfirmasi.",
+	"emailcapture-instructions": "Kanggo vèrifikasi alamat layang-èlé panjenengan, isinen kodhe sing dikirimaké nyang panjenengan lumantar layang-èl banjur kliken \"{{int:emailcapture-submit}}\".",
 	"emailcapture-verify": "Kodhé vèrifikasi:",
-	"emailcapture-submit": "Verifikasi alamat layang èlèktronik"
+	"emailcapture-submit": "Vèrifikasi alamat layang-èl"
 }
