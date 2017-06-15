@@ -22,6 +22,7 @@
 	"emailcapture-verify": "验证码：",
 	"emailcapture-submit": "验证电子邮件地址",
 	"apihelp-emailcapture-description": "捕获电子邮件地址",
+	"apihelp-emailcapture-summary": "捕获电子邮件地址",
 	"apihelp-emailcapture-param-email": "要捕获的电子邮件地址",
 	"apihelp-emailcapture-param-info": "要在日志中记录的额外信息，通常是JSON编码的结构化信息"
 }

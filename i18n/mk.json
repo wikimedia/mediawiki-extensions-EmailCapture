@@ -16,6 +16,7 @@
 	"emailcapture-verify": "Потврден код:",
 	"emailcapture-submit": "Потврди е-пошта",
 	"apihelp-emailcapture-description": "Заведи е-пошта",
+	"apihelp-emailcapture-summary": "Заведи е-пошта",
 	"apihelp-emailcapture-param-email": "Е-пошта за заведување",
 	"apihelp-emailcapture-param-info": "Дополнителни податоци за заведување, обично структурирани податоци кодирани во JSON"
 }

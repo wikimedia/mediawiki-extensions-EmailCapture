@@ -18,6 +18,7 @@
 	"emailcapture-verify": "Код подтверждения:",
 	"emailcapture-submit": "Подтвердить адрес электронной почты",
 	"apihelp-emailcapture-description": "Захват адресов электронной почты",
+	"apihelp-emailcapture-summary": "Захват адресов электронной почты",
 	"apihelp-emailcapture-param-email": "Адрес электронной почты для захвата",
 	"apihelp-emailcapture-param-info": "Дополнительная информация для журнала, как правило, структурированная информация в JSON-формате"
 }

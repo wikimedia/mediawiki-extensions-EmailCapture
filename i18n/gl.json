@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Toliño",
-			"Banjo"
+			"Banjo",
+			"Elisardojm"
 		]
 	},
 	"emailcapture": "Verificación do correo electrónico",
@@ -17,6 +18,7 @@
 	"emailcapture-verify": "Código de verificación:",
 	"emailcapture-submit": "Verificar o enderezo de correo electrónico",
 	"apihelp-emailcapture-description": "Capturar enderezos de correo electrónico",
+	"apihelp-emailcapture-summary": "Capturar enderezos de correo electrónico",
 	"apihelp-emailcapture-param-email": "Enderezos de correo electrónico a capturar",
 	"apihelp-emailcapture-param-info": "Información adicional a rexitrar, habitualmente información JSON estruturada e codificada"
 }
