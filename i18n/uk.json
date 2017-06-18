@@ -18,6 +18,7 @@
 	"emailcapture-verify": "Код підтвердження:",
 	"emailcapture-submit": "Підтвердити адресу електронної пошти",
 	"apihelp-emailcapture-description": "Отримує адреси електронної пошти",
+	"apihelp-emailcapture-summary": "Отримує адреси електронної пошти",
 	"apihelp-emailcapture-param-email": "Адреса електронної пошти, яку треба отримати",
 	"apihelp-emailcapture-param-info": "Додаткова інформація для журналювання, зазвичай структурна інформація у форматі JSON"
 }

@@ -16,5 +16,6 @@
 	"emailcapture-success": "Tack!\n\nDin e-post har bekräftats.",
 	"emailcapture-instructions": "För att bekräfta din e-postadress, ange koden som du fick per e-post och klicka på \"{{int:emailcapture-submit}}\".",
 	"emailcapture-verify": "Verifieringskod:",
-	"emailcapture-submit": "Verifiera e-postadress"
+	"emailcapture-submit": "Verifiera e-postadress",
+	"apihelp-emailcapture-summary": "Fånga e-postadresser"
 }
