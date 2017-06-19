@@ -16,6 +16,7 @@
 	"emailcapture-verify": "Códigu de comprobación:",
 	"emailcapture-submit": "Comprobar la direición de corréu electrónicu",
 	"apihelp-emailcapture-description": "Capturar direiciones de corréu electrónicu",
+	"apihelp-emailcapture-summary": "Capturar direiciones de corréu electrónicu",
 	"apihelp-emailcapture-param-email": "Direición de corréu electrónicu a capturar",
 	"apihelp-emailcapture-param-info": "Otra información a rexistrar, de vezu información estructurada codificada en JSON"
 }
