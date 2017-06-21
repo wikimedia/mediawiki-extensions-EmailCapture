@@ -4,7 +4,8 @@
 			"Anakmalaysia",
 			"Waihorace",
 			"LNDDYL",
-			"Cwlin0416"
+			"Cwlin0416",
+			"Corainn"
 		]
 	},
 	"emailcapture": "電子郵件驗證",
@@ -17,5 +18,6 @@
 	"emailcapture-success": "謝謝！\n\n您的電子郵件已成功地確認。",
 	"emailcapture-instructions": "為了驗證您的電子郵件地址，輸入郵件的標明的驗證碼，然後點選\"{{int:emailcapture-submit}}\"。",
 	"emailcapture-verify": "驗證碼：",
-	"emailcapture-submit": "驗證電子郵件地址"
+	"emailcapture-submit": "驗證電子郵件地址",
+	"apihelp-emailcapture-summary": "獲取電子郵件地址"
 }
