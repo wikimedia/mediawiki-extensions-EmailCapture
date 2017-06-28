@@ -10,7 +10,7 @@
 	"emailcapture-invalid-code": "Codiçe de conferma non vallido.",
 	"emailcapture-already-confirmed": "L'adreçço e-mail o l'è za stæto confermou.",
 	"emailcapture-response-subject": "{{SITENAME}}: conferma de l'adreçço e-mail",
-	"emailcapture-response-body": "Ciao e graçie pe l'interesse mostrou into contriboî a amegioâ {{SITENAME}}.\n\nPe piaxei, conferma o to adresso de posta elettronica cliccando insciô collegamento sottostante:\n$1\n\nSe poeu vixitâ ascì:\n$2\n\ne insei o seguente codiçe de conferma:\n$3\n\nFito te contattiemo pe dîte comme se poeu agiutâ a amegioâ {{SITENAME}}.\n\nSe no t'ê stæto ti a attivâ sta recesta, no stanni a dâ amente a sta e-mail e no ti ne riçeviæ atre da parte nostra.",
+	"emailcapture-response-body": "Ciao e graçie pe l'interesse mostrou into contriboî a amegioâ {{SITENAME}}.\n\nPe piaxei, conferma o to adresso de posta elettronica cliccando insce l'ingancio sottostante:\n$1\n\nSe poeu vixitâ ascì:\n$2\n\ne insei o seguente codiçe de conferma:\n$3\n\nFito te contattiemo pe dîte comme se poeu agiutâ a amegioâ {{SITENAME}}.\n\nSe no t'ê stæto ti a attivâ sta recesta, no stanni a dâ amente a sta e-mail e no ti ne riçeviæ atre da parte nostra.",
 	"emailcapture-success": "Graçie!\n\nO tuo adresso de posta elettronica o l'è stæto confermou.",
 	"emailcapture-instructions": "Pe veificâ o to adresso e-mail, inseisci o codiçe che t'è stæto inviou tramite posta elettronica e clicca sciu \"{{int:emailcapture-presentâ}}\".",
 	"emailcapture-verify": "Codiçe de veifica:",
