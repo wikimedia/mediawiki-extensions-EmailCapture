@@ -21,6 +21,7 @@
 	"emailcapture-verify": "Code de vérification :",
 	"emailcapture-submit": "Vérifiez l'adresse de courriel",
 	"apihelp-emailcapture-description": "Capturer les adresses de courriel",
+	"apihelp-emailcapture-summary": "Capturer les adresses courriel",
 	"apihelp-emailcapture-param-email": "Adresse de courriel à capturer",
 	"apihelp-emailcapture-param-info": "Informations supplémentaires à écrire dans le journal, généralement des informations structurées encodées JSON"
 }
