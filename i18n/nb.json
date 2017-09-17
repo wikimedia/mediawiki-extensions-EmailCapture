@@ -18,6 +18,7 @@
 	"emailcapture-verify": "Bekreftelseskode:",
 	"emailcapture-submit": "Bekreft e-postadresse",
 	"apihelp-emailcapture-description": "Grip epostadresser",
+	"apihelp-emailcapture-summary": "Fang opp epostadresser",
 	"apihelp-emailcapture-param-email": "Epostadresser som skal gripes",
 	"apihelp-emailcapture-param-info": "Ekstra informasjon som skal logges, vanligvis strukturert informasjon i JSON-format"
 }
