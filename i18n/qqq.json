@@ -5,7 +5,8 @@
 			"Purodha",
 			"Shirayuki",
 			"Yekrats",
-			"Umherirrender"
+			"Umherirrender",
+			"Tacsipacsi"
 		]
 	},
 	"emailcapture": "{{doc-special|EmailCapture|unlisted=1}}\nThe Email Capture extension will capture email addresses, and allow users to verify them through email. \n\nFor more information, see [[mw:Extension:EmailCapture]].",
@@ -18,7 +19,7 @@
 	"emailcapture-success": "Used as success message in [[Special:EmailCapture]].\n\nSee also:\n* {{msg-mw|Emailcapture-failure}}",
 	"emailcapture-instructions": "Used on [[Special:EmailCapture]], see image.\n[[Image:TestWiki-Special-EmailCapture-L4H0.png|Screenshot of Special:EmailCapture|right|thumb]]\n\nRefers to {{msg-mw|Emailcapture-submit}}.",
 	"emailcapture-verify": "Used on [[Special:EmailCapture]], see image.\n[[Image:TestWiki-Special-EmailCapture-L4H0.png|Screenshot of Special:EmailCapture|right|thumb]]",
-	"emailcapture-submit": "Used on [[Special:EmailCapture]], see image.\n\nUsed as label for the Submit button.\n[[Image:TestWiki-Special-EmailCapture-L4H0.png|Screenshot of Special:EmailCapture|right|thumb]]",
+	"emailcapture-submit": "[[Image:TestWiki-Special-EmailCapture-L4H0.png|Screenshot of Special:EmailCapture|right|thumb]]\nUsed on [[Special:EmailCapture]], see image.\n\nUsed as label for the Submit button.",
 	"apihelp-emailcapture-description": "{{doc-apihelp-description|emailcapture}}",
 	"apihelp-emailcapture-summary": "{{doc-apihelp-summary|emailcapture}}",
 	"apihelp-emailcapture-param-email": "{{doc-apihelp-param|emailcapture|email}}",
