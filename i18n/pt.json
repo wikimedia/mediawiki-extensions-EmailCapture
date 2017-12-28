@@ -12,7 +12,7 @@
 	"emailcapture-invalid-code": "Código de confirmação inválido.",
 	"emailcapture-already-confirmed": "O seu endereço de correio eletrónico já foi confirmado.",
 	"emailcapture-response-subject": "Verificação do endereço de correio eletrónico, da wiki {{SITENAME}}",
-	"emailcapture-response-body": "Olá!\n\nObrigado por expressar interesse em ajudar a melhorar a wiki {{SITENAME}}.\n\nConfirme o seu endereço de correio eletrónico ao clicar na ligação abaixo, por favor:\n$1\n\nTambém pode visitar:\n$2\n\nE introduzir o seguinte código de confirmação:\n$3\n\nEm breve irá receber informações sobre como poderá ajudar a melhorar a wiki {{SITENAME}}.\n\nSe não iniciou este pedido, ignore esta mensagem e não voltará a ser contactado.",
+	"emailcapture-response-body": "Olá!\n\nObrigado por expressar interesse em ajudar a melhorar a wiki {{SITENAME}}.\n\nConfirme o seu endereço de correio eletrónico clicando na hiperligação abaixo, por favor:\n$1\n\nTambém pode visitar:\n$2\n\nE introduzir o seguinte código de confirmação:\n$3\n\nEm breve irá receber informações sobre como pode ajudar a melhorar a wiki {{SITENAME}}.\n\nSe não iniciou este pedido, ignore esta mensagem e não voltará a ser contactado.",
 	"emailcapture-success": "Obrigado!\n\nO seu endereço de correio eletrónico foi confirmado.",
 	"emailcapture-instructions": "Para verificar o seu endereço de correio eletrónico, introduza o código que lhe foi enviado para o correio eletrónico e clique \"{{int:emailcapture-submit}}\".",
 	"emailcapture-verify": "Código de verificação:",
