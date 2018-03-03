@@ -3,7 +3,8 @@
 		"authors": [
 			"Dani",
 			"Dj",
-			"Tacsipacsi"
+			"Tacsipacsi",
+			"Bencemac"
 		]
 	},
 	"emailcapture": "E-mail ellenőrzése",
@@ -13,6 +14,7 @@
 	"emailcapture-already-confirmed": "Az e-mail címed már ellenőrzésre került.",
 	"emailcapture-response-subject": "[{{SITENAME}}] E-mail-cím megerősítése",
 	"emailcapture-success": "Köszönjük!\n\nAz e-mail címed sikeresen ellenőrzésre került.",
+	"emailcapture-instructions": "E-mail címed ellenőrzéséhez add meg az e-mailben kapott kódot és kattint az „{{int:emailcapture-submit}}” gombra.",
 	"emailcapture-verify": "Ellenőrző kód:",
 	"emailcapture-submit": "E-mail-cím megerősítése"
 }
