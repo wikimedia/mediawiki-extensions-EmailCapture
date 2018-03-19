@@ -19,5 +19,8 @@
 	"emailcapture-success": "¡Muchas gracias!\n\nTu dirección de correo electrónico ha sido confirmado.",
 	"emailcapture-instructions": "Para verificar tu dirección de correo electrónico, escribe el código que te fue enviado por correo electrónico y haz clic en {{int:emailcapture-submit}}\".",
 	"emailcapture-verify": "Código de verificación:",
-	"emailcapture-submit": "Verificar dirección de correo electrónico"
+	"emailcapture-submit": "Verificar dirección de correo electrónico",
+	"apihelp-emailcapture-description": "Capturar direcciones de correo electrónico",
+	"apihelp-emailcapture-summary": "Capturar direcciones de correo electrónico",
+	"apihelp-emailcapture-param-email": "Direcciones de correo que capturar"
 }
