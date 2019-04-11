@@ -3,7 +3,7 @@ CREATE TABLE IF NOT EXISTS /*_*/email_capture (
   -- Email address
   ec_email varbinary(255) PRIMARY KEY NOT NULL DEFAULT '',
   -- Additional information
-  ec_info blob NOT NULL DEFAULT '',
+  ec_info blob NOT NULL,
   -- Verification code
   ec_code varbinary(32) NOT NULL DEFAULT '',
   -- Verified
