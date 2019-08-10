@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"emailcapture": "Potvrda e-pošte",
+	"emailcapture-desc": "Zavođivanje adresa e-pošte što korisnici mogu potvrditi preko poruke",
+	"emailcapture-failure": "Vaša adresa e-pošte '''nije''' potvrđena.",
+	"emailcapture-invalid-code": "Nevalidan potvrdni kôd.",
+	"emailcapture-already-confirmed": "Adresa Vaše e-pošte već je potvrđena."
+}
