@@ -9,6 +9,7 @@
 	"emailcapture-failure": "Vaša adresa e-pošte '''nije''' potvrđena.",
 	"emailcapture-invalid-code": "Nevalidan potvrdni kôd.",
 	"emailcapture-already-confirmed": "Adresa Vaše e-pošte već je potvrđena.",
+	"emailcapture-response-subject": "{{SITENAME}} — Potvrda adrese e-pošte",
 	"emailcapture-verify": "Potvrdni kod:",
 	"emailcapture-submit": "Potvrdi adresu e-pošte",
 	"apihelp-emailcapture-description": "Zavedi adrese e-pošte",
