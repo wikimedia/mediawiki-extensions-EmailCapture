@@ -2,15 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Helix84",
-			"Kusavica"
+			"Kusavica",
+			"Vlad5250"
 		]
 	},
 	"emailcapture": "Zachytenie emailovej adresy",
 	"emailcapture-desc": "Zachytiť emailovú adresu a umožniť používateľom overenie pomocou emailu",
 	"emailcapture-failure": "Váš e-mail '''nebol''' overený.",
+	"emailcapture-invalid-code": "Neplatný overovací kód.",
 	"emailcapture-response-subject": "Potvrdenie emailovej adresy pre {{GRAMMAR:akuzatív|{{SITENAME}}}}",
 	"emailcapture-response-body": "Overiť svoju emailovú adresu nasledovaním tohto odkazu:\n\n$1\n\nMôžete tiež navštíviť:\n$2\n\na zadať nasledovný overovací kód:\n$3\n\nĎakujeme za overenie vašej emailovej adresy.",
-	"emailcapture-success": "Vďaka!\n\nVaša emailová adresa bola úspešne overená.",
+	"emailcapture-success": "Vďaka!\n\nVaša emailová adresa bola overená.",
 	"emailcapture-instructions": "Ak chcete overiť svoju emailovú adresu, zadajte kód, ktorý vám bol zaslaný emailom a kliknite na „{{int:emailcapture-submit}}“.",
 	"emailcapture-verify": "Overovací kód:",
 	"emailcapture-submit": "Overiť e-mailovú adresu"
