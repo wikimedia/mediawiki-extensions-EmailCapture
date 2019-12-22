@@ -3,10 +3,11 @@
 		"authors": [
 			"Helix84",
 			"Kusavica",
-			"Vlad5250"
+			"Vlad5250",
+			"Luky001"
 		]
 	},
-	"emailcapture": "Zachytenie emailovej adresy",
+	"emailcapture": "Overenie e-mailu",
 	"emailcapture-desc": "Zachytiť emailovú adresu a umožniť používateľom overenie pomocou emailu",
 	"emailcapture-failure": "Váš e-mail '''nebol''' overený.",
 	"emailcapture-invalid-code": "Neplatný overovací kód.",
