@@ -9,7 +9,7 @@
 	},
 	"emailcapture": "Overenie e-mailu",
 	"emailcapture-desc": "Zachytiť emailovú adresu a umožniť používateľom overenie pomocou emailu",
-	"emailcapture-failure": "Váš e-mail '''nebol''' overený.",
+	"emailcapture-failure": "Vaša e-mailová adresa '''nebola''' overená.",
 	"emailcapture-invalid-code": "Neplatný overovací kód.",
 	"emailcapture-response-subject": "Potvrdenie emailovej adresy pre {{GRAMMAR:akuzatív|{{SITENAME}}}}",
 	"emailcapture-response-body": "Overiť svoju emailovú adresu nasledovaním tohto odkazu:\n\n$1\n\nMôžete tiež navštíviť:\n$2\n\na zadať nasledovný overovací kód:\n$3\n\nĎakujeme za overenie vašej emailovej adresy.",
