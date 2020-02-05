@@ -39,12 +39,12 @@ $dir = __DIR__ . '/';
 $wgMessagesDirs['EmailCapture'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['EmailCaptureAlias'] = $dir . 'EmailCapture.alias.php';
 // API
-$wgAutoloadClasses['ApiEmailCapture'] = $dir . 'api/ApiEmailCapture.php';
+$wgAutoloadClasses['ApiEmailCapture'] = $dir . 'includes/api/ApiEmailCapture.php';
 $wgAPIModules['emailcapture'] = 'ApiEmailCapture';
 // Schema
-$wgAutoloadClasses['EmailCaptureHooks'] = $dir . 'EmailCaptureHooks.php';
+$wgAutoloadClasses['EmailCaptureHooks'] = $dir . 'includes/EmailCaptureHooks.php';
 $wgHooks['LoadExtensionSchemaUpdates'][] = 'EmailCaptureHooks::loadExtensionSchemaUpdates';
 $wgHooks['ParserTestTables'][] = 'EmailCaptureHooks::parserTestTables';
 // Special page
-$wgAutoloadClasses['SpecialEmailCapture'] = $dir . 'SpecialEmailCapture.php';
+$wgAutoloadClasses['SpecialEmailCapture'] = $dir . 'includes/specials/SpecialEmailCapture.php';
 $wgSpecialPages['EmailCapture'] = 'SpecialEmailCapture';
