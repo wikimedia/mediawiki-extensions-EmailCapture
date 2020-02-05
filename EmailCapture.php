@@ -5,7 +5,7 @@
  * @file
  * @ingroup Extensions
  * @author Trevor Parscal <trevor@wikimedia.org>
- * @license GPL v2 or later
+ * @license GPL-2.0-or-later
  * @link https://www.mediawiki.org/wiki/Extension:EmailCapture Documentation
  */
 

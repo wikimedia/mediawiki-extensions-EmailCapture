@@ -13,12 +13,12 @@ class EmailCaptureHooks {
 		$db = $updater->getDB();
 		if ( !$db->tableExists( 'email_capture' ) ) {
 			// Initial install tables
-			$updater->addExtensionUpdate( array(
+			$updater->addExtensionUpdate( [
 				'addTable',
 				'email_capture',
 				__DIR__ . '/../sql/CreateEmailCaptureTable.sql',
 				true
-			) );
+			] );
 		}
 		return true;
 	}

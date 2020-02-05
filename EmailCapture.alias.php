@@ -6,11 +6,11 @@
  * @ingroup Extensions
  */
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English (English)
  * @author Roan Kattouw
  */
-$specialPageAliases['en'] = array(
-	'EmailCapture' => array( 'EmailCapture' ),
-);
+$specialPageAliases['en'] = [
+	'EmailCapture' => [ 'EmailCapture' ],
+];

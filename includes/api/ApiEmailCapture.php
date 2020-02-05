@@ -20,13 +20,13 @@ class ApiEmailCapture extends ApiBase {
 		$dbw = wfGetDB( DB_MASTER );
 		$dbw->insert(
 			'email_capture',
-			array(
+			[
 				'ec_email' => $params['email'],
 				'ec_info' => isset( $params['info'] ) ? $params['info'] : null,
 				'ec_code' => $code,
-			),
+			],
 			__METHOD__,
-			 array( 'IGNORE' )
+			 [ 'IGNORE' ]
 		);
 
 		if ( $dbw->affectedRows() ) {
@@ -34,7 +34,7 @@ class ApiEmailCapture extends ApiBase {
 			global $wgEmailCaptureSendAutoResponse, $wgEmailCaptureAutoResponse;
 			$title = SpecialPage::getTitleFor( 'EmailCapture' );
 			$link = $title->getCanonicalURL();
-			$fullLink = $title->getCanonicalURL( array( 'verify' => $code ) );
+			$fullLink = $title->getCanonicalURL( [ 'verify' => $code ] );
 			if ( $wgEmailCaptureSendAutoResponse ) {
 				UserMailer::send(
 					new MailAddress( $params['email'] ),
@@ -44,42 +44,42 @@ class ApiEmailCapture extends ApiBase {
 					),
 					$this->msg( $wgEmailCaptureAutoResponse['subject-msg'] )->text(),
 					$this->msg( $wgEmailCaptureAutoResponse['body-msg'], $fullLink, $link, $code )->text(),
-					array(
+					[
 						'replyTo' => $wgEmailCaptureAutoResponse['reply-to'],
 						'contentType' => $wgEmailCaptureAutoResponse['content-type']
-					)
+					]
 				);
 			}
-			$r = array( 'result' => 'Success' );
+			$r = [ 'result' => 'Success' ];
 		} else {
-			$r = array( 'result' => 'Failure', 'message' => 'Duplicate email address' );
+			$r = [ 'result' => 'Failure', 'message' => 'Duplicate email address' ];
 		}
 		$this->getResult()->addValue( null, $this->getModuleName(), $r );
 	}
 
 	public function getAllowedParams() {
-		return array(
-			'email' => array(
+		return [
+			'email' => [
 				ApiBase::PARAM_REQUIRED => true,
 				ApiBase::PARAM_TYPE => 'string',
-			),
-			'info' => array(
+			],
+			'info' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
-		);
+			],
+		];
 	}
 
 	public function getParamDescription() {
-		return array(
+		return [
 			'email' => 'Email address to capture',
 			'info' => 'Extra information to log, usually JSON encoded structured information',
-		);
+		];
 	}
 
 	public function getDescription() {
-		return array(
+		return [
 			'Capture email addresses'
-		);
+		];
 	}
 
 	public function mustBePosted() {
@@ -91,8 +91,8 @@ class ApiEmailCapture extends ApiBase {
 	}
 
 	public function getExamples() {
-		return array(
+		return [
 			'api.php?action=emailcapture'
-		);
+		];
 	}
 }
