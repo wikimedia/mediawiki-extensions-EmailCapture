@@ -2,11 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Anakmalaysia",
-			"Waihorace",
-			"LNDDYL",
-			"Cwlin0416",
 			"Corainn",
-			"Kly"
+			"Cwlin0416",
+			"Kly",
+			"LNDDYL",
+			"Waihorace"
 		]
 	},
 	"emailcapture": "電子郵件驗證",
