@@ -3,6 +3,7 @@
 		"authors": [
 			"Banjo",
 			"Elisardojm",
+			"Iváns",
 			"Toliño"
 		]
 	},
@@ -12,9 +13,9 @@
 	"emailcapture-invalid-code": "Código de confirmación incorrecto.",
 	"emailcapture-already-confirmed": "Xa se confirmou o seu enderezo de correo electrónico.",
 	"emailcapture-response-subject": "Verificación do enderezo de correo electrónico de {{SITENAME}}",
-	"emailcapture-response-body": "Ola!\n\nGrazas por expresar interese en axudar a mellorar {{SITENAME}}.\n\nTome un momento para confirmar o seu correo electrónico premendo na ligazón que hai a continuación: \n$1\n\nTamén pode visitar:\n$2\n\nE inserir o seguinte código de confirmación:\n$3\n\nPoñerémonos en contacto con vostede para informarlle sobre como axudar a mellorar {{SITENAME}}.\n\nSe vostede non fixo esta petición, ignore esta mensaxe e non lle enviaremos máis nada.",
+	"emailcapture-response-body": "Ola!\n\nGrazas por expresar interese en axudar a mellorar {{SITENAME}}.\n\nAgarda un intre para confirmar o teu correo electrónico premendo na ligazón que hai deseguido: \n$1\n\nTamén podes visitar:\n$2\n\nE inserir o seguinte código de confirmación:\n$3\n\nPoñerémonos en contacto contigo para informarche sobre como axudar a mellorar {{SITENAME}}.\n\nSe non fixeches esta petición, ignora esta mensaxe e non che enviaremos máis nada.",
 	"emailcapture-success": "Grazas!\n\nO seu enderezo de correo electrónico foi confirmado.",
-	"emailcapture-instructions": "Para verificar o seu enderezo de correo electrónico, introduza o código que se lle enviou ó correo e prema en \"{{int:emailcapture-submit}}\".",
+	"emailcapture-instructions": "Para verificar o teu enderezo de correo electrónico, insire o código que se che enviou ó correo e preme en \"{{int:emailcapture-submit}}\".",
 	"emailcapture-verify": "Código de verificación:",
 	"emailcapture-submit": "Verificar o enderezo de correo electrónico",
 	"apihelp-emailcapture-description": "Capturar enderezos de correo electrónico",
