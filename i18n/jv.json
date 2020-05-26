@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Diki Ananta",
 			"NoiX180"
 		]
 	},
 	"emailcapture": "Vèrifikasi layang-èl",
-	"emailcapture-desc": "Cathet alamat layang-èl, lan idinaké panganggo mèrifikasi lumantar layang-èl",
+	"emailcapture-desc": "Cathet alamat layang-èl, lan idinaké naraguna mèrifikasi lumantar layang-èl",
 	"emailcapture-failure": "Alamat layang-èl panjenengan '''durung''' divèrifikasi.",
 	"emailcapture-invalid-code": "Kodhe pepesthèn ora sah.",
 	"emailcapture-already-confirmed": "Alamat layang-èl panjenengan wis dikonfirmasi.",
