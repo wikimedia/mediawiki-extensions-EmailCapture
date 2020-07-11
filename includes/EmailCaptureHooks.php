@@ -6,7 +6,7 @@ class EmailCaptureHooks {
 	/**
 	 * LoadExtensionSchemaUpdates hook
 	 *
-	 * @param $updater DatabaseUpdater
+	 * @param DatabaseUpdater $updater
 	 * @return bool
 	 */
 	public static function loadExtensionSchemaUpdates( $updater ) {
@@ -25,6 +25,8 @@ class EmailCaptureHooks {
 
 	/**
 	 * ParserTestTables hook
+	 * @param array &$tables
+	 * @return true
 	 */
 	public static function parserTestTables( &$tables ) {
 		$tables[] = 'email_capture';
