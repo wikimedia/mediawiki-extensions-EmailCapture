@@ -15,5 +15,8 @@
 	"emailcapture-instructions": "Pro verificar tu adresse de e-mail, entra le codice que te esseva inviate in e-mail, e clicca sur \"{{int:emailcapture-submit}}\".",
 	"emailcapture-verify": "Codice de verification:",
 	"emailcapture-submit": "Verificar adresse de e-mail",
+	"apihelp-emailcapture-description": "Capturar adresses de e-mail",
+	"apihelp-emailcapture-summary": "Capturar adresses de e-mail",
+	"apihelp-emailcapture-param-email": "Le adresse de e-mail a capturar",
 	"apihelp-emailcapture-param-info": "Information additional a registrar, usualmente structurate in codice JSON"
 }
