@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dbc334"
+			"Dbc334",
+			"Eleassar"
 		]
 	},
 	"emailcapture": "Preverjanje e-pošte",
-	"emailcapture-desc": "Zajame e-poštne naslove in omogoča uporabnikom, da jih preverijo preko e-pošte",
+	"emailcapture-desc": "Zajame e-poštne naslove in omogoča uporabnikom, da jih potrdijo iz e-pošte",
 	"emailcapture-failure": "Vaš e-poštni naslov '''ni''' bil preverjen.",
 	"emailcapture-invalid-code": "Neveljavna potrditvena koda.",
 	"emailcapture-already-confirmed": "Vaš e-poštni naslov je že potrjen.",

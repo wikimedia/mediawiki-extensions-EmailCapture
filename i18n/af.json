@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"පසිඳු කාවින්ද"
+			"පසිඳු කාවින්ද",
+			"Winstonza"
 		]
 	},
-	"emailcapture": "E-pos verifiëring",
+	"emailcapture": "E-posverifiëring",
 	"emailcapture-desc": "Capture e-pos adresse en gebruikers toelaat om hulle te verifieer via e-pos",
 	"emailcapture-invalid-code": "Ongeldige bevestigingskode.",
 	"emailcapture-already-confirmed": "Jou e-posadres is reeds bevestig.",
 	"emailcapture-success": "Dankie!\n\nJou e-pos is suksesvol bevestig.",
 	"emailcapture-verify": "Verifikasie kode:",
-	"emailcapture-submit": "Verifieer e-pos adres"
+	"emailcapture-submit": "Verifieer e-posadres"
 }
