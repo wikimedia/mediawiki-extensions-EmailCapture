@@ -21,8 +21,8 @@
 	"emailcapture-instructions": "為了驗證您的電子郵件地址，輸入郵件的標明的驗證碼，然後點選\"{{int:emailcapture-submit}}\"。",
 	"emailcapture-verify": "驗證碼：",
 	"emailcapture-submit": "驗證電子郵件地址",
-	"apihelp-emailcapture-description": "獲取電子郵件地址",
-	"apihelp-emailcapture-summary": "獲取電子郵件地址",
-	"apihelp-emailcapture-param-email": "要獲取的電子郵件地址",
+	"apihelp-emailcapture-description": "抓取電子郵件地址",
+	"apihelp-emailcapture-summary": "抓取電子郵件地址",
+	"apihelp-emailcapture-param-email": "要抓取的電子郵件地址",
 	"apihelp-emailcapture-param-info": "要記下的額外訊息，通常是以 JSON 編碼結構化訊息"
 }
