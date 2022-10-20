@@ -16,5 +16,9 @@
 	"emailcapture-success": "תודה!\n\nכתובת הדוא\"ל שלך אומתה.",
 	"emailcapture-instructions": "כדי לאמת את כתובת הדוא״ל שלכם, הכניסו את הקוד שנשלח אליכם ולחצו על \"{{int:emailcapture-submit}}\".",
 	"emailcapture-verify": "קוד אימות:",
-	"emailcapture-submit": "לאמת כתובת דוא״ל"
+	"emailcapture-submit": "לאמת כתובת דוא״ל",
+	"apihelp-emailcapture-description": "לכידת כתובות דוא\"ל",
+	"apihelp-emailcapture-summary": "לכידת כתובות דוא\"ל",
+	"apihelp-emailcapture-param-email": "איזו כתובות דוא\"ל ללכוד",
+	"apihelp-emailcapture-param-info": "מידע נוסף לרישום, בדרך־כלל מידע מובנה מקודד כ־JSON"
 }
