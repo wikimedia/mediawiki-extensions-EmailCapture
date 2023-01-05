@@ -17,6 +17,7 @@
 	"emailcapture-verify": "Koda za preverjanje:",
 	"emailcapture-submit": "Preveri e-poštni naslov",
 	"apihelp-emailcapture-description": "Zajem e-poštnih naslovov",
+	"apihelp-emailcapture-summary": "Zajem e-poštnih naslovov",
 	"apihelp-emailcapture-param-email": "E-poštni naslov za zajeti",
 	"apihelp-emailcapture-param-info": "Dodatne informacije za zabeležiti, po navadi strukturirane informacije, kodirane z JSON"
 }
