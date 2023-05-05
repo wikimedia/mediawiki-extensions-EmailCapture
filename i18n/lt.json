@@ -6,6 +6,7 @@
 		]
 	},
 	"emailcapture": "E-pašto patvirtinimas",
+	"emailcapture-desc": "Fiksuoti el. pašto adresus ir leisti juos patvirtinti per el. paštą",
 	"emailcapture-failure": "Jūsų el. paštas '''nebuvo''' patvirtintas.",
 	"emailcapture-invalid-code": "Negalimas patvirtinimo kodas.",
 	"emailcapture-already-confirmed": "Jūsų el. pašto adresas jau patvirtintas.",
@@ -14,5 +15,9 @@
 	"emailcapture-success": "Ačiū!\n\nJūsų el. pašto adresas buvo patvirtintas.",
 	"emailcapture-instructions": "Norėdami patvirtinti savo elektroninio pašto adresą, įveskite kodą, kuris elektroniniu paštu buvo jums nusiųstas, ir paspauskite mygtuką \"{{int: emailcapture-submit}}\".",
 	"emailcapture-verify": "Patvirtinimo kodas:",
-	"emailcapture-submit": "Patvirtinti e-pašto adresą"
+	"emailcapture-submit": "Patvirtinti e-pašto adresą",
+	"apihelp-emailcapture-description": "Fiksuoti el. pašto adresus",
+	"apihelp-emailcapture-summary": "Fiksuoti el. pašto adresus",
+	"apihelp-emailcapture-param-email": "El. pašto adresas fiksavimui",
+	"apihelp-emailcapture-param-info": "Papildoma registruojama informacija, dažniausiai JSON užkoduota struktūrizuota informacija"
 }
