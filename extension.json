@@ -6,7 +6,7 @@
 	"descriptionmsg": "emailcapture-desc",
 	"type": "other",
 	"requires": {
-		"MediaWiki": ">= 1.29.0"
+		"MediaWiki": ">= 1.33.0"
 	},
 	"APIModules": {
 		"emailcapture": "ApiEmailCapture"
