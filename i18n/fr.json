@@ -21,7 +21,6 @@
 	"emailcapture-instructions": "Pour vérifier votre adresse de courriel, entrez le code qui vous a été envoyé par courriel et cliquez sur « {{int:emailcapture-submit}} ».",
 	"emailcapture-verify": "Code de vérification :",
 	"emailcapture-submit": "Vérifiez l’adresse de courriel",
-	"apihelp-emailcapture-description": "Capturer les adresses de courriel",
 	"apihelp-emailcapture-summary": "Capturer les adresses de courriel",
 	"apihelp-emailcapture-param-email": "Adresse de courriel à capturer",
 	"apihelp-emailcapture-param-info": "Informations supplémentaires à écrire dans le journal, généralement des informations structurées encodées en JSON"

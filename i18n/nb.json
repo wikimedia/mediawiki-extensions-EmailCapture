@@ -17,7 +17,6 @@
 	"emailcapture-instructions": "For å bekrefte e-postadressen din, skriver du inn koden du fikk på e-post, og klikker \"{{int:emailcapture-submit}}\".",
 	"emailcapture-verify": "Bekreftelseskode:",
 	"emailcapture-submit": "Bekreft e-postadresse",
-	"apihelp-emailcapture-description": "Grip epostadresser",
 	"apihelp-emailcapture-summary": "Fang opp epostadresser",
 	"apihelp-emailcapture-param-email": "Epostadresser som skal gripes",
 	"apihelp-emailcapture-param-info": "Ekstra informasjon som skal logges, vanligvis strukturert informasjon i JSON-format"

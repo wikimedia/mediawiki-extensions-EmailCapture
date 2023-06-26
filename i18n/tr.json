@@ -18,7 +18,6 @@
 	"emailcapture-instructions": "E-posta adresinizi doğrulamak için, size e-posta ile gönderilen kodu girin ve \"{{int:emailcapture-submit}}\" düğmesine tıklayın.",
 	"emailcapture-verify": "Doğrulama kodu:",
 	"emailcapture-submit": "E-posta adresini doğrulayın",
-	"apihelp-emailcapture-description": "E-posta adreslerine el koy",
 	"apihelp-emailcapture-summary": "E-posta adreslerine el koy",
 	"apihelp-emailcapture-param-email": "El konulacak e-posta adresi",
 	"apihelp-emailcapture-param-info": "Genel olarak JSON kodlu yapılandırılmış bilgi girişi için ek bilgi"

@@ -19,7 +19,6 @@
 	"emailcapture-instructions": "Untuk memverifikasi alamat surel Anda, masukkan kode yang dikirim melalui surel kepada Anda dan klik \"{{int: emailcapture-submit}}\".",
 	"emailcapture-verify": "Kode verifikasi:",
 	"emailcapture-submit": "Verifikasi alamat surel",
-	"apihelp-emailcapture-description": "Merekam alamat surel",
 	"apihelp-emailcapture-summary": "Merekam alamat surel",
 	"apihelp-emailcapture-param-email": "Alamat surel yang ingin direkam",
 	"apihelp-emailcapture-param-info": "Informasi tambahan yang ingin dicatat, biasanya informasi terstruktur berkode JSON"

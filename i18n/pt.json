@@ -17,7 +17,6 @@
 	"emailcapture-instructions": "Para verificar o seu endereço de correio eletrónico, introduza o código que lhe foi enviado para o correio eletrónico e clique \"{{int:emailcapture-submit}}\".",
 	"emailcapture-verify": "Código de verificação:",
 	"emailcapture-submit": "Verificar endereço",
-	"apihelp-emailcapture-description": "Capturar endereços de correio eletrónico",
 	"apihelp-emailcapture-summary": "Capturar endereços de correio eletrónico",
 	"apihelp-emailcapture-param-email": "Endereço a capturar",
 	"apihelp-emailcapture-param-info": "Informação adicional a registar, normalmente informação estruturada e codificada JSON"

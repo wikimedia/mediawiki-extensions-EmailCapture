@@ -17,7 +17,6 @@
 	"emailcapture-instructions": "Для подтверждения вашего адреса электронной почты, введите код, который был вам отправлен, и нажмите кнопку «{{int:emailcapture-submit}}».",
 	"emailcapture-verify": "Код подтверждения:",
 	"emailcapture-submit": "Подтвердить адрес электронной почты",
-	"apihelp-emailcapture-description": "Захват адресов электронной почты",
 	"apihelp-emailcapture-summary": "Захват адресов электронной почты",
 	"apihelp-emailcapture-param-email": "Адрес электронной почты для захвата",
 	"apihelp-emailcapture-param-info": "Дополнительная информация для журнала, как правило, структурированная информация в JSON-формате"

@@ -22,7 +22,6 @@
 	"emailcapture-instructions": "للتحقق من عنوان بريدك الإلكتروني  أدخل الكود الذي إرسال لك  بالبريد الإلكتروني ثم انقر فوق \"{{التحقق من البريد الإلكتروني}}\".",
 	"emailcapture-verify": "رمز التحقق:",
 	"emailcapture-submit": "تحقق من عنوان البريد الإلكتروني",
-	"apihelp-emailcapture-description": "التقاط عناوين البريد الإلكتروني",
 	"apihelp-emailcapture-summary": "التقاط عناوين البريد الإلكتروني",
 	"apihelp-emailcapture-param-email": "عنوان البريد الإلكتروني للالتقاط",
 	"apihelp-emailcapture-param-info": "معلومات إضافية للتسجيل، عادةً معلومات JSON المهيكلة المرمزة"

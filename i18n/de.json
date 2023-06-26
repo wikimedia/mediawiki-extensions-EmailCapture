@@ -18,7 +18,6 @@
 	"emailcapture-instructions": "Um deine E-Mail-Adresse zu bestätigen, gib bitte den Code ein, der dir per E-Mail zuschickt wurde, und klicke anschließend auf „{{int:emailcapture-submit}}“.",
 	"emailcapture-verify": "Bestätigungscode:",
 	"emailcapture-submit": "E-Mail-Adresse bestätigen",
-	"apihelp-emailcapture-description": "Greift E-Mail-Adressen auf",
 	"apihelp-emailcapture-summary": "Greift E-Mail-Adressen auf.",
 	"apihelp-emailcapture-param-email": "Aufzugreifende E-Mail-Adresse",
 	"apihelp-emailcapture-param-info": "Zusätzlich zu protokollierende Informationen, normalerweise strukturierte JSON-kodierte Informationen"

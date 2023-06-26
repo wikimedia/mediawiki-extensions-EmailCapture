@@ -18,7 +18,6 @@
 	"emailcapture-instructions": "Per verificare il tuo indirizzo e-mail, inserire il codice che ti è stato inviato tramite posta elettronica e cliccare su \"{{int:emailcapture-presentare}}\".",
 	"emailcapture-verify": "Codice di verifica:",
 	"emailcapture-submit": "Verifica indirizzo email",
-	"apihelp-emailcapture-description": "Cattura indirizzi di posta elettronica",
 	"apihelp-emailcapture-summary": "Cattura indirizzi di posta elettronica",
 	"apihelp-emailcapture-param-email": "Indirizzi di posta elettronica da catturare",
 	"apihelp-emailcapture-param-info": "Ulteriori informazioni da registrare, di solito informazioni codificate in una struttura JSON"

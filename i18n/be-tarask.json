@@ -17,7 +17,6 @@
 	"emailcapture-instructions": "Каб праверыць Ваш адрас электроннай пошты, увядзіце код, які быў Вам дасланы па электроннай пошце і націсьніце кнопку «{{int:emailcapture-submit}}».",
 	"emailcapture-verify": "Код праверкі:",
 	"emailcapture-submit": "Праверыць адрас электроннай пошты",
-	"apihelp-emailcapture-description": "Перахопліваньне адрасоў электроннай пошты",
 	"apihelp-emailcapture-summary": "Перахопліваньне адрасоў электроннай пошты",
 	"apihelp-emailcapture-param-email": "Адрас электроннай пошты для захопу",
 	"apihelp-emailcapture-param-info": "Дадатковая інфармацыя ў журнал, звычайна структураваныя зьвесткі ў JSON-фармаце"

@@ -15,7 +15,6 @@
 	"emailcapture-instructions": "Pe veificâ o to adresso e-mail, inseisci o codiçe che t'è stæto inviou tramite posta elettronica e clicca sciu \"{{int:emailcapture-presentâ}}\".",
 	"emailcapture-verify": "Codiçe de veifica:",
 	"emailcapture-submit": "Veifica l'adresso e-mail",
-	"apihelp-emailcapture-description": "Cattua adreççi de posta elettronica",
 	"apihelp-emailcapture-param-email": "Adreççi de posta elettronica da cattuâ",
 	"apihelp-emailcapture-param-info": "Urteioî informaçioin da registrâ, a l'ûzo de informaçioin codificæ inte 'na struttua JSON"
 }
