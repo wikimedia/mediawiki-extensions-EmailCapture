@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Азат Хәлилов",
 			"Айсар",
 			"З. ӘЙЛЕ",
@@ -19,6 +20,6 @@
 	"emailcapture-instructions": "Электрон почтағыҙҙың адресын раҫлау өсөн ебәрелгән кодты индерегеҙ һәм «{{int:emailcapture-submit}}» төймәһенә баҫығыҙ.",
 	"emailcapture-verify": "Раҫлау коды:",
 	"emailcapture-submit": "Электрон почта адресын раҫларға",
-	"apihelp-emailcapture-param-email": "Йәлеп итеү  өсөн электрон почта адресы",
+	"apihelp-emailcapture-param-email": "Йәлеп итеү өсөн электрон почта адресы",
 	"apihelp-emailcapture-param-info": "Журнал өсөн өҫтәмә мәғлүмәт, ҡағиҙә булараҡ, JSON-форматындағы структуралаштырылған мәғлүмәт"
 }
