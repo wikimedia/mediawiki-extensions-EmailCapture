@@ -5,7 +5,8 @@
 			"Айсар",
 			"Ләйсән",
 			"Мухамадеева",
-			"З. ӘЙЛЕ"
+			"З. ӘЙЛЕ",
+			"Amire80"
 		]
 	},
 	"emailcapture": "Электрон почта адресын раҫлау",
@@ -20,6 +21,6 @@
 	"emailcapture-verify": "Раҫлау коды:",
 	"emailcapture-submit": "Электрон почта адресын раҫларға",
 	"apihelp-emailcapture-description": "Электрон почта адрестарын ватып инеү",
-	"apihelp-emailcapture-param-email": "Йәлеп итеү  өсөн электрон почта адресы",
+	"apihelp-emailcapture-param-email": "Йәлеп итеү өсөн электрон почта адресы",
 	"apihelp-emailcapture-param-info": "Журнал өсөн өҫтәмә мәғлүмәт, ҡағиҙә булараҡ, JSON-форматындағы структуралаштырылған мәғлүмәт"
 }
