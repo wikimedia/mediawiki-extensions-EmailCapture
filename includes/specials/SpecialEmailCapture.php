@@ -14,7 +14,7 @@ class SpecialEmailCapture extends SpecialPage {
 
 		$code = $this->getRequest()->getVal( 'verify' );
 		if ( $code !== null ) {
-			$dbw = wfGetDB( DB_MASTER );
+			$dbw = wfGetDB( DB_PRIMARY );
 			$row = $dbw->selectRow(
 				'email_capture',
 				[ 'ec_verified' ],

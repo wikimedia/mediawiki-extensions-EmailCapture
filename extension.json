@@ -6,7 +6,7 @@
 	"descriptionmsg": "emailcapture-desc",
 	"type": "other",
 	"requires": {
-		"MediaWiki": ">= 1.33.0"
+		"MediaWiki": ">= 1.36.0"
 	},
 	"APIModules": {
 		"emailcapture": "ApiEmailCapture"
@@ -28,8 +28,7 @@
 		"SpecialEmailCapture": "includes/specials/SpecialEmailCapture.php"
 	},
 	"Hooks": {
-		"LoadExtensionSchemaUpdates": "EmailCaptureHooks::loadExtensionSchemaUpdates",
-		"ParserTestTables": "EmailCaptureHooks::parserTestTables"
+		"LoadExtensionSchemaUpdates": "EmailCaptureHooks::loadExtensionSchemaUpdates"
 	},
 	"config": {
 		"EmailCaptureSendAutoResponse": {

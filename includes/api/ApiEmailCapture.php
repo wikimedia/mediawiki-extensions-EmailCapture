@@ -17,7 +17,7 @@ class ApiEmailCapture extends ApiBase {
 		$code = md5( 'EmailCapture' . time() . $params['email'] . $params['info'] );
 
 		// Insert
-		$dbw = wfGetDB( DB_MASTER );
+		$dbw = wfGetDB( DB_PRIMARY );
 		$dbw->insert(
 			'email_capture',
 			[

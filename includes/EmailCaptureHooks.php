@@ -22,14 +22,4 @@ class EmailCaptureHooks {
 		}
 		return true;
 	}
-
-	/**
-	 * ParserTestTables hook
-	 * @param array &$tables
-	 * @return true
-	 */
-	public static function parserTestTables( &$tables ) {
-		$tables[] = 'email_capture';
-		return true;
-	}
 }
