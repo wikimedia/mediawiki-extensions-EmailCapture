@@ -10,7 +10,7 @@ class ApiEmailCapture extends ApiBase {
 
 		// Validation
 		if ( !Sanitizer::validateEmail( $params['email'] ) ) {
-			$this->dieUsage( 'The email address does not appear to be valid', 'invalidemail' );
+			$this->dieWithError( 'The email address does not appear to be valid', 'invalidemail' );
 		}
 
 		// Verification code
