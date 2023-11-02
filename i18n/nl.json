@@ -19,5 +19,7 @@
 	"emailcapture-verify": "Bevestigingscode:",
 	"emailcapture-submit": "E-mailadres bevestigen",
 	"apihelp-emailcapture-description": "E-mailadressen verzamelen",
-	"apihelp-emailcapture-summary": "E-mailadressen verzamelen"
+	"apihelp-emailcapture-summary": "E-mailadressen verzamelen",
+	"apihelp-emailcapture-param-email": "E-mailadres om vast te leggen",
+	"apihelp-emailcapture-param-info": "Extra informatie om te loggen, meestal JSON-gecodeerde gestructureerde informatie"
 }
