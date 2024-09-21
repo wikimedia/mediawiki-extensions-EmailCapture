@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 class ApiEmailCapture extends ApiBase {
 	public function __construct( $query, $moduleName ) {
 		parent::__construct( $query, $moduleName, '' );
@@ -17,7 +19,7 @@ class ApiEmailCapture extends ApiBase {
 		$code = md5( 'EmailCapture' . time() . $params['email'] . $params['info'] );
 
 		// Insert
-		$dbw = wfGetDB( DB_PRIMARY );
+		$dbw = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );
 		$dbw->insert(
 			'email_capture',
 			[

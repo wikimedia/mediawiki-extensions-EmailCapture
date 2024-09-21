@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 class SpecialEmailCapture extends SpecialPage {
 	public function __construct() {
 		parent::__construct( 'EmailCapture', 'emailcapture' );
@@ -14,7 +16,7 @@ class SpecialEmailCapture extends SpecialPage {
 
 		$code = $this->getRequest()->getVal( 'verify' );
 		if ( $code !== null ) {
-			$dbw = wfGetDB( DB_PRIMARY );
+			$dbw = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );
 			$row = $dbw->selectRow(
 				'email_capture',
 				[ 'ec_verified' ],
