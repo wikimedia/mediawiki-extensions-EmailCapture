@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
 	"emailcapture": "د برېښليک تاييد",
-	"emailcapture-failure": "برېښليک‌پته مو تاييد '''نه شوه'''.",
+	"emailcapture-failure": "برېښليک‌پته مو تاييد '''نشوه'''.",
 	"emailcapture-invalid-code": "ناسم تاييد کوډ",
 	"emailcapture-already-confirmed": "له پخوا څخه مو برېښليک‌پته تاييد شوې.",
 	"emailcapture-response-subject": "د {{SITENAME}} د برېښليک پتې تاييد",
