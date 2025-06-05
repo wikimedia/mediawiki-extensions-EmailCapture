@@ -10,7 +10,7 @@
 	"emailcapture-invalid-code": "ناسم تاييد کوډ",
 	"emailcapture-already-confirmed": "له پخوا څخه مو برېښليک‌پته تاييد شوې.",
 	"emailcapture-response-subject": "د {{SITENAME}} د برېښليک پتې تاييد",
-	"emailcapture-success": "له تاسو مننه!\n\nستاسې برېښليک په برياليتوب سره تاييد شو.",
+	"emailcapture-success": "له تاسو مننه!\n\nستاسې برېښليک پته تاييد شوه.",
 	"emailcapture-verify": "تاييد کوډ:",
 	"emailcapture-submit": "برېښليک‌پته تاييد کړئ"
 }
