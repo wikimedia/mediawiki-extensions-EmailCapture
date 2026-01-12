@@ -4,6 +4,7 @@
 			"Diupwijk",
 			"Lokal Profil",
 			"Mjälten",
+			"Stefan2255",
 			"Technic2",
 			"WikiPhoenix"
 		]
@@ -14,11 +15,12 @@
 	"emailcapture-invalid-code": "Ogiltig bekräftelsekod.",
 	"emailcapture-already-confirmed": "Din e-postadress har redan blivit bekräftad.",
 	"emailcapture-response-subject": "Bekräftelse av e-postadress på {{SITENAME}}",
-	"emailcapture-response-body": "Hej!\n\nTack för att ha uttryckt intresse av att hjälpa till att förbättra {{SITENAME}}.\n\nVar god ta en stund att bekräfta din e-post genom att klicka på länken nedan:\n$1\n\nDu kan också besöka:\n$2\n\nOch ange följande bekräftelsekod:\n$3\n\nVi kommer att kontakta dig inom kort med hur du kan förbättra {{SITENAME}}.\n\nOm du inte påbörjade denna begäran, ignorera detta e-postmeddelande och vi kommer inte skicka någonting annat.",
+	"emailcapture-response-body": "Hej!\n\nTack för att ha uttryckt intresse av att hjälpa till att förbättra {{SITENAME}}.\n\nVar god ta en ögonblick att bekräfta din e-postadress genom att klicka på länken nedan:\n$1\n\nDu kan också besöka:\n$2\n\nOch ange följande bekräftelsekod:\n$3\n\nVi kommer att kontakta dig inom kort med hur du kan förbättra {{SITENAME}}.\n\nOm du inte påbörjade denna begäran, ignorera detta e-postmeddelande och vi kommer inte skicka någonting mer.",
 	"emailcapture-success": "Tack!\n\nDin e-postadress har bekräftats.",
 	"emailcapture-instructions": "För att bekräfta din e-postadress, ange koden som du fick per e-post och klicka på \"{{int:emailcapture-submit}}\".",
 	"emailcapture-verify": "Verifieringskod:",
 	"emailcapture-submit": "Verifiera e-postadress",
 	"apihelp-emailcapture-summary": "Fånga e-postadresser",
-	"apihelp-emailcapture-param-email": "Epostadresser som ska gripas"
+	"apihelp-emailcapture-param-email": "Epostadresser som ska gripas",
+	"apihelp-emailcapture-param-info": "Extra information att logga, vanligtvis JSON-kodad strukturerad information"
 }
