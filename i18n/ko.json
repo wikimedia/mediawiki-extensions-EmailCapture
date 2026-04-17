@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Kwj2772",
+			"Tensama0415",
 			"Ykhwong",
 			"아라"
 		]
@@ -16,5 +17,8 @@
 	"emailcapture-success": "감사합니다!\n\n이메일 주소가 인증되었습니다.",
 	"emailcapture-instructions": "이메일 주소를 확인하려면 당신에게 온 이메일 코드를 입력하고 {{int:emailcapture-submit}}을 클릭하세요.",
 	"emailcapture-verify": "인증 코드:",
-	"emailcapture-submit": "이메일 주소 인증"
+	"emailcapture-submit": "이메일 주소 인증",
+	"apihelp-emailcapture-summary": "이메일 주소를 포착",
+	"apihelp-emailcapture-param-email": "포착할 이메일 주소",
+	"apihelp-emailcapture-param-info": "기록할 추가 정보 (일반적으로 JSON으로 인코딩된 구조화된 정보)"
 }
