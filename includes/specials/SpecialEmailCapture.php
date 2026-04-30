@@ -1,10 +1,12 @@
 <?php
 
 use MediaWiki\Html\Html;
-use MediaWiki\MediaWikiServices;
+use Wikimedia\Rdbms\IConnectionProvider;
 
 class SpecialEmailCapture extends SpecialPage {
-	public function __construct() {
+	public function __construct(
+		private readonly IConnectionProvider $dbProvider,
+	) {
 		parent::__construct( 'EmailCapture' );
 	}
 
@@ -22,7 +24,7 @@ class SpecialEmailCapture extends SpecialPage {
 
 		$code = $this->getRequest()->getVal( 'verify' );
 		if ( $code !== null ) {
-			$dbw = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );
+			$dbw = $this->dbProvider->getPrimaryDatabase();
 			$row = $dbw->selectRow(
 				'email_capture',
 				[ 'ec_verified' ],

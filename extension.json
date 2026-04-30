@@ -9,10 +9,20 @@
 		"MediaWiki": ">= 1.46.0"
 	},
 	"APIModules": {
-		"emailcapture": "ApiEmailCapture"
+		"emailcapture": {
+			"class": "ApiEmailCapture",
+			"services": [
+				"ConnectionProvider"
+			]
+		}
 	},
 	"SpecialPages": {
-		"EmailCapture": "SpecialEmailCapture"
+		"EmailCapture": {
+			"class": "SpecialEmailCapture",
+			"services": [
+				"ConnectionProvider"
+			]
+		}
 	},
 	"MessagesDirs": {
 		"EmailCapture": [

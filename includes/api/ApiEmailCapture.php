@@ -1,9 +1,13 @@
 <?php
 
-use MediaWiki\MediaWikiServices;
+use Wikimedia\Rdbms\IConnectionProvider;
 
 class ApiEmailCapture extends ApiBase {
-	public function __construct( $query, $moduleName ) {
+	public function __construct(
+		$query,
+		$moduleName,
+		private readonly IConnectionProvider $dbProvider,
+	) {
 		parent::__construct( $query, $moduleName, '' );
 	}
 
@@ -19,7 +23,7 @@ class ApiEmailCapture extends ApiBase {
 		$code = md5( 'EmailCapture' . time() . $params['email'] . $params['info'] );
 
 		// Insert
-		$dbw = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );
+		$dbw = $this->dbProvider->getPrimaryDatabase();
 		$dbw->insert(
 			'email_capture',
 			[
