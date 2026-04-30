@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\Api\ApiBase;
 use Wikimedia\Rdbms\IConnectionProvider;
 
 class ApiEmailCapture extends ApiBase {

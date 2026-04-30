@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\Installer\DatabaseUpdater;
+
 /**
  * Hooks for EmailCapture extension
  */
