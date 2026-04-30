@@ -5,7 +5,12 @@ use MediaWiki\MediaWikiServices;
 
 class SpecialEmailCapture extends SpecialPage {
 	public function __construct() {
-		parent::__construct( 'EmailCapture', 'emailcapture' );
+		parent::__construct( 'EmailCapture' );
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'emailcapture';
 	}
 
 	public function doesWrites() {
